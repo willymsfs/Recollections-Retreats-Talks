@@ -1,0 +1,1146 @@
+<title>Into That Freedom — 21 Talks Retreat</title>
+<style>
+  :root {
+    --ink: #ede3cf; --ink-soft: #cdbfa4; --paper: #211c16; --paper-raised: #2a241c;
+    --line: rgba(237,227,207,0.16); --wine: #c17a4d; --wine-soft: #c17a4d1c;
+    --gold: #d6ad5c; --gold-soft: #d6ad5c1a; --muted: #a3947a;
+    color-scheme: dark;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --ink: #2a2318; --ink-soft: #4d4330; --paper: #f4ecdb; --paper-raised: #ffffff;
+      --line: rgba(42,35,24,0.15); --wine: #9c4f27; --wine-soft: #9c4f2714;
+      --gold: #8a6414; --gold-soft: #8a641414; --muted: #7a6c52; color-scheme: light;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ink: #ede3cf; --ink-soft: #cdbfa4; --paper: #211c16; --paper-raised: #2a241c;
+    --line: rgba(237,227,207,0.16); --wine: #c17a4d; --wine-soft: #c17a4d1c;
+    --gold: #d6ad5c; --gold-soft: #d6ad5c1a; --muted: #a3947a;
+  }
+  :root[data-theme="light"] {
+    --ink: #2a2318; --ink-soft: #4d4330; --paper: #f4ecdb; --paper-raised: #ffffff;
+    --line: rgba(42,35,24,0.15); --wine: #9c4f27; --wine-soft: #9c4f2714;
+    --gold: #8a6414; --gold-soft: #8a641414; --muted: #7a6c52;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 20px; line-height: 1.7; -webkit-font-smoothing: antialiased;
+  }
+  ::selection { background: var(--wine-soft); }
+  h1, h2, h3, h4 {
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "URW Palladio", serif;
+    text-wrap: balance; font-weight: 400; color: var(--gold); margin: 0;
+  }
+  p { margin: 0 0 1.1em; max-width: 42em; }
+  strong { color: var(--ink); font-weight: 700; }
+  em { color: var(--wine); font-style: italic; }
+  a { color: var(--wine); }
+  header.hero { padding: 60px 24px 40px; text-align: center; border-bottom: 1px solid var(--line); }
+  header.hero .eyebrow { font-size: 13px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--wine); margin-bottom: 12px; }
+  header.hero h1 { font-size: clamp(28px, 4.4vw, 40px); max-width: 22ch; margin: 0 auto 8px; font-style: italic; }
+  header.hero .sub { max-width: 46em; margin: 0 auto; color: var(--ink-soft); font-size: 16.5px; }
+  nav.chapters {
+    position: sticky; top: 0; z-index: 10; display: flex; gap: 2px; overflow-x: auto;
+    background: var(--paper); border-bottom: 1px solid var(--line); padding: 0 12px;
+  }
+  nav.chapters a {
+    flex: none; padding: 12px 13px; font-size: 12.5px; text-decoration: none; color: var(--muted);
+    white-space: nowrap; border-bottom: 2px solid transparent;
+  }
+  nav.chapters a:hover { color: var(--wine); border-color: var(--wine-soft); }
+  main { max-width: 780px; margin: 0 auto; padding: 0 24px 40px; }
+  section.chapter { padding: 48px 0 32px; border-bottom: 1px solid var(--line); scroll-margin-top: 50px; }
+  section.chapter:last-of-type { border-bottom: none; }
+  section.chapter h2 { font-size: clamp(21px, 2.8vw, 26px); margin-bottom: 14px; font-style: italic; }
+  h3.sec { font-size: 18.5px; color: var(--gold); margin: 26px 0 8px; }
+  ul, ol { padding-left: 1.3em; margin: 0 0 1.1em; max-width: 42em; }
+  li { margin-bottom: 7px; }
+  table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 14.5px; }
+  th, td { border: 1px solid var(--line); padding: 7px 9px; text-align: left; vertical-align: top; }
+  th { background: var(--paper-raised); color: var(--gold); }
+  blockquote {
+    margin: 18px 0; padding: 6px 0 6px 18px; border-left: 3px solid var(--gold);
+    font-style: italic; color: var(--ink-soft); max-width: 40em;
+  }
+  footer.page { max-width: 780px; margin: 0 auto; padding: 34px 24px 60px; font-size: 13.5px; color: var(--muted); }
+</style>
+
+<header class="hero">
+  <p class="eyebrow">Retreat &middot; Seven Days</p>
+  <h1>Into That Freedom</h1>
+  <p class="sub">A Seven-Day, Twenty-One-Talk Retreat &mdash; Awakening, Identity, Prophecy, Mission, Mercy, the Frontiers, Women and Freedom</p>
+</header>
+
+<nav class="chapters">
+  <a href="#intro">Overview</a>
+  <a href="#the-daily-rhythm">The Daily Rhythm</a>
+  <a href="#the-seven-days">The Seven Days</a>
+  <a href="#day-one-awakening">Day One — Awakening</a>
+  <a href="#day-two-identity">Day Two — Identity</a>
+  <a href="#day-three-prophecy">Day Three — Prophecy</a>
+  <a href="#day-four-the-world-we-are-sent-into">Day Four — the World We are Sent Into</a>
+  <a href="#day-five-mercy-and-faith">Day Five — Mercy and Faith</a>
+  <a href="#day-six-the-frontiers">Day Six — the Frontiers</a>
+  <a href="#day-seven-women-and-freedom">Day Seven — Women and Freedom</a>
+  <a href="#appendix-a-chapter-coverage">Appendix a — Chapter Coverage</a>
+  <a href="#appendix-b-if-the-retreat-is-shorter">Appendix B — If the Retreat is Shorter</a>
+  <a href="#appendix-c-before-you-preach-these">Appendix C — Before You Preach These</a>
+
+</nav>
+
+<main>
+<section class="chapter" id="intro"><h2>Overview</h2>
+<p>Into That Freedom</p>
+<p>A Seven-Day Preached Retreat — Twenty-One Conferences</p>
+<p>For Priests, Religious and Major Seminarians</p>
+<p>In the method and voice of The Ever-Evolving Consecrated Life (Sr Inigo SSA)</p>
+<p>Prepared 16 August 2026. Three conferences a day across seven days. Built with the illustration-craft skill from all sixteen chapters of the source series, and governed by catholic-sermon-foundation.</p>
+</section>
+<section class="chapter" id="the-daily-rhythm"><h2>The Daily Rhythm</h2>
+<p>Each day carries three conferences with distinct work to do. Keep the shape and the retreat has a pulse; break it and you have twenty-one lectures.</p>
+<p><em>Leave the afternoon empty. A retreat that fills every hour with talking is a seminar — and the source book is explicit that it is entirely possible to attend a retreat and have a seminar: full notebook, unchanged heart.</em></p>
+</section>
+<section class="chapter" id="the-seven-days"><h2>The Seven Days</h2>
+<p><em>All sixteen chapters of the source book are covered. Chapters 1, 2, 3 and 6 carry two talks each; chapter 16 supplies both the evening of Day One and the finale.</em></p>
+</section>
+<section class="chapter" id="day-one-awakening"><h2>Day One — Awakening</h2>
+<h3 class="sec">Talk 1 (morning) — &quot;The Appetite You Lost Without Noticing&quot;</h3>
+<p><strong>Core word: </strong>HUNGER</p>
+<p><strong>Based on: </strong>Chapter 1 | Jn 1:38</p>
+<p><strong>OPENING (5 min)</strong></p>
+<p>When did you last want something from God?</p>
+<p>Not: when did you last pray. You pray daily; the bell sees to that. When did you last approach prayer the way a hungry man approaches food?</p>
+<p>John 1:38 is the first sentence Jesus speaks in that Gospel, and it is a question about desire: &quot;What are you looking for?&quot; Not who are you. What do you want.</p>
+<p>And they deflect — answering a question about desire with a question about real estate: &quot;Rabbi, where do you live?&quot;</p>
+<p>We have been deflecting ever since. Ask a religious what she wants and she will tell you what she does.</p>
+<p>Today is not the day for guilt. It is the day to find out whether the appetite is still there.</p>
+<p>THEME: &quot;Am I still alive — or have I learned to live without appetite?&quot;</p>
+<p><strong>PART 1 — THE RIVER AND THE POND (10 min)</strong></p>
+<p>Heraclitus: the only constant is change. Sr Inigo puts an edge on it. A river does not stop being a river when it changes course. It stops being a river when it stops flowing.</p>
+<p>Extend it. A pond and a well look identical from above — both still, both holding water. The difference is underneath: one is fed and one is sealed.</p>
+<p>A community does not die when it goes quiet. It dies when nothing is coming in.</p>
+<p>One number, and only one today. Fifteen thousand religious left their congregations in five years — not because they stopped believing in God, but because they lost their sense of belonging.</p>
+<p>Read the second clause again. Not a crisis of faith. A crisis of belonging. They still believed. They could not find anyone to believe alongside.</p>
+<p>And parents now steer their children away from religious life — the same parents who a generation ago counted a vocation the family&#x27;s honour.</p>
+<p><strong>PART 2 — TWO SIDES OF THE SAME COIN (8 min)</strong></p>
+<p>Sr Inigo describes consecrated life in Asia as two sides of one coin. One side: young people still saying yes with fire. The other: the exodus, and the quiet reasons behind it.</p>
+<p>THE GENERATION GAP. Candidates now entering at thirty-five and forty need personal accompaniment, not one-size-fits-all formation designed for eighteen-year-olds.</p>
+<p>THE LANGUAGE GAP. Rural candidates formed in the vernacular are lost in English-medium houses — and learn early that their tongue is a disadvantage.</p>
+<p>That is not a linguistic inconvenience. It is a justice issue and a formation issue, and it is happening in this state.</p>
+<p><strong>PART 3 — WHAT ARE YOU LOOKING FOR? (12 min)</strong></p>
+<p>Stay in John 1:38, because this is the scriptural heart of the whole week.</p>
+<p>Two disciples begin walking behind him. He turns. And instead of recruiting them, instead of preaching, he asks what they want.</p>
+<p>This is a man who begins his ministry by taking human desire seriously.</p>
+<p>The Greek is zeteite — to seek, to hunt, to scour a house for a lost coin. It assumes effort. It assumes you have been looking a while.</p>
+<p>Their deflection is not stupidity. It is the instinct of people asked something too intimate, reaching for something practical.</p>
+<p>And he lets them. &quot;Come and see.&quot; He does not force the interior question. He offers an address, and trusts that living with him will do what interrogation could not.</p>
+<p>That is a formation principle, and most of our formation ignores it. We answer questions nobody asked, and press for interior disclosure before offering anyone a place to stay.</p>
+<p>Luke 5:11 — Peter drops his nets. Nets are not sin. Nets are a livelihood, a competence, an identity, a security. He leaves the thing he was good at.</p>
+<p>What is your net? Not your sin — your competence. The thing you are known for, which has quietly become the reason you cannot be sent anywhere else.</p>
+<p><strong>PART 4 — THE GENERATOR THAT NEVER FAILS (7 min)</strong></p>
+<p>Where do you live? On the frontiers? Among the poor? Or on a schedule, in a comfort zone, in a beautiful convent with marble floors and a generator that never fails?</p>
+<p>Notice the generator, not the marble. Marble you can see and feel guilty about. The generator is invisible from inside, because it works. You have not thought about electricity in nine years.</p>
+<p>Meanwhile: Purulia villages with four hours of supply. Jalpaiguri tea garden lines with one tap between forty families. Murshidabad children studying by phone torch.</p>
+<p>This is not an argument for selling the generator. It is an argument for knowing you have one.</p>
+<p>Pope Francis: &quot;Wake up! Be witnesses of a different way of acting. God asks us to fly from our cosy nest and to be sent to the frontiers of the world.&quot;</p>
+<p><strong>CLOSING (3 min)</strong></p>
+<p>Are you looking for comfort, or conversion? To be maintained, or re-founded? To survive — or to be alive?</p>
+<p>St Francis of Assisi: &quot;Start by doing what&#x27;s necessary; then do what&#x27;s possible; and suddenly you are doing the impossible.&quot;</p>
+<p>Before the bell goes, answer the question he actually asked. Not what do you do. What are you looking for?</p>
+<p><strong>Prayer</strong></p>
+<p><em>Lord who turned round on the road and asked two strangers what they wanted — ask us again, and do not let us answer with our timetable. Forgive us for the nests </em><em>we have built so comfortable we forgot we have wings. Forgive us for the generator that never fails, and for how long it has been since we noticed it. Give us the hunger of Peter, who left the thing he was good at. In Purulia, in Jalpaiguri, in Murshidabad, in this house — send us. Re-found us. Awaken us. Amen.</em></p>
+<h3 class="sec">Talk 2 (midday) — &quot;The Inventory of Inertia&quot;</h3>
+<p><strong>Core word: </strong>HONESTY</p>
+<p><strong>Based on: </strong>Chapter 1 | Jer 7:3</p>
+<p><strong>OPENING (5 min)</strong></p>
+<p>This morning we asked whether the appetite is still there. Now the harder work: finding out where it went.</p>
+<p>Peter Senge: &quot;People don&#x27;t resist change. They resist being changed.&quot;</p>
+<p>Nobody in this room decided to become comfortable. That is the whole point about inertia. It happened the way silt happens — grain by grain, nobody noticing, until the channel moved.</p>
+<p>THEME: &quot;What have I settled for without ever choosing it?&quot;</p>
+<p><strong>PART 1 — THE DRIFT NOBODY AUTHORISED (9 min)</strong></p>
+<p>Sr Inigo&#x27;s observation, uncomfortable because accurate: many religious prefer comfortable, elite ministries — principal of the English-medium school, manager of the hospital — and show a marked disinclination toward slums, prisons and rural postings.</p>
+<p>Notice that no chapter ever voted for this. No constitution was amended. It simply drifted.</p>
+<p>The institutional tell: when the decisive sentence in a meeting stops being &quot;What does Jesus ask?&quot; and becomes &quot;What will the board say?&quot;</p>
+<p>Catherine Harmer&#x27;s challenge, and it should be read twice: the laity can now run our schools and hospitals competently. Which means religious must move to where the laity cannot go — prisons, slums, the trafficking corridors.</p>
+<p>If a lay professional could do your work as well as you do it, and probably better, that is not an insult. It is a question about where you are needed.</p>
+<p><strong>PART 2 — SEVEN HONEST QUESTIONS (11 min)</strong></p>
+<p>Not accusations. An inventory. Take them one at a time and score yourself privately.</p>
+<p>From REGULARITY to RADICALITY — mechanical routine, or dynamic following?</p>
+<p>From RIGIDITY to FLEXIBILITY — does the ministry serve the mission, or serve us?</p>
+<p>From WITHDRAWAL to INVOLVEMENT — behind the wall, or in the street?</p>
+<p>From ASCETICISM to ADVOCACY — private fasting, or standing publicly with the poor?</p>
+<p>From RENEWAL to RE-FOUNDING — patchwork, or a genuinely new beginning?</p>
+<p>From MANAGERS to ANIMATORS — administering a structure, or igniting a mission?</p>
+<p>From PIOUS to PROPHETIC — impressive at prayer, or dangerous to injustice?</p>
+<p>Jeremiah 7:3: &quot;Amend your ways and your doings.&quot;</p>
+<p>And the sentence to sit with all afternoon: Jesus was not crucified because he prayed beautifully. He was crucified because he was dangerous to the powers that kept people poor.</p>
+<p><strong>PART 3 — THE SHADOWS WE DO NOT NAME (10 min)</strong></p>
+<p>Sr Inigo names the assets first, and so should we: living traditions, wise elders, radical resolutions on paper, enthusiastic members, generous benefactors. All real.</p>
+<p>Then the shadows, and she does not soften them: failure to execute what we resolved. Sluggishness. Unwillingness to live radically. Indifference to what is happening around us. Communities wounded by pettiness. And chapter rules quietly used for personal comfort.</p>
+<p>Then the diagnosis that should frighten us more than scandal does. MEDIOCRITY — invisible lukewarmness.</p>
+<p>Here is why it is dangerous. You can be lukewarm for twenty years and still receive a beautiful obituary. Nothing in the system catches it. No visitation report names it. It never becomes a case.</p>
+<p>Scandal gets dealt with. Mediocrity gets a jubilee.</p>
+<p><strong>PART 4 — THE MIRROR QUESTION (7 min)</strong></p>
+<p>Steve Jobs kept one question in front of him, and Sr Inigo puts it to religious: &quot;If today were the last day of my life, would I want to do what I am doing?&quot;</p>
+<p>If the answer is no — not for one bad week, but consistently — then a U-turn is necessary.</p>
+<p>And here is the good news buried in that. God invented the U-turn. He called it conversion.</p>
+<p>The post-COVID demands she names: from dichotomy to wholeness; from hierarchy to mutuality (listen to the poor, the young and the laity in actual decisions); from ghetto mentality to open system; from security to uncertainty — Abraham had no GPS, he simply walked; from conformity to risk-taking; from uniformity to pluralism, because this state&#x27;s diversity is a gift and not a management problem.</p>
+<p>And the three vows, reread: poverty as systemic simplicity. Obedience as listening to those we serve. Chastity as love that accompanies without possessing.</p>
+<p><strong>CLOSING (3 min)</strong></p>
+<p>Psalm 119:71 — going through deserts teaches us more than the comfort of green pastures.</p>
+<p>The pandemic proved that money and power are helpless against a virus too small to see. It was a lesson, and lessons expire if nothing changes.</p>
+<p>Tonight, in the silence, one question only. Where did the appetite go — and who benefited from its going?</p>
+<p><strong>Prayer</strong></p>
+<p><em>Lord, you know we did not choose this slowly. Forgive us for the drift nobody authorised, for the meetings where we asked what the board would say and not what you would ask, for twenty years of lukewarmness that nobody caught because nothing was technically wrong. Give us the honesty to take the inventory and the nerve to act on it. You invented the U-turn and called it conversion — turn us. Amen.</em></p>
+<h3 class="sec">Talk 3 (evening) — &quot;God Has Made an Appointment with You&quot;</h3>
+<p><strong>Core word: </strong>APPOINTMENT</p>
+<p><strong>Based on: </strong>Chapter 16 | Ps 95:8; Mk 1:35</p>
+<p><strong>OPENING (5 min)</strong></p>
+<p>A quiet talk to end a demanding day.</p>
+<p>Sr Inigo tells this against herself. She was approaching her annual retreat reluctantly — the year had been full, the work was real, the timing was bad.</p>
+<p>Someone said to her: &quot;God has taken an appointment with you. To visit you.&quot;</p>
+<p>She stopped.</p>
+<p>THEME: &quot;Who made this appointment — and how am I treating it?&quot;</p>
+<p><strong>PART 1 — THE WEIGHT OF AN APPOINTMENT (9 min)</strong></p>
+<p>The weight of an appointment depends entirely on who made it.</p>
+<p>A student asks for twenty minutes and it can be moved twice. A government officer asks and we are more careful. If the Prime Minister makes an appointment, we arrive early, prepared, having cancelled everything else, with the phone switched off.</p>
+<p>God has made an appointment. To visit you. This week.</p>
+<p>Now examine how you arrived. Late? Half-prepared? Still finishing the accounts on the journey? Phone on?</p>
+<p>No guilt intended. Just notice what the answer reveals about who you think made the appointment.</p>
+<p><strong>PART 2 — THE INNER CROWD (9 min)</strong></p>
+<p>Mark 1:35, Mark 6:46, Luke 5:16 — Jesus withdrew from the crowds to pray. He practised social distancing long before we had the phrase, and he did it by withdrawing from legitimate ministry demand.</p>
+<p>Not from sin. From good work that genuinely needed doing.</p>
+<p>A retreat is distance from the physical crowd. It is also distance from the inner crowd — the population of anxious thoughts, unfinished arguments, to-do lists and community grievances that follows you into the chapel and sits down beside you.</p>
+<p>Most of us have not been alone in years. We have been unaccompanied, which is a different thing entirely.</p>
+<p>You are being invited into the cave of your own heart, where God has been waiting: book open, candle lit.</p>
+<p><strong>PART 3 — RETREAT OR SEMINAR? (10 min)</strong></p>
+<p>The distinction that decides whether this week matters.</p>
+<p>A SEMINAR is rational and intellectual. The brain receives facts and figures. Useful. Not sufficient.</p>
+<p>A RETREAT is an inward journey rooted in faith experience and aimed at personal transformation — a passage from word to stillness, from information to encounter.</p>
+<p>Socrates: &quot;An unexamined life is not worth living.&quot;</p>
+<p>And the warning: it is entirely possible to attend a retreat and have a seminar. Full notebook. Unchanged heart. Intellectually enriched, spiritually untouched.</p>
+<p>The difference is the direction of travel. A seminar moves outward, accumulating content. A retreat moves inward, making space.</p>
+<p>Encounter cannot be scheduled or produced. It can only be received — by someone who has made enough interior silence to be present when God arrives.</p>
+<p>Which is why the afternoons this week are empty, and why they are not a gap in the programme.</p>
+<p><strong>PART 4 — THE SCRIPTURE OF TODAY (7 min)</strong></p>
+<p>God does not speak for yesterday or for tomorrow.</p>
+<p>Psalm 95:8 — &quot;TODAY, if you hear his voice, do not harden your hearts.&quot;</p>
+<p>Luke 23:43 — &quot;TODAY you will be with me in Paradise.&quot; Said to a thief, hours from death. Not one day, eventually, when things are sorted out. Today.</p>
+<p>Luke 12:49 — &quot;I have come to set fire to the earth.&quot; The visitation is not meant to make you comfortable. It is meant to make you free.</p>
+<p>And the grace underneath the whole week: none of us are finished products of God. We are all God&#x27;s work in progress. Not the most senior bishop. Not the most accomplished religious. None of us.</p>
+<p><strong>CLOSING (3 min)</strong></p>
+<p>You came here with an inventory of inertia in your hand. Put it down now.</p>
+<p>Someone has made an appointment with you. He arrived early. He has been waiting since before you entered the chapel.</p>
+<p>Go and keep it.</p>
+<p><strong>Prayer</strong></p>
+<p><em>God who made an appointment and kept it, waiting in the cave with the candle lit — forgive us for arriving late, half-prepared, with the phone still on. Quiet the inner crowd that followed us in. Let this be a retreat and not a seminar. Speak the word you have for today, and let it land. We are not finished, and you are not finished with us. Amen.</em></p>
+</section>
+<section class="chapter" id="day-two-identity"><h2>Day Two — Identity</h2>
+<h3 class="sec">Talk 4 (morning) — &quot;Who are You When Nobody is Watching?&quot;</h3>
+<p><strong>Core word: </strong>NAME</p>
+<p><strong>Based on: </strong>Chapter 2 | Jn 1:12; Gen 32:27</p>
+<p><strong>OPENING (5 min)</strong></p>
+<p>Yesterday: am I alive? Today the question underneath it. Alive as whom?</p>
+<p>A game to begin. &quot;Which congregation do you belong to?&quot; Most people answer with the name of a motherhouse or a place. Notice that we answer a question about identity with a question about geography.</p>
+<p>An exercise. Take a sheet. Write about yourself — without reference to anyone else. No congregation. No ministry. No office. No family.</p>
+<p>Sixty seconds. Then notice what remains.</p>
+<p>For many of us what remains is a job description and a habit.</p>
+<p>John 1:12 — we are given the right to become children of God. Not managers. Not administrators. Children.</p>
+<p>THEME: &quot;Do I know who I am — and does it show?&quot;</p>
+<p><strong>PART 1 — THE MAN WHO WOULD NOT GIVE HIS NAME (9 min)</strong></p>
+<p>Genesis 32. Jacob alone at the ford of the Jabbok, wrestling a stranger until daybreak.</p>
+<p>Notice what the stranger asks. Not what do you want. Not what have you done. &quot;What is your name?&quot;</p>
+<p>And for Jacob that is the cruellest possible question, because his name means heel-grabber, supplanter, the one who takes what is not his. To say his name is to confess his whole biography.</p>
+<p>He says it anyway. And the moment he says it, he is given a new one.</p>
+<p>You cannot be renamed until you have said the old name out loud.</p>
+<p>Which is why the first movement of a retreat is not resolution but confession — not the sacrament necessarily, but the plain act of saying who you have actually been. Most of us arrive prepared to improve. Very few arrive prepared to be named.</p>
+<p>And he leaves limping. The blessing and the injury arrive together, from the same hand.</p>
+<p><strong>PART 2 — THE IDENTITY TRAP (9 min)</strong></p>
+<p>False identity markers, named by Sr Inigo: distinctive dress. Numerical strength. The speed at which we open new houses. Large buildings. Bank deposits. Results.</p>
+<p>Every one of them measurable. Not one of them the Gospel.</p>
+<p>Three names we answer to instead of our own.</p>
+<p>THE FUNCTION. &quot;I am the principal.&quot; Test it at transfer: if a change of office produces something closer to bereavement than inconvenience, the office was not a job. It was the name.</p>
+<p>THE COMPARISON. We know who we are by who we are ahead of and behind — the batch we entered with, who got the bigger house, who was made superior first. A congregation can run on this for decades and call it zeal.</p>
+<p>THE PERFORMANCE. The self that exists for the visitor. Every religious house has a parlour and a corridor. The spiritual question is how far apart they have drifted.</p>
+<p><strong>PART 3 — THE NAME GOD USES (12 min)</strong></p>
+<p>Isaiah 43:1 — &quot;I have called you by your name. You are mine.&quot; By your name. Not by your congregation, your office, your usefulness, your output.</p>
+<p>Your baptism named you before your profession did.</p>
+<p>Luke 13:10-17. A woman bent double for eighteen years, seated at the back where women were invisible. He calls her to the FRONT. He touches her, which in that setting is itself a scandal. &quot;Woman, you are free.&quot;</p>
+<p>Then he gives her a title: DAUGHTER OF ABRAHAM. That title had never been given to a woman. Sons of Abraham, constantly. Daughter — never.</p>
+<p>He does not only straighten her spine. He gives her a name in the covenant.</p>
+<p>John 20. Mary Magdalene at the tomb, mistaking him for the gardener, until he says one word: &quot;Mary.&quot; She turns. The recognition happens at the name.</p>
+<p>The risen Christ could have announced himself with titles. What he does is say a woman&#x27;s name.</p>
+<p>Sr Inigo&#x27;s logic, and it runs one way only: CHARISM (a unique grace from God for the wellbeing of God&#x27;s people, never for personal gratification) → SPIRITUALITY (the specific way we respond) → MISSION → MINISTRIES → IDENTITY.</p>
+<p>Identity precedes mission. Not the reverse. We keep trying to derive who we are from what we do, and then wonder why the work exhausts rather than feeds.</p>
+<p><strong>PART 4 — SEE HOW THEY LOVE ONE ANOTHER (7 min)</strong></p>
+<p>The early Christians had no logo, no strategic plan and no brochure. What they had was a sentence said about them by outsiders: &quot;See how they love one another.&quot;</p>
+<p>St Francis received the stigmata — an identity so completely shaped by Christ that it became physically visible.</p>
+<p>James 2:18 — &quot;Show me your faith without works.&quot;</p>
+<p>Sr Inigo&#x27;s core phrase, worth memorising: &quot;Intimacy with the Lord and service to the poor neighbour.&quot;</p>
+<p>And her test. What should people say? In the school: &quot;their education is different.&quot; In the hospital: &quot;compassionate, healing.&quot; In the parish: &quot;nobody does it more creatively.&quot; On first meeting: &quot;I knew you must be from that congregation.&quot;</p>
+<p>Is that being said about us? If not — by what right do we call it an identity?</p>
+<p><strong>CLOSING (3 min)</strong></p>
+<p>Genesis 32:29 — Jacob asks the stranger his name in return, and receives no answer. Only a blessing.</p>
+<p>You will not get a full answer either. But you will get the blessing, and you will probably limp.</p>
+<p>Identity is John 1:12 — child of God — before habit, before title, before congregation.</p>
+<p><strong>Prayer</strong></p>
+<p><em>God who asked Jacob for his name and gave him a better one — ask us for ours, and give us the nerve to say it out loud. Forgive us for the parlour we keep for visitors and the corridor we hope they never walk down. Forgive us for answering to our office when you have been calling us by our name. You who called a bent woman to the front and named her Daughter of Abraham — call us forward. Name us. And let us limp home. Amen.</em></p>
+<h3 class="sec">Talk 5 (midday) — &quot;What Would Your Founder Say If They Met You Today?&quot;</h3>
+<p><strong>Core word: </strong>ROOTS</p>
+<p><strong>Based on: </strong>Chapter 2 | Perfectae Caritatis; Jn 1:12</p>
+<p><strong>OPENING (5 min)</strong></p>
+<p>A single question governs this conference, and it should be asked slowly.</p>
+<p>If your founder or foundress walked into your community house this evening, unannounced, and stayed three days — what would they say?</p>
+<p>Not to the congregation. To you.</p>
+<p>THEME: &quot;Have I kept the fire, or only the furniture?&quot;</p>
+<p><strong>PART 1 — RETURN TO THE ROOTS (9 min)</strong></p>
+<p>Perfectae Caritatis gives a two-word instruction that most congregations have quoted more often than obeyed: return to the roots.</p>
+<p>It specifies the work: review the constitutions. Recover the charism. Dispense with ceremonies that no longer mean anything. Adapt to contemporary need.</p>
+<p>The river image again, and now applied to institutions. A river is not its infrastructure. It is not the embankment, the bridge, the pump house. It is the water that flows and gives life.</p>
+<p>Are we still flowing — or have we dried up underneath our structures, which remain standing and look impressive from the road?</p>
+<p>A practical test, and it takes four minutes to fail. Ask five people in your house to write, separately and without conferring, what this congregation exists for. Compare the answers.</p>
+<p>If they do not converge, that is not a failure of memory. It is a failure of formation.</p>
+<p><strong>PART 2 — THE FOUNDERS&#x27; QUALITIES (10 min)</strong></p>
+<p>Sr Inigo lists what the founders had. Read it as a mirror, not as hagiography.</p>
+<p>Quality prayer time — not squeezed in. Toiled around the clock. Travelled on foot. Willingly accepted hardship rather than negotiating it away. Gave everything generously. Broke cultural barriers that everyone else observed. Innovated when there was no precedent. Carried an unquenchable thirst. And their courage was driven by compassion, not by comfort.</p>
+<p>Now the honest comparison. Not to induce shame — founders had advantages we lack, including youth and desperation. But to locate the gap.</p>
+<p>Which of those did you have in your first five years, and have since quietly set down?</p>
+<p>A true identity, from a sister Sr Inigo cites, defined in one line: &quot;commitment to the poor, a voice for the marginalised, and the refusal to be indifferent.&quot;</p>
+<p>That is a charism you could recite at a bus stop. Could you do the same with yours?</p>
+<p><strong>PART 3 — SMART, SPIRITUAL, SENT (10 min)</strong></p>
+<p>Sr Inigo redefines what it means for a religious to be &quot;smart,&quot; and it is not what the word usually carries.</p>
+<p>Energetic. Plans and then actually executes. Grasps situations with wisdom, not merely intelligence. Adapts to anyone, anywhere. Leaves a personal stamp. Creative. And carries an inherent, lasting happiness — which is the tell, because a bitter religious has not been smart about anything that matters.</p>
+<p>Then seven contrasts. Each one is a place where a congregation can stall.</p>
+<p>Not merely INTELLIGENT — but WISE.</p>
+<p>Not merely VISIONARY — but PRACTICAL AND ACTION-ORIENTED.</p>
+<p>Not mere WORKERS — but COMMITTED AND DEDICATED.</p>
+<p>Not mere TRADITION-FOLLOWERS — but DELIVERERS OF JUSTICE.</p>
+<p>Not merely BELONGING TO A RELIGION — but TRULY RELIGIOUS.</p>
+<p>Not merely SOCIALLY CONSCIOUS — but WILLING TO SHED BLOOD IF NEED BE.</p>
+<p>Not merely TALKERS AND WRITERS — but SINCERE DOERS AND A REAL BLESSING.</p>
+<p>And note where you are standing. This is West Bengal — a land of martyrs, missionaries and partition survivors. That last contrast is not rhetoric here. The language is already in the soil.</p>
+<p><strong>PART 4 — TRACE THE PATH (7 min)</strong></p>
+<p>The founders&#x27; mandate, as she states it: trace the historical path of the predecessors who blended with the people in sweat and toil — and then translate it into present-day realities.</p>
+<p>Both halves. Trace, and translate. Congregations fail at one or the other.</p>
+<p>Those who only trace become museums with a chapel — the founder&#x27;s room preserved, the anniversary kept, the fire out.</p>
+<p>Those who only translate become NGOs with a religious aesthetic — busy, funded, effective, and no longer able to say why any of it requires vows.</p>
+<p>Concrete assignment for this afternoon&#x27;s silence: read one page of your founder&#x27;s writings. Not the biography. Their own words. And ask what they would not recognise about your life.</p>
+<p><strong>CLOSING (3 min)</strong></p>
+<p>If your founder met you today, the question is not whether they would be disappointed. It is whether they would recognise the work as theirs.</p>
+<p>You are not asked to repeat their life. You are asked to continue their fire in a country they never saw.</p>
+<p>God invented the U-turn. He called it conversion.</p>
+<p><strong>Prayer</strong></p>
+<p><em>Lord, return me to the roots of the charism — the founding fire, the founding love, the founding recklessness of following you. Forgive us for keeping the furniture and losing the fire, for anniversaries kept faithfully and questions never asked. Let </em><em>people know me not by what I wear but by how I love. And let my founder, looking at me today, smile and say: yes — that one understood. Amen.</em></p>
+<h3 class="sec">Talk 6 (evening) — &quot;God Has Wi-Fi — but You Need to Be Present&quot;</h3>
+<p><strong>Core word: </strong>PRESENCE</p>
+<p><strong>Based on: </strong>Chapter 5 | Jn 1:14; Jn 17:1</p>
+<p><strong>OPENING (5 min)</strong></p>
+<p>We have spent today on identity. This evening: how identity travels — or fails to.</p>
+<p>A story from a parish house. The streaming would not work for the evening programme. Three adults tried, including one with an MSc. Forty minutes. A twelve-year-old came in, looked at it, and fixed it in four.</p>
+<p>For the first time in human history the youngest person in the room is routinely the most knowledgeable. Not a problem to be resented. A fact to be engaged.</p>
+<p>THEME: &quot;God has Wi-Fi — but you need to be present.&quot; Both-and. Never either-or.</p>
+<p><strong>PART 1 — THE GREAT EQUALISER (8 min)</strong></p>
+<p>What the phone has actually done, before we complain about it.</p>
+<p>A Dalit student in Purulia gets MIT-level lectures on a handset her father saved four months for. A boy in a Jalpaiguri village finishes an online course no local college offered. A woman in Murshidabad sells handloom on a national platform without a middleman taking sixty per cent.</p>
+<p>Knowledge gatekept by privilege has been democratised. That is not a technological fact. It is a work of justice.</p>
+<p>Matthew 28:20 — go into the whole world. The world&#x27;s new geography is digital, and a Church that refuses to enter it has decided to evangelise a country that no longer exists.</p>
+<p>COVID proved it. Churches shuttered; Masses went online; retreats livestreamed; people joined from Singapore, from the Gulf, from families who had not been inside a church in a decade. The crisis became kairos.</p>
+<p><strong>PART 2 — THE DOUBLE-EDGED SWORD (10 min)</strong></p>
+<p>Now hold both halves of this.</p>
+<p>Same phone. Same platform. A woman records the violence in her home. Forty thousand shares. A lawyer sees it. Justice arrives.</p>
+<p>An hour later. Same woman. Same phone. Scrolling influencer content, feeling she is never enough.</p>
+<p>One object. One person. One hour apart.</p>
+<p>Vita Consecrata 38 names the drift: &quot;progressive weakening of religious values, unable to resist materialism, individualism, excessive stress on efficiency.&quot;</p>
+<p>Three symptoms in our houses. Addiction — the dopamine cycle of the like. Virtual intimacy replacing real: note that in John 15:14 Jesus called us FRIENDS, not followers. And loneliness — the most connected generation in history is the loneliest ever measured.</p>
+<p>The Redemptorist prayer says it in a line: technology becomes good or bad depending on how I apply it. Good servant, bad master.</p>
+<p>And the contradiction closest to home: a priest posting Scripture on Instagram at nine at night — and unavailable to the novice at his door.</p>
+<p>That post may be genuinely good. That is what makes it dangerous.</p>
+<p><strong>PART 3 — INFORM, FORM, EDIFY (10 min)</strong></p>
+<p>Sr Inigo&#x27;s threefold test. Run every homily, circular, post and forward through it.</p>
+<p>INFORM. Share what is true. Jesus is Truth (Jn 14:6) — which makes forwarding unverified content a theological betrayal and not merely a social nuisance. How many of us have forwarded something inflammatory without checking? Positively: publish verified information about rights, health and entitlements for people who cannot otherwise reach it.</p>
+<p>FORM. Give hope, strength, consolation. Jesus formed twelve people over three years — walked, ate, asked questions, was patient. Every communication either forms someone or merely occupies them.</p>
+<p>EDIFY. Build up through mercy; amplify the voices nobody hears. He edified the overlooked, not the powerful. Use whatever platform you have to make invisible people visible.</p>
+<p>The goal of all three, John 17:4-5: to glorify God. That is the only metric. Not reach. Not engagement.</p>
+<p>Ask it of your own account: in the last month, did anything I published make an invisible person visible?</p>
+<p><strong>PART 4 — WHAT A SCREEN CANNOT DO (9 min)</strong></p>
+<p>Henri Nouwen on the ministry of presence: to know people by name, eat and drink with them, listen to their stories and tell your own, let them know with words, handshakes and hugs that you truly love them.</p>
+<p>Their NAME — not their username. Their STORIES — not their posts.</p>
+<p>Luke 4:40 — he healed them one by one, exhausted, by TOUCHING them. Not from a distance. Not through an intermediary.</p>
+<p>John 11:21 — Martha: &quot;If you had been here, my brother would not have died.&quot; That is the pain of absence, and people feel it whether or not they say it to you.</p>
+<p>God had every option. God could have sent a message. Instead: &quot;The Word became flesh and dwelt among us&quot; (Jn 1:14). God showed up in person, in a body, in a specific village, with an accent.</p>
+<p>Incarnation is the standard of our communication.</p>
+<p>And in the villages, slums, adivasi hamlets, prisons and hospitals of this state, people do not primarily need our YouTube channel. They need someone who shows up, knows the children&#x27;s names, and stays when it is uncomfortable.</p>
+<p>Pope Francis: &quot;The best communication is silence.&quot; Not absence — attentive, unhurried, undistracted presence.</p>
+<p><strong>CLOSING (3 min)</strong></p>
+<p>Broadcasting is not communicating. Posting is not being present. Digital output is not pastoral depth.</p>
+<p>A gesture before we pray. Take out your phone. Turn it face down on the seat beside you. Deliberately. In silence.</p>
+<p>God moved into the neighbourhood. That is the standard.</p>
+<p><strong>Prayer</strong></p>
+<p><em>Lord of the Word made flesh, who did not send a message but came in person — teach us the communication that requires showing up. Forgive us for the screens we hide behind when what was asked was simply a face: present, unhurried, unguarded. Forgive us for what we have forwarded without checking. Let everything we share inform truthfully, form hopefully, edify with mercy — so that the only metric that matters is whether it glorified you. In this house tonight, when someone knocks, let us open the door. Amen.</em></p>
+</section>
+<section class="chapter" id="day-three-prophecy"><h2>Day Three — Prophecy</h2>
+<h3 class="sec">Talk 7 (morning) — &quot;Are You Dangerous Enough?&quot;</h3>
+<p><strong>Core word: </strong>DANGER</p>
+<p><strong>Based on: </strong>Chapter 3 | 2 Kgs 17:13</p>
+<p><strong>OPENING (5 min)</strong></p>
+<p>Day one: am I alive? Day two: do I know who I am? Today: are you dangerous enough?</p>
+<p>Jesus walked into villages, ate with the wrong people, touched lepers, turned over the tables in the Temple — and was executed.</p>
+<p>Not because he failed. Because he was dangerous.</p>
+<p>Karl Rahner, and he was not describing someone else&#x27;s Church: &quot;The Church&#x27;s public face is dominated to a terrifying extent by ritualism, legalism, administration and a boring resigned spiritual mediocrity continuing along familiar lines.&quot;</p>
+<p>Religious life is fundamentally prophetic. And prophets are uncomfortable people who make the world uncomfortable.</p>
+<p>THEME: &quot;Are you dangerous enough?&quot;</p>
+<p><strong>PART 1 — COMFORTABLE CHURCH, DANGEROUS JESUS (10 min)</strong></p>
+<p>The historical hinge, and it is worth dating. Early Christians shared everything, confronted the oppressor, and died for it. Fourth century: Constantine converts. The Church walks into the palace.</p>
+<p>What changed was not the doctrine. What changed was the address. Quality became quantity. The poor moved from the centre to the margin. Faith became worship without lifestyle.</p>
+<p>St John Chrysostom, and this is the sentence to write down: &quot;If you cannot find God in the beggar at the Church door, you will never find him in the tabernacle either.&quot;</p>
+<p>Sr Inigo: &quot;A religion that fails to disturb or challenge its followers in their dealings with the poor is not religion at all.&quot;</p>
+<p>Exodus 3:7 — God calls Moses because God has heard the Israelites crying. Every vocation is God&#x27;s answer to the cry of a suffering person.</p>
+<p>Which means yours was too. Whose cry were you the answer to? And is that person still waiting?</p>
+<p>Murshidabad bonded labourers. Malda trafficking victims. Purulia adivasi communities. Dum Dum prisoners waiting seven years for a hearing.</p>
+<p><strong>PART 2 — GOD IS NOT INTERESTED IN YOUR WORSHIP (9 min)</strong></p>
+<p>A theological claim that will sound extreme until you check it against the prophets.</p>
+<p>God is repeatedly, explicitly uninterested in cultic and vertical worship offered by people who are unjust horizontally. Amos: take away from me the noise of your songs. Isaiah: your new moons and appointed feasts my soul hates.</p>
+<p>Not because worship is bad. Because worship offered instead of justice is a forgery.</p>
+<p>This is uncomfortable for people whose whole day is structured around the Office. It should be.</p>
+<p>It does not mean pray less. It means the prayer is validated somewhere else — in what you do for the person with no power over you.</p>
+<p>Chrysostom&#x27;s sentence again, and now with its full weight. The beggar at the door and the tabernacle are not two competing devotions. They are the same devotion, and failing the first invalidates the second.</p>
+<p><strong>PART 3 — THE SIX CONFLICTS OF JESUS (10 min)</strong></p>
+<p>He was in conflict with six constituencies. One of them is yours.</p>
+<p>With RELIGIOUS LEADERS (Mt 23) — &quot;Woe to you, scribes and Pharisees, hypocrites&quot; — seven times, in public, by name.</p>
+<p>With POLITICAL POWER (Mt 27:13-14) — before Pilate he chose silence over diplomacy. Some truths cannot be negotiated, and refusing to bargain is itself the testimony.</p>
+<p>With TRADITION (Mk 7:5-9; Jn 5:15-16) — healing on the Sabbath. Tradition exists for the person, not the person for the tradition.</p>
+<p>With his own FAMILY (Mk 3:21; Jn 7:5) — they thought he was out of his mind. The people who love you most can feel most threatened by your prophetic call, and they will use the language of concern to say so.</p>
+<p>With his own DISCIPLES (Jn 6:52,66; Mk 14:50) — many drew back and walked with him no more. At the arrest, all fled.</p>
+<p>With the FATHER (Mt 27:46) — &quot;why have you forsaken me?&quot; God does not explain the darkness. God enters it.</p>
+<p>Luke 12:49 — &quot;I came to bring fire on the earth.&quot; Luke 4:29 — his own townspeople drove him to the brow of the hill to throw him off.</p>
+<p>Read that last one again. The first assassination attempt came from his home congregation.</p>
+<p><strong>PART 4 — WHOSE CRY, AND WHAT WOULD IT COST (8 min)</strong></p>
+<p>A practical exercise for the silence.</p>
+<p>Name one specific cry within fifty kilometres of where you live. Not a category — a situation, with a place attached.</p>
+<p>Then name what it would cost you to answer it. Time you do not have. A permission you would have to ask for and might not get. The disapproval of someone whose good opinion you value. A donor.</p>
+<p>That cost is the exact measure of how prophetic your life currently is. Not your homilies. The cost.</p>
+<p>Pope Francis: religious are prophets — they follow Jesus through poverty, obedience, chastity and community life, and the prophetic choice provokes the same resistance Jesus provoked.</p>
+<p>If it provokes no resistance at all, that is information.</p>
+<p><strong>CLOSING (3 min)</strong></p>
+<p>2 Kings 17:13: &quot;Turn from your evil ways.&quot; The prophetic tradition begins by turning the prophet first.</p>
+<p>Not loud. True. Not comfortable. Alive.</p>
+<p><strong>Prayer</strong></p>
+<p><em>Lord who was killed for being dangerous — make us dangerous to injustice, to indifference, to comfortable silence. Forgive us for worship offered instead of justice. Forgive us for the cries we have heard and filed. Show us the one within fifty kilometres, and give us the nerve to pay for it. Amen.</em></p>
+<h3 class="sec">Talk 8 (midday) — &quot;Four Cultures That Kill the Prophet&quot;</h3>
+<p><strong>Core word: </strong>COURAGE</p>
+<p><strong>Based on: </strong>Chapter 3 | Mt 23; Is 10:1-2</p>
+<p><strong>OPENING (5 min)</strong></p>
+<p>This morning we asked whether you are dangerous. Now: what has been domesticating you?</p>
+<p>Prophets are rarely martyred in modern religious life. They are absorbed. Four cultures do the absorbing, and every one of them is present in this room&#x27;s congregations.</p>
+<p>THEME: &quot;What is quietly making me safe?&quot;</p>
+<p><strong>PART 1 — THE CULTURE OF SILENCE (9 min)</strong></p>
+<p>We know everything now. The video arrives on WhatsApp within the hour. And we scroll past.</p>
+<p>Einstein: &quot;The world will not be destroyed by those who do evil, but by those who watch without doing anything.&quot;</p>
+<p>Silence in the face of injustice is not neutrality. It is a vote, cast for whoever currently holds power.</p>
+<p>The specific religious version: we discuss it at recreation. Vigorously. With real feeling. And then nothing leaves the room.</p>
+<p>Recreation is where prophecy goes to die comfortably.</p>
+<p>Ask honestly: what is the injustice everyone in your community privately agrees about, and nobody has ever raised where it would cost something?</p>
+<p><strong>PART 2 — THE CULTURE OF INSTITUTIONALISATION (9 min)</strong></p>
+<p>Religious become protective of the institution&#x27;s reputation, finances and land deeds.</p>
+<p>And the decisive sentence in the meeting stops being &quot;What does Jesus ask?&quot; and becomes &quot;What will the board say?&quot;</p>
+<p>A mission that prioritises its own comfort has already lost the mission.</p>
+<p>Watch how it operates. The institution never says no to the poor. It says: not this year. The accounts are tight. After the new wing. When the loan is cleared. Once the accreditation is through.</p>
+<p>Each reason is true. The aggregate is a refusal.</p>
+<p>Sr Inigo&#x27;s harder version, from the chapter on institutions: paying unjust wages to kitchen, cleaning and maintenance staff; school fees that exclude the very children the school was founded to serve; hospitals the poor can admire but not afford.</p>
+<p>She does not call these pastoral shortcomings. She calls them participation in the thief&#x27;s plundering (Jn 10:10).</p>
+<p><strong>PART 3 — THE CULTURE OF DOMINATION (10 min)</strong></p>
+<p>In formation houses the dominant group imposes its traits on the minority. Hindi over Bengali. Urban over rural. Older over younger. The fluent over the shy. The city convent-educated over the village candidate.</p>
+<p>None of it is policy. All of it is real, and the junior sister can name it precisely if anyone ever asks her.</p>
+<p>And here is the indictment: we cannot denounce caste discrimination in the diocese while practising cultural elitism in the novitiate.</p>
+<p>The test is simple. In your formation house, whose accent is corrected? Whose food is described as &quot;strong&quot;? Whose family is visited and whose is not? Who translates for whom, and has it ever gone the other way?</p>
+<p>Sr Inigo names the same pattern in her chapter on apartheid as a state of mind — a way of thinking and living without being conscious of what is happening around us. Not policy. Atmosphere.</p>
+<p><strong>PART 4 — THE THROWAWAY CULTURE (8 min)</strong></p>
+<p>Selfie piety. Personal branding. The careful cultivation of a public religious self.</p>
+<p>And the specific sin Sr Inigo names directly: photographing the poor for reach. Using someone&#x27;s worst day as material for our own credibility.</p>
+<p>If the person in your photograph would be ashamed to see it posted, you have not done ministry. You have done publicity.</p>
+<p>The throwaway posture extends: the elderly, the disabled, the unborn — treated as disposable problems rather than people. Which is straightforwardly incompatible with a faith built on the infinite value of every soul.</p>
+<p>And it reaches inside the community. Is there someone in your house who has been quietly written off? Not expelled — written off. Not consulted, not given anything real, waiting out the years.</p>
+<p>That is the throwaway culture wearing a habit.</p>
+<p><strong>CLOSING (3 min)</strong></p>
+<p>Four cultures. Silence, institutionalisation, domination, disposal.</p>
+<p>None of them requires a bad person. All of them require only that good people do the reasonable thing repeatedly.</p>
+<p>Name which one has you. You already know.</p>
+<p><strong>Prayer</strong></p>
+<p><em>Lord, we have been domesticated so gradually that we mistook it for maturity. Forgive us for the injustices we discussed at recreation and never raised where it would cost. Forgive us for the reasons that were each true and added up to a refusal. Forgive us for the photographs. And forgive us for the sister we wrote off without ever saying so. Make us dangerous again — in Murshidabad, in Malda, in Purulia, in this house. Amen.</em></p>
+<h3 class="sec">Talk 9 (evening) — &quot;Prophets Pay, Saints Bleed&quot;</h3>
+<p><strong>Core word: </strong>COST</p>
+<p><strong>Based on: </strong>Chapter 3 | Mt 5:10-12</p>
+<p><strong>OPENING (5 min)</strong></p>
+<p>A quiet conference on a heavy subject. Not to frighten anyone. To locate ourselves honestly.</p>
+<p>We have spent the day on prophecy. Tonight: what it has cost, on this soil, in living memory.</p>
+<p>THEME: &quot;What am I willing to lose?&quot;</p>
+<p><strong>PART 1 — NAMES, NOT CATEGORIES (10 min)</strong></p>
+<p>Not abstractions. Names.</p>
+<p>Archbishop Oscar Romero — shot at the altar, during Mass, mid-Eucharist.</p>
+<p>Sr Rani Maria — stabbed twenty-nine times on a bus, in daylight, for organising Dalit women.</p>
+<p>Fr Arul Doss. Fr A. T. Thomas. Sr Valsa John — killed for standing with tribal people and bonded workers.</p>
+<p>Graham Staines — burned alive in a jeep with his two sons, aged ten and six, for a leprosy ministry.</p>
+<p>The martyrs of Kandhamal.</p>
+<p>This is India. The twenty-first century. The same soil we are standing on.</p>
+<p>Tertullian: &quot;The blood of the martyrs is the seed of Christianity.&quot;</p>
+<p>Say the names slowly. This is not a list to move past.</p>
+<p><strong>PART 2 — THE COST THAT IS ACTUALLY ASKED OF US (9 min)</strong></p>
+<p>Most of us will not be asked for blood. We will be asked for something smaller — and because it is smaller, harder to give, because there is no glory in it and nobody will write it down.</p>
+<p>Reputation. The good opinion of the provincial. A posting you like. The approval of the family that funds the school. Being thought sensible. Being thought a team player.</p>
+<p>The daily prophetic question, and it is the only one that matters tonight: what am I willing to lose tomorrow for the sake of the truth?</p>
+<p>Not in principle. Tomorrow.</p>
+<p>A prophet who has never lost anything is not being tested. That is not a moral failing. It is a location — and it is worth knowing where you are standing.</p>
+<p><strong>PART 3 — SIX CONFLICTS, AND WHICH IS YOURS (9 min)</strong></p>
+<p>This morning we listed the six conflicts of Jesus. Tonight identify yours.</p>
+<p>Some of you are in conflict with religious authority, and are being told you are difficult.</p>
+<p>Some are in conflict with political power, and are afraid — reasonably.</p>
+<p>Some are in conflict with tradition, and are being told this is how it has always been done.</p>
+<p>Some are in conflict with family — who love you, and think you have gone too far, and use the language of concern.</p>
+<p>Some are in conflict with your own community, and are eating three meals a day with people who have withdrawn from you.</p>
+<p>And some are in conflict with God, in real darkness, and have not told anyone.</p>
+<p>Every one of those was in his life. None of them means you have gone wrong.</p>
+<p>Mt 27:46 — God does not explain the darkness. God enters it.</p>
+<p><strong>PART 4 — WHAT MAKES IT BEARABLE (7 min)</strong></p>
+<p>The Dalai Lama, cited by Sr Inigo through Leonardo Boff: &quot;The best religion is any religion that brings us closer to God&#x27;s presence everywhere and makes us more human.&quot; More human — which is to say more like Jesus.</p>
+<p>Prophecy that makes you harsh has gone wrong somewhere. The prophets wept. Jeremiah complained bitterly and out loud. Elijah asked to die.</p>
+<p>You are permitted to find this hard. You are permitted to say so.</p>
+<p>What is not permitted is to solve the difficulty by becoming safe.</p>
+<p>Beatitude: blessed are those persecuted for righteousness&#x27; sake. He does not say they will enjoy it. He says the Kingdom is theirs.</p>
+<p><strong>CLOSING (3 min)</strong></p>
+<p>Romero. Rani Maria. Arul Doss. Thomas. Valsa John. Staines and his two sons. Kandhamal.</p>
+<p>They were not extraordinary people who chose extraordinary deaths. They were ordinary religious who kept making small costly choices until one of them was final.</p>
+<p>Tonight, in the silence, name the small costly choice in front of you this week.</p>
+<p><strong>Prayer</strong></p>
+<p><em>Lord, make us dangerous to injustice, to indifference, to comfortable silence. Give us Romero&#x27;s courage and Rani Maria&#x27;s fire. We are not asking to be martyrs. We are asking to be willing — and to begin with the small thing tomorrow that we already know about and have been avoiding. Make us prophets. Not loud ones necessarily. True ones. Amen.</em></p>
+</section>
+<section class="chapter" id="day-four-the-world-we-are-sent-into"><h2>Day Four — the World We are Sent Into</h2>
+<h3 class="sec">Talk 10 (morning) — &quot;Listen to the Earth — She is Screaming&quot;</h3>
+<p><strong>Core word: </strong>REVERENCE</p>
+<p><strong>Based on: </strong>Chapter 4 | 1 Tim 4:4; Laudato Si&#x27;</p>
+<p><strong>OPENING (5 min)</strong></p>
+<p>When did you last stop and look at a tree?</p>
+<p>Not walk past one. Look at one.</p>
+<p>A microscopic virus shut the world, and within weeks the rivers ran clear, the Himalayan peaks became visible from Jalandhar for the first time in thirty years, and dolphins appeared off Mumbai.</p>
+<p>The earth healed the moment we stepped back. That is not a comforting fact. It is an accusation.</p>
+<p>THEME: &quot;Listen to the earth — she is screaming.&quot; God spoke through the pandemic and said: you are not the masters here.</p>
+<p><strong>PART 1 — THE HUMBLING VIRUS (8 min)</strong></p>
+<p>Sr Inigo&#x27;s paradoxes from the lockdown, and they are worth reading as a set: the air was pure but masks were mandatory; the roads were empty but driving was impossible; there was money with nowhere to spend it; and there was time with friends and no way to sit together.</p>
+<p>Theological weight: humanity is the problem — and potentially the solution.</p>
+<p>A biological fact worth sitting with. If human beings were removed from the earth tomorrow, the earth would flourish. If insects were removed, all life would end within a few years.</p>
+<p>And we treat insects as a nuisance and ourselves as the point of creation.</p>
+<p>Psalm 46:10 — &quot;Be still and know that I am God.&quot; Job 12:7 — &quot;Ask the animals; they will instruct you.&quot;</p>
+<p>And the connection to your vow: poverty is not merely personal detachment from money. It is a posture of receiving rather than owning. Enough-ness rather than accumulation.</p>
+<p><strong>PART 2 — GOD&#x27;S FIRST COVENANT WAS WITH THE TREES (10 min)</strong></p>
+<p>Genesis 9:9. The first covenant God ever made was not with Israel and not with humanity alone. It was with Noah AND every living creature. A three-way covenant: God, humanity, and all of nature.</p>
+<p>Which means breaking ecology is breaking the first covenant God ever made.</p>
+<p>Pope Francis in Laudato Si&#x27;: the earth cries out in pain because we have hurt her enormously.</p>
+<p>A distinction to preach carefully. NATURE is what is studied and exploited. CREATION is a sacred gift, illuminated by love. Same trees. Entirely different relationship.</p>
+<p>Jesus taught as an Eastern guru: every parable drawn from creation. Matthew 6:26-28 — the birds of the air, the lilies of the field. His instruction was not &quot;believe.&quot; It was LOOK. SEE. LEARN.</p>
+<p>A meditation to give them for the afternoon: Psalm 1:3, the tree by water. 2 Timothy 4:2, yielding fruit in season. Jeremiah 17:8, the leaves that stay green. Revelation 22:2, leaves for the healing of nations. Romans 1:20, God&#x27;s invisible nature seen through what is made.</p>
+<p>Pope Benedict XVI: &quot;The external deserts grow because the internal deserts are becoming vast.&quot; The ecological crisis is a crisis of the soul.</p>
+<p><strong>PART 3 — SEVEN ECOLOGICAL SINS (10 min)</strong></p>
+<p>From the Brazilian Bishops&#x27; Conference, inspired by Pope Francis. Read them as an examination of conscience, not as a policy list.</p>
+<p>CONSUMPTION, GREED, WASTEFULNESS — taking more than is needed.</p>
+<p>THROWAWAY CULTURE — which discards food, the elderly, the disabled, and unborn children, especially girls.</p>
+<p>THE CEMETERY MENTALITY — hopelessness and apathy; the sin of despair that refuses grace.</p>
+<p>MENTAL POLLUTION producing environmental pollution — you cannot have a clean river downstream of a polluted source.</p>
+<p>UNSTABLE RELATIONSHIPS — where no value is assigned to the elderly, the poor, the disabled.</p>
+<p>THE ONE-FINGER GENERATION — screen addiction isolating us from the real world, real people and the real God.</p>
+<p>NO RESPECT FOR THE GIFT OF LIFE — the rise of homicide, suicide, depression.</p>
+<p>And Pope Francis&#x27;s eighth work of mercy: care for our common home. Planting a tree is an act of mercy. Refusing plastic is an act of mercy.</p>
+<p>Locally: the Sundarban mangroves. The Teesta. The Ganges. And the adivasi communities of this state whose entire spiritual world IS the forest — so that deforestation is not only an economic loss to them but a desecration.</p>
+<p><strong>PART 4 — FROM GUILT TO ACTION (8 min)</strong></p>
+<p>Sr Inigo gives a four-week plan for communities. Guilt without a plan is just mood.</p>
+<p>WEEK ONE — see creation with new eyes. Turn off unused lights. Reduce meat. Pause before eating to name the soil and the hands that produced the food in front of you.</p>
+<p>WEEK TWO — act as stewards, not owners. Learn your bio-region: which trees and which birds are disappearing here? Plant a native tree. Reduce kitchen waste.</p>
+<p>WEEK THREE — praise God through creation. Walk or cycle. Pray outside at least once. Let creation become your chapel.</p>
+<p>WEEK FOUR — recognise that we are redeemed WITH creation (Rom 8:22). Eliminate single-use plastic. Buy local.</p>
+<p>And a practice to adopt as a community: Earth Hour every Saturday, eight to nine, all lights and gadgets off, sitting in silence or candlelight.</p>
+<p>Abdul Kalam: &quot;Plants can live without humans. Humans cannot live without plants.&quot;</p>
+<p>Leonardo Boff: &quot;The greatest theme of the Church is not the future of Christianity but the fate of the planet.&quot;</p>
+<p><strong>CLOSING (3 min)</strong></p>
+<p>Your identity, from Day Two, is child of God. Children take care of what their Father loves.</p>
+<p>The earth has been more patient with us than we deserve. Still producing. Still giving beauty. Still feeding people who have never thanked it.</p>
+<p>Go outside this afternoon. Do not take the phone.</p>
+<p><strong>Prayer</strong></p>
+<p><em>Lord of creation — of the mango tree, the mangrove, the Ganges, the monsoon and the sparrow — forgive us for treating your gift as our inventory. Forgive us the external deserts we have made because our internal deserts grew first. Make us like the tree by the water: rooted, yielding, healing. Let our presence in West Bengal be a sign of resurrection for all creation, which groans and waits. Amen.</em></p>
+<h3 class="sec">Talk 11 (midday) — &quot;When Did the School Stop Being a Church?&quot;</h3>
+<p><strong>Core word: </strong>RE-VISION</p>
+<p><strong>Based on: </strong>Chapter 12 | Heb 5:12; Jn 10:10</p>
+<p><strong>OPENING (5 min)</strong></p>
+<p>Picture an excellent school. Top results. Beautiful campus. Premium fees. Satisfied, affluent parents. A crucifix behind glass in the lobby, well dusted.</p>
+<p>Now picture a girl at the gate. Daily-wage family. No breakfast. Secondhand uniform. Waiting for a fee receipt that has not come.</p>
+<p>The security guard stops her.</p>
+<p>Whose school is this — Jesus&#x27;s, or the market&#x27;s?</p>
+<p>THEME: &quot;When did the school stop being a church?&quot;</p>
+<p><strong>PART 1 — VICTOR HUGO WAS RIGHT, AND WE MISSED THE POINT (9 min)</strong></p>
+<p>Victor Hugo: &quot;When you open a school door, you close a prison door.&quot;</p>
+<p>True — but only if the school is accessible to the children who would otherwise end up in the prison. Open a door only to those already safe, and no prison door closes anywhere.</p>
+<p>Sr Inigo names the mechanism precisely: Christian institutions spend enormous time PRAYING for the poor while failing to do justice, pay fair wages, or make the poor feel at home.</p>
+<p>She calls it pseudo-satisfaction — the feeling of doing something meaningful without restructuring anything around the poor.</p>
+<p>Mother Teresa, and note that she did not say leave: &quot;Don&#x27;t leave your schools. We need you there. BUT CHANGE YOUR STRATEGIES.&quot;</p>
+<p>The 2004 National Consultation put it sharply: education is a mission, but not every type of education is the Christian mission. If our schools merely empower the already empowered, we are running a profession and not an apostolate.</p>
+<p>The Gandhi test, applied to your last five institutional decisions — the new tiles, the new wing, the fee revision, the admission policy, the scholarship allocation: how did each benefit the poorest and most vulnerable?</p>
+<p><strong>PART 2 — THREE SOUL-SEARCHING QUESTIONS (10 min)</strong></p>
+<p>Q1. WHAT MORE ARE WE ACHIEVING THAN OTHERS? If our pride is pass rates, rankers and buildings — which secular school is not also achieving those? What makes it specifically Christian?</p>
+<p>What should make it Christian: it forms conscience, shapes social reformers, produces graduates who use power for the powerless.</p>
+<p>And the uncomfortable observation Sr Inigo makes: many of India&#x27;s most corrupt politicians were educated in Christian schools. Our former students do not protest anti-conversion bills and do not speak when missionaries are murdered.</p>
+<p>Something is wrong with what we are producing.</p>
+<p>Q2. WHO ARE THE MAIN BENEFICIARIES? More than fifty per cent of students in Catholic schools are from well-off families — in schools founded to educate the poor.</p>
+<p>Nobody decided this either. Fee revisions, prestige, selection for performance. Drift again.</p>
+<p>And inside the school: we drill the syllabus, celebrate the meritorious, prepare for exams. What happens to the one lost sheep — the child without a proper uniform, without breakfast, not performing, who will never appear in the brochure? Is anyone&#x27;s pastoral energy on that child, or is she managed until she quietly leaves?</p>
+<p>Q3. WHAT IS THE OUTCOME? Have we formed people who examine their lives — or professionally successful people who are morally asleep, comfortable, entitled and indistinguishable from peers educated without religion?</p>
+<p>If the latter, the education was excellent. The Christian formation was not.</p>
+<p><strong>PART 3 — FOUR MYTHS, DISMANTLED (10 min)</strong></p>
+<p>MYTH ONE: &quot;Poor children cannot cope with a good standard or English medium.&quot; It sounds compassionate. It blames the child&#x27;s intelligence rather than the quality of our teaching and the absence of remedial support. The distance between the poor child and a good education sits in the institution, not the child.</p>
+<p>Sr Cyril of Kolkata: &quot;If you want silence, you go to a graveyard. There you will have perfect silence.&quot; A perfectly quiet school usually means a school of children who arrived already confident and well-prepared.</p>
+<p>MYTH TWO: &quot;Good academic results signify a good school.&quot; Admitting children from the margins will affect the rank list initially. Let it. Catering only to the elite causes Christian standards — not academic standards, Gospel standards — to fail. A state board ranking is not a Gospel ranking.</p>
+<p>MYTH THREE: &quot;The poor will dirty the place and disrupt discipline.&quot; Almost never said aloud. Frequently the operating assumption behind admissions. And that child — without the cultural fluency to navigate our language, processing hunger and displacement — is precisely the child the Church was founded to teach first.</p>
+<p>MYTH FOUR: &quot;The poor cannot afford English-medium fees.&quot; Then create corpus funds. Redirect what is spent on superficial aesthetics — tiles and paint — into educating poor students.</p>
+<p>A school is not its campus. A school is its students. If the students already have everything, we have a beautiful building that has mistaken itself for a mission.</p>
+<p><strong>PART 4 — RE-VISIONING, AND A HARD PROPOSAL (8 min)</strong></p>
+<p>The post-COVID opening: the pandemic exposed that the digital divide is simply the poverty divide. The tea gardens of North Bengal, the tribal belts of Purulia, the Sundarbans were left without educational continuity for two years.</p>
+<p>That is where the Diocesan Education Society and religious congregations should be mobilising.</p>
+<p>And now the proposal that will be resisted in this room. Lay teachers are often better equipped for school work than we are — more time, focused professional formation, no canonical or community obligations pulling them away.</p>
+<p>Sr Inigo&#x27;s conclusion: boldly elevate talented lay teachers to principal roles. Consider yielding joint control to the laity. Because doing so would FREE consecrated persons to move to the frontier ministries nobody else is doing — the prison, the trafficking corridor, the adivasi village, the ministry of presence in the slum.</p>
+<p>Religious who remain in schools because &quot;no one else can be trusted&quot; may be holding the school together while the frontier waits for somebody with the freedom to go.</p>
+<p>Matthew 25:40 — the least of these is the index of the mission. When we see God&#x27;s image in the child without breakfast, it is an apostolate. When we optimise for the child with wealthy parents, it is a market transaction with a religious aesthetic.</p>
+<p><strong>CLOSING (3 min)</strong></p>
+<p>Female literacy in Bengal still lags behind male literacy by decades. The adivasi girl who never reaches secondary school. The Dalit woman told education is not for her. The girl pulled out to contribute to the household income.</p>
+<p>These are the students Jesus built the school for.</p>
+<p>They are still at the gate. &quot;You need someone to teach you.&quot; Will we be the ones who come?</p>
+<p><strong>Prayer</strong></p>
+<p><em>Lord Teacher, who sat with fishermen and with a demonised woman and with the children the disciples tried to send away — forgive us for schools that turned to face the comfortable and turned their backs on the ones you sat with first. Give us Mother Teresa&#x27;s courage: don&#x27;t leave — but CHANGE. For the Dalit girl in Murshidabad, the adivasi boy in Purulia, the girl told she could not cope: you say she can. Teach us to believe you. Amen.</em></p>
+<h3 class="sec">Talk 12 (evening) — &quot;Apartheid is a State of Mind&quot;</h3>
+<p><strong>Core word: </strong>CLARITY</p>
+<p><strong>Based on: </strong>Chapter 9 | Dt 30:19; Jn 10:10</p>
+<p><strong>OPENING (5 min)</strong></p>
+<p>A crossroads in any village in this state. No signboard. A traveller stops, uncertain. He asks the person standing there — and that person points, and the journey continues.</p>
+<p>That is a signpost.</p>
+<p>Tonight&#x27;s question: are you a signpost that actually points somewhere? Or part of the scenery?</p>
+<p>THEME: &quot;Choose life — or choose the thief.&quot;</p>
+<p><strong>PART 1 — JESUS AND THE THIEF (9 min)</strong></p>
+<p>John 10:9-10 gives two figures and two purposes. Jesus: the gate, who saves, gives pasture, gives life in fullness. The thief: who steals, kills and destroys — and that is not an accident of the thief&#x27;s character. It is his specific purpose.</p>
+<p>Sr Inigo then lists how religious communities become complicit in the thief&#x27;s work. Read it slowly, because it is written about us and not about the government.</p>
+<p>Paying unjust wages to kitchen, cleaning and maintenance staff.</p>
+<p>Exploiting the poor within our institutions — fees that exclude, hospitals the poor can admire but not afford.</p>
+<p>Craving power and position, until internal politics consumes what should be feeding the mission.</p>
+<p>Remaining deaf to the cries of the oppressed, and filing it under the government&#x27;s problem.</p>
+<p>These are not pastoral shortcomings. She calls them participation in the thief&#x27;s plundering.</p>
+<p>St Irenaeus: &quot;The glory of God is the human fully alive.&quot; We are either pointing toward that — or somewhere easier.</p>
+<p><strong>PART 2 — THE ONES THE WORLD HAS AGREED TO FORGET (10 min)</strong></p>
+<p>She names them specifically, and refuses to soften the language. So will we.</p>
+<p>DALITS. Huts burnt for demanding just wages. Women gang-raped as punishment. People forced to eat human excreta. Men stoned for skinning dead cattle. Dalit women still manually carrying night soil.</p>
+<p>That is now. Within travelling distance of this room.</p>
+<p>ADIVASIS. In Jharkhand alone: six hundred thousand displaced. Twenty-three lakh acres taken. Only twenty-five per cent resettled or compensated — which means seventy-five per cent uprooted, invisible, surviving in cities without skills, documentation or infrastructure.</p>
+<p>We call this development. Isaiah 10:1-2 calls it injustice: &quot;Woe to those who make unjust laws, to deprive the poor of their rights.&quot;</p>
+<p>Matthew 25:40 — whatever you did to the least of these, you did to me. Which means the Dalit woman carrying night soil is Jesus carrying it. The displaced adivasi family is Jesus displaced.</p>
+<p>Mother Teresa&#x27;s division of labour: &quot;Government cares for the poor. NGOs care for the poorer. Religious are specially called for the poorest.&quot; Not the manageable poor. Not the photogenic poor. The ones nobody else reaches.</p>
+<p><strong>PART 3 — APARTHEID AS A STATE OF MIND (10 min)</strong></p>
+<p>Sr Inigo takes the word out of South African politics and makes it interior. Apartheid, she says, is &quot;a certain way of thinking, feeling and living — without being conscious of what is happening around us.&quot;</p>
+<p>A state of mind. Which means it can be practised while using entirely correct theological language.</p>
+<p>THE SCHEDULE AS A WALL. &quot;We would love to engage, but our timetable doesn&#x27;t allow it.&quot; The timetable was designed by us. We chose what fills it.</p>
+<p>THE WALLS AS WALLS. High compound walls, security gates, announcement required at the entrance. Each defensible individually. Over years they communicate one message: the suffering outside is not your primary concern.</p>
+<p>THE LANGUAGE OF MANAGEMENT replacing the language of solidarity. &quot;Beneficiaries&quot; instead of brothers and sisters. &quot;Target communities&quot; instead of neighbours. Annual impact reports instead of faces.</p>
+<p>Socrates again: an unexamined life is not worth living. A religious life not examined against the Gospel and the reality of the poor is a life at risk of practising apartheid while speaking the language of service.</p>
+<p><strong>PART 4 — THE SIGNPOST MUST ELIMINATE DIRECTIONS (7 min)</strong></p>
+<p>A signpost cannot point everywhere. Clarity requires eliminating other directions. That is not narrowness — it is the discipline of being useful.</p>
+<p>Our clear NO: to the marketisation of human life, treating people as economic units. To ideologies that favour the wealthy and sideline the disadvantaged. To our own complicity, which is the hardest no of all.</p>
+<p>And her structural proposal, which is rarely taken seriously and should be tonight: a significant percentage of religious personnel must be FREED from institutional ministries for non-institutional work.</p>
+<p>The institution always finds reasons why it cannot spare anyone. Always. The reasons are always true.</p>
+<p>And the poorest, who need someone to stand with them where no institution yet exists, keep waiting.</p>
+<p>Deuteronomy 30:19 — &quot;I have set before you life and death. Choose life.&quot; Not: form a committee. Not: study the matter. CHOOSE.</p>
+<p><strong>CLOSING (3 min)</strong></p>
+<p>Matthew 25 does not ask whether you ran a good institution. It asks: did you come?</p>
+<p>Tonight, one question in the silence. In the last year, what did my schedule choose — and who was excluded by that choice without my ever deciding to exclude them?</p>
+<p>A signpost that points at nothing is scenery.</p>
+<p><strong>Prayer</strong></p>
+<p><em>Lord who came that they may have life in all its fullness — forgive us for the days we have served the thief while using your name. For unjust wages paid quietly. For fees that exclude the children we were founded to serve. For walls that were reasonable one at a time and became a barrier. For the language of management where you gave us brothers and sisters. Set life and death before us again tonight — and give us the nerve to choose. Amen.</em></p>
+</section>
+<section class="chapter" id="day-five-mercy-and-faith"><h2>Day Five — Mercy and Faith</h2>
+<h3 class="sec">Talk 13 (morning) — &quot;The Revolution Nobody Expected&quot;</h3>
+<p><strong>Core word: </strong>MERCY</p>
+<p><strong>Based on: </strong>Chapter 6 | Lk 6:36</p>
+<p><strong>OPENING (5 min)</strong></p>
+<p>Four days of hard questions. Today the word everything has been building toward — and it is not the word you would expect from a retreat about being dangerous.</p>
+<p>MERCY. Not sentiment. A revolutionary force.</p>
+<p>A question first, and let it sit. Has someone ever had every right to condemn you — and chose not to?</p>
+<p>That experience, whenever it happened, is the beginning of everything we say today.</p>
+<p>THEME: &quot;The revolution nobody expected — mercy.&quot;</p>
+<p><strong>PART 1 — A BOOK GIVEN ON THE NIGHT OF THE CONCLAVE (8 min)</strong></p>
+<p>March 2013. The Sistine Chapel. On the first night of the conclave, Cardinal Kasper gives Cardinal Bergoglio a copy of his book La Misericordia.</p>
+<p>Bergoglio&#x27;s response: &quot;Ah, mercy! This is the name of our God.&quot;</p>
+<p>The next day he was Pope Francis. Three years later he declared an Extraordinary Jubilee of Mercy.</p>
+<p>Not a coincidence. The Holy Spirit pressing a point: the world does not need more doctrine, more administration, more committees. It needs mercy.</p>
+<p>He uses the word thirty-two times in The Joy of the Gospel and calls for a revolution of tenderness.</p>
+<p>And the revolution of Jesus is first a revolution of the GAZE. He looked at people the way nobody else was looking at them — Zacchaeus up the tree, the woman dragged into the square, the leper, the blind man. With the eyes of the Father.</p>
+<p><strong>PART 2 — THREE INDIFFERENCES (9 min)</strong></p>
+<p>INDIFFERENCE TO GOD. In religious life this almost never looks like atheism. It looks like competent professionalism. Self-sufficiency with a chapel attached. The Office recited accurately by someone who has not expected anything from God in years.</p>
+<p>INDIFFERENCE TO THE NEIGHBOUR. Being &quot;vaguely aware&quot; of tragedies. Scrolling past. Pope Francis after COVID named an even worse virus: &quot;selfish indifference — life is better if it is better for me.&quot;</p>
+<p>INDIFFERENCE TO MOTHER EARTH. Yesterday&#x27;s conference, and it belongs on this list rather than in a separate department.</p>
+<p>Notice that all three are passive. None requires malice. Indifference is the sin that requires nothing of you at all — which is exactly why it is so available to busy people.</p>
+<p><strong>PART 3 — TWO DIMENSIONS OF COMPASSION (12 min)</strong></p>
+<p>SENSITIVITY — the heart moved. The Greek is splanchnizomai: the gut disturbed. A visceral interior response to another&#x27;s pain. Not managed. Not filed. Moved.</p>
+<p>The word is used of Jesus repeatedly, and it is a bodily word. Our translations tidy it into &quot;he had compassion,&quot; which sounds like a decision. It is not a decision. It is what happens in the stomach before any decision is made.</p>
+<p>GENEROSITY — from the heart to the hands. Compassion means to suffer WITH. Getting close enough that their pain becomes yours.</p>
+<p>The Good Samaritan has both, in sequence, and Luke gives seven verbs: he SAW, he was MOVED, he CROSSED the road, he KNELT, he POURED the oil, he PAID, and he PROMISED TO RETURN.</p>
+<p>Sensitivity became generosity. If it stops at feeling, it is not compassion — it is emotion about someone else&#x27;s life.</p>
+<p>And the detail that convicts us. The priest and the Levite also SAW. They were not blind. They saw, and crossed to the other side.</p>
+<p>Theology intact. Schedule intact. Hearts not.</p>
+<p>Ask which of the seven verbs you stop at. Most religious get to &quot;was moved&quot; reliably. The crossing of the road is where it ends.</p>
+<p><strong>PART 4 — ISLANDS OF MERCY (7 min)</strong></p>
+<p>Sr Inigo: our communities must be &quot;islands of mercy in a sea of indifference.&quot; Solid ground where the logic of indifference does not apply.</p>
+<p>Five questions for the community, and they are meant to be answered honestly this afternoon.</p>
+<p>Do I relate to others from a position of superiority?</p>
+<p>Do I delegate and invite collaboration — or hoard?</p>
+<p>Am I at ease working under a lay leader?</p>
+<p>Could the poor of this place honestly call me compassionate?</p>
+<p>What would have to change for this house to become a true oasis of mercy?</p>
+<p>Note the third one especially. It is the question that reveals most, and the one most religious answer too quickly.</p>
+<p><strong>CLOSING (3 min)</strong></p>
+<p>Luke 6:36 — &quot;Be compassionate AS your heavenly Father is compassionate.&quot; The standard is infinite: unconditional, running toward us while we are still far off.</p>
+<p>We cannot achieve it. We can aim at it. And the aiming — daily, humbly, repeatedly — is itself a form of worship.</p>
+<p>Mercy is not a chapter of the story. It is the grammar in which the whole story is told.</p>
+<p><strong>Prayer</strong></p>
+<p><em>Father of mercy — make us viscerally merciful: the kind that crosses the road, kneels, pours the oil, pays, and comes back. Forgive us for stopping at being moved. Forgive us for the competent professionalism that has replaced expecting anything </em><em>from you. Make this house an island of mercy in a sea of indifference. Let the revolution of tenderness begin here, today. Amen.</em></p>
+<h3 class="sec">Talk 14 (midday) — &quot;Four Parables and a Surgery&quot;</h3>
+<p><strong>Core word: </strong>FORGIVENESS</p>
+<p><strong>Based on: </strong>Chapter 6 | Jn 8; Lk 15; Mt 20; Jonah</p>
+<p><strong>OPENING (5 min)</strong></p>
+<p>This morning: what mercy is. Now: what it looks like when God does it — four times, in four different keys.</p>
+<p>And then the harder question, which is not whether God forgives, but whether you have let him.</p>
+<p>THEME: &quot;Have I received mercy, or only administered it?&quot;</p>
+<p><strong>PART 1 — THE WOMAN AND THE PRODIGAL (11 min)</strong></p>
+<p>THE WOMAN IN ADULTERY (Jn 8). Jesus is silent. He writes in the dirt. Then: &quot;Let the one without sin cast the first stone.&quot;</p>
+<p>And the eldest leaves first — because the most years mean the most sins. The old know something the young have not learned yet.</p>
+<p>Then to her: &quot;Neither do I condemn you. Go and sin no more.&quot;</p>
+<p>Mercy is not amnesia. He does not say it did not happen; he does not tell her it was fine. Mercy is resurrection: he gives her a future before she has earned one.</p>
+<p>THE PRODIGAL SON (Lk 15). The father sees him while he is still far off — which means he had been watching the road, daily, for a long time.</p>
+<p>He RUNS. For an elder in that culture, undignified: he had to gather his robe and show his legs to the whole village. He cuts off the rehearsed apology before the boy can finish. He throws a party.</p>
+<p>And Pope Francis names the elder brother&#x27;s condition exactly: spiritual Alzheimer&#x27;s. The moment his resentment feels more reasonable to us than the father&#x27;s joy, we have forgotten how many times God has run toward us.</p>
+<p>Be honest about which brother you resemble in community meetings.</p>
+<p><strong>PART 2 — THE VINEYARD AND JONAH (10 min)</strong></p>
+<p>THE LABOURERS IN THE VINEYARD (Mt 20). Workers hired at six in the morning are paid exactly the same as workers hired at five in the afternoon.</p>
+<p>Economically, everyone in this room agrees the all-day workers have a case. That agreement is the point of the parable.</p>
+<p>The owner: &quot;Do you begrudge my generosity?&quot; God does not relate to us by the logic of wages. God relates by the logic of need — and God&#x27;s response to need is always: enough.</p>
+<p>This is the parable that most offends religious, because our whole life is structured as long service. We are the all-day workers, and we know it.</p>
+<p>JONAH. God relents after Nineveh repents, and Jonah is furious — furious that God is merciful, which he had suspected all along and resented in advance.</p>
+<p>God: &quot;Should I not be concerned about that great city?&quot;</p>
+<p>Sr Inigo&#x27;s formulation, worth writing down: God forgets our iniquities not from weak memory but from a strong will to heal and to love.</p>
+<p>Also: the haemorrhaging woman (Mt 9:20-22), ritually impure, excluded, who touches him from behind — and he turns and says &quot;Courage, daughter.&quot; Nobody is an outcast to God.</p>
+<p>And Matthew 18:22 — forgive seventy-seven times, which is not a quota but a way of saying: totality. Stop counting.</p>
+<p><strong>PART 3 — FORGIVENESS AS SURGERY (9 min)</strong></p>
+<p>Archbishop Desmond Tutu, who had more reason than most to think about this: &quot;Forgiveness is not for other people. We do it for ourselves — to get well and move on.&quot;</p>
+<p>It is not a gift you give the offender. It is surgery you perform on yourself.</p>
+<p>And note that surgery hurts. This is not a reframe designed to make forgiveness easy. It is a reframe designed to explain why it is worth the pain — because the alternative is carrying the wound indefinitely and calling it justice.</p>
+<p>Now apply it to religious life specifically, where the offences are small and permanent. The remark at chapter eleven years ago. The posting you believe you were denied. The sister who was believed instead of you.</p>
+<p>Nobody is going to die of these. That is exactly why they last thirty years.</p>
+<p>A community can be doctrinally impeccable and quietly full of unhealed surgical cases who have declined the operation.</p>
+<p><strong>PART 4 — RECEIVE BEFORE YOU DISPENSE (7 min)</strong></p>
+<p>PERSONALLY. Receive mercy first. Go to confession as an encounter and not as a ritual obligation with a familiar list.</p>
+<p>And forgive yourself — which for many religious is the genuinely difficult one. Stop rehearsing the apology speech. The father cut it off. Let him put the ring on your finger.</p>
+<p>PLANETARILY. Pope Francis&#x27;s eighth work of mercy: care for our common home. Mercy extends to everything God made.</p>
+<p>And the Good Friday 2020 meditation, which is the best definition of the word available: &quot;True justice is possible only through a mercy that does not crucify forever — but becomes a guide in helping one get up.&quot;</p>
+<p>Mercy is justice with a future added.</p>
+<p>And that future has a name. Resurrection.</p>
+<p><strong>CLOSING (3 min)</strong></p>
+<p>Four parables. A woman given a future, a father who ran, a wage nobody earned, and a prophet sulking outside a city God had decided to spare.</p>
+<p>In every one, God is more generous than the people watching think is reasonable.</p>
+<p>This afternoon: not who you need to forgive. What you have not yet allowed God to forgive in you.</p>
+<p><strong>Prayer</strong></p>
+<p><em>Father who ran down the road while he was still far off — forgive us for being Jonah, sulking outside the city, angry that you chose mercy when we had prepared for judgment. Forgive us for the years we have spent rehearsing an apology you never asked to hear. Cut it off. Put the ring on our finger. And make us merciful the way you are merciful — before we have decided anyone deserves it. Amen.</em></p>
+<h3 class="sec">Talk 15 (evening) — &quot;Nothing at All — and Everything That Matters&quot;</h3>
+<p><strong>Core word: </strong>FAITH</p>
+<p><strong>Based on: </strong>Chapter 10 | Ps 107:35; Heb 11:6</p>
+<p><strong>OPENING (5 min)</strong></p>
+<p>A question hiding underneath every retreat, and it is time to say it out loud.</p>
+<p>What happens when all the good talks are over and you go back to your community — unchanged?</p>
+<p>The missing ingredient is not effort and not information. It is FAITH. Not doctrinal belief. A profound personal encounter with Christ.</p>
+<p>Psalm 107:35: &quot;He turns a desert into pools of water.&quot; Not removing the desert. Turning it into something life-giving from the inside.</p>
+<p>THEME: &quot;Nothing at all — and everything that matters.&quot;</p>
+<p><strong>PART 1 — THE MAN WHO STILL WENT EVERY MORNING (9 min)</strong></p>
+<p>An eighty-year-old man at a clinic having stitches removed, glancing repeatedly at the clock. He is in a hurry. He has to eat breakfast with his wife at the nursing home.</p>
+<p>She has Alzheimer&#x27;s. She has not recognised him in five years.</p>
+<p>The nurse asks why he still goes every morning.</p>
+<p>&quot;She doesn&#x27;t know who I am. But I still know who she is.&quot;</p>
+<p>There is the definition of faith, and it is better than anything in the manuals.</p>
+<p>Faith is not what we feel when God seems close. It is what remains when God seems to have forgotten your address — and you still know who he is, and still show up. Not because it feels good. Because you know who he is.</p>
+<p>A second story, and it belongs beside the first. A father and daughter crossing a dangerous bridge. The father says: &quot;Hold my hand firmly.&quot; The daughter says: &quot;No, Daddy — YOU hold MY hand.&quot;</p>
+<p>He asks why. &quot;If I hold yours, I might let go if something frightens me. If you hold mine, you will never let go.&quot;</p>
+<p>Faith is not our white-knuckled grip on God. It is God&#x27;s grip on us — and it does not depend on how tightly we are holding on.</p>
+<p>Hebrews 11:6 — without faith it is impossible to please God. Not difficult. Impossible.</p>
+<p>Mark 9:24 — &quot;Lord, I do have faith; help my lack of faith.&quot; Perfect faith is not the precondition. Honest, struggling, incomplete faith is enough for Jesus to work with.</p>
+<p><strong>PART 2 — THE WILDERNESS SCHOOL (10 min)</strong></p>
+<p>A pattern almost nobody notices until it is pointed out: nearly everyone significant in Scripture goes through a wilderness first.</p>
+<p>Abraham — &quot;go from your country,&quot; no map, no date (Gen 12:1). Moses — forty years in Midian before the burning bush. Israel — forty years in Sinai, and God&#x27;s own explanation: &quot;he humbled and tested you to know what was in your heart&quot; (Dt 8:2). Not punishment. Curriculum.</p>
+<p>Elijah — burnt out, &quot;I have had enough, Lord, take my life,&quot; then forty days, then the still small voice. John the Baptist — prepared in the wilderness before Jerusalem. Jesus himself — immediately after the voice says &quot;this is my beloved Son,&quot; the Spirit DRIVES him into the desert for forty days.</p>
+<p>The prodigal son &quot;came to himself&quot; in the pig sty. The wilderness of failure was the place of awakening.</p>
+<p>Paul — three years in Arabia after Damascus, before any missionary work.</p>
+<p>The pattern: God does his deepest formation work in the places that feel most abandoned. The wilderness is not God&#x27;s absence. It is God&#x27;s intensive presence, stripped of the distractions that prevent transformation.</p>
+<p>And Psalm 107:35 again — he turns the desert into pools of water. Not after the wilderness ends. Inside it. The oasis is within the difficulty, not after it.</p>
+<p>So: where is YOUR wilderness right now? The assignment you did not choose. The community member you cannot reach. The prayer that has been dry for three years.</p>
+<p>That is the curriculum.</p>
+<p><strong>PART 3 — THE PRAYER THAT GAINS NOTHING (10 min)</strong></p>
+<p>A conversation from a Bible study inside Tihar Jail.</p>
+<p>Raju — Hindu, wrongfully imprisoned five years — asks Halley, an African Christian: &quot;Tell me honestly. What have you GAINED from praying?&quot;</p>
+<p>Halley&#x27;s answer, and read it slowly:</p>
+<p>&quot;Nothing. Nothing at all. I gained nothing. But let me tell you what I have LOST. Anger. Ego. Impatience. Depression. Insincerity. Insecurity. Fear of death. Prayer is not gaining something. Prayer is losing.&quot;</p>
+<p>Seven burdens. The seven heaviest things a human being carries. Lost through prayer, freely, in a prison — by a man who calls it nothing.</p>
+<p>Sr Inigo: &quot;Prayer is not meant to pressurise God to fall in line with our human dictates. It is meant to help us understand the mind of God.&quot;</p>
+<p>We have it backwards. We arrive with an agenda and measure prayer by whether the list gets shorter. The tradition says the purpose of prayer is the transformation of the one who prays, not the manipulation of circumstances.</p>
+<p>The greatest miracle of Lourdes is not the physical healings, which are verified and extraordinary. It is &quot;the strength given to accept and live with one&#x27;s illness or problem.&quot; Transformation inside the hardship rather than removal of it.</p>
+<p>And a line to take into the night: &quot;When God does answer our prayer, we have faith in him. When he doesn&#x27;t — he has faith in us.&quot;</p>
+<p><strong>PART 4 — REDEEMING, NOT RESCUING (8 min)</strong></p>
+<p>The distinction that holds this whole retreat together.</p>
+<p>God is not a rescuing God. God is a REDEEMING God.</p>
+<p>A rescuing God lifts you out of the situation and removes the problem.</p>
+<p>A redeeming God enters the situation with you. Does not remove the cross. Transforms what the cross means and what it produces.</p>
+<p>And the demonstration is not theoretical. Jesus on the cross. God did not rescue him. Did not send the angels he could have called (Mt 26:53). Allowed the crucifixion in all its horror.</p>
+<p>And then redeemed it — raised him — and turned a Roman instrument of execution into the universal symbol of love.</p>
+<p>This matters pastorally. We promise rescue, and people lose their faith when it does not come. If we understand God as redeeming, we can sit with people in their wilderness and say something true: God is not absent here. God is working through it, not away from it.</p>
+<p>A Tihar inmate: &quot;For me, coming to prison is not a curse. I consider it a blessing. I get time for contemplation. I am disciplined here. When God makes a promise, he keeps it.&quot;</p>
+<p>A man in prison, calling it a blessing — because he found God inside it, not outside.</p>
+<p><strong>CLOSING (3 min)</strong></p>
+<p>Five reflection questions for tonight, from Sr Inigo. Take them into the chapel.</p>
+<p>What do you mean by faith — from your experience, not the textbook? Who is the God you are actually encountering, and what does your image of him reveal? Where specifically are you finding God in your current wilderness? Is your prayer a habit of intimacy, or a well-maintained religious routine? Is community prayer a ritual, or does it genuinely bring you into the Word?</p>
+<p>And the old man at the clinic. Every morning. Five years. She does not know his face.</p>
+<p>&quot;She doesn&#x27;t know who I am. But I still know who she is.&quot; That is faith — not as a concept, but as a daily act of love that requires no return.</p>
+<p><strong>Prayer</strong></p>
+<p><em>Lord who turns deserts into pools — teach us to trust the redeeming God when every instinct screams for the rescuing one. Give us Halley&#x27;s prayer: not solutions, but the subtraction of anger, ego, impatience, depression, insincerity, insecurity, and the fear of death. Turn our wilderness — the dry prayer, the difficult posting, </em><em>the unanswered request — into pools of water. Not after we get out. Here. Now. Inside it. Amen.</em></p>
+</section>
+<section class="chapter" id="day-six-the-frontiers"><h2>Day Six — the Frontiers</h2>
+<h3 class="sec">Talk 16 (morning) — &quot;i Was in Prison — and You Visited Me&quot;</h3>
+<p><strong>Core word: </strong>SOLIDARITY</p>
+<p><strong>Based on: </strong>Chapter 7 | Mt 25:36; Lk 4:18-19; Ps 142:7</p>
+<p><strong>OPENING (5 min)</strong></p>
+<p>Five days have been building toward a test — and Jesus set the test himself.</p>
+<p>Matthew 25:36: &quot;I was in prison and you visited me.&quot;</p>
+<p>A question, answered honestly to yourself. How many of you have been inside a prison — not for a Christmas hamper drop with a photograph, but to sit, to listen, to stay?</p>
+<p>Sr Inigo spent fourteen years at Tihar Jail — Asia&#x27;s largest prison, more than twenty thousand inmates. She went not as an official and not with a programme. As a sister, a human being, a believer.</p>
+<p>THEME: &quot;I was in prison — and you visited me.&quot;</p>
+<p><strong>PART 1 — THE WORLD BEHIND THE GATE (9 min)</strong></p>
+<p>Close your eyes for this.</p>
+<p>You are an under-trial prisoner. Your case has been postponed seventeen times. Your lawyer has stopped taking your calls. Your wife has stopped coming. Your mother has sent word: &quot;I don&#x27;t need a son like you.&quot;</p>
+<p>You have not been convicted of anything.</p>
+<p>Open your eyes. Sixty-three per cent of Tihar&#x27;s inmates are under-trials. The Human Rights Commission has estimated that up to sixty per cent are innocent.</p>
+<p>And they are housed with hardened criminals. Sr Inigo&#x27;s phrase: they enter as undergraduates and leave as postgraduates in crime.</p>
+<p>Overcrowding. Sanitation. Water. Food. Crumbling buildings. All documented — and none of it is the worst thing.</p>
+<p>The worst thing is the loneliness. It drives the choice of wrong companions inside, and it drives the suicides.</p>
+<p>Ranga, on death row in 1982, asked for his last wish. His mother had sent word: &quot;I don&#x27;t need a son like him.&quot; He said to the judge: &quot;I have no one in the world.&quot;</p>
+<p>Nelson Mandela: &quot;A nation is known not by how it treats its highest citizen, but by how it treats its prisoners.&quot;</p>
+<p><strong>PART 2 — WHY JESUS WOULD BE IN TIHAR (9 min)</strong></p>
+<p>The objection is honest and deserves an honest answer: why do criminals deserve our help?</p>
+<p>Jesus answered it with his life rather than with an argument.</p>
+<p>Luke 4:18-19 is his mission statement, read aloud in his home synagogue. &quot;Liberty to the captives&quot; is on the list — and it is not last.</p>
+<p>He was executed BETWEEN two criminals. And to one of them: &quot;Today you will be with me in paradise.&quot; Before any improvement was possible. Before any programme was completed. Without a rehabilitation certificate.</p>
+<p>Pope Francis, visiting a prison: &quot;Their fall could have been mine.&quot; Not smug piety. A personal acknowledgment.</p>
+<p>Pope St John XXIII, walking into a Roman prison: &quot;I, John, your brother. I have come because you cannot come to me.&quot;</p>
+<p>Cardinal Newman: &quot;We are the same. But you are caught, and we are yet to be caught.&quot;</p>
+<p>Psalm 142:7 — &quot;Lead me out of prison, that I may praise your name.&quot; Every prisoner prays some version of that. And according to Matthew 25, Christ is already inside, waiting for somebody to come looking for him.</p>
+<p><strong>PART 3 — FIVE WHO FOUND THEMSELVES (10 min)</strong></p>
+<p>Five men who came to visit Sr Inigo&#x27;s community after release.</p>
+<p>RAJU — eight years. Took a diploma. Ran the prison library. &quot;I had to find something to do with the time. So I chose to grow.&quot;</p>
+<p>SUDHIR — learned computer skills, and came out with a marketable qualification.</p>
+<p>DILIP — passed his Class X and Class XII examinations from inside the jail.</p>
+<p>AJAY — discovered he could paint. Entered national competitions. Won.</p>
+<p>THANGBOI — found music, and found the Bible; or was found by them.</p>
+<p>And Arthur Frank, a Nigerian, isolated three times over by nationality, language and race: &quot;When I first arrived, I felt I was in hell.&quot; Through the prayer sessions he found hope. He called it grace.</p>
+<p>Then Antony. Read this slowly, and then read it again.</p>
+<p>&quot;Outsiders think that we are lost. No — we have found ourselves here. Rather: Jesus found us.&quot;</p>
+<p>Ajay&#x27;s life is best described by a Japanese craft. KINTSUGI — repairing broken pottery with gold. The break is not disguised and the piece is not discarded. The fracture is filled with something precious and becomes the most beautiful part of the bowl.</p>
+<p>Mother Teresa: &quot;It is a beautiful gift of God to take care of people in jail. A real gift.&quot; Not a burden borne. A gift received — by the visitor as much as by the visited.</p>
+<p><strong>PART 4 — GOING IN (9 min)</strong></p>
+<p>Prison ministry is a ministry of presence. Not miraculous works. Not securing releases. Not spectacular programmes.</p>
+<p>Shekhar said to her: &quot;I have no one. Don&#x27;t dare come near me.&quot;</p>
+<p>She said: &quot;You are my brother. I have come to visit you.&quot;</p>
+<p>He wept, and opened his heart. There was no programme. There was a declaration of relationship.</p>
+<p>Pope Francis: &quot;Life means getting our feet dirty.&quot; Not offering prayers from a safe distance.</p>
+<p>Prison Ministry India is recognised by the CBCI, and its patron is St Maximilian Kolbe, who stepped forward at Auschwitz and said: &quot;Take me instead.&quot; He entered the place of death voluntarily, for another man. That is the spirituality of this work.</p>
+<p>Prison Ministry Sunday falls on the Sunday before the fifteenth of August. When was it last observed in your community — and who preached?</p>
+<p>And a note that should humble us: Vipassana meditation entered Tihar in 1994 under Kiran Bedi. Ten-day silent retreats, inside the prison, for men convicted of serious crimes. What emerged was peace, and tears nobody was performing for a parole board.</p>
+<p>Silence and self-confrontation as the beginning of conversion — which is exactly what spiritual directors have always known, and a police officer had to demonstrate it to us in a jail.</p>
+<p><strong>CLOSING (3 min)</strong></p>
+<p>Matthew 25 offers two sentences and no third option. &quot;I was in prison and you came.&quot; Or: &quot;I was in prison and you did not.&quot;</p>
+<p>There is no middle ground in the text. Only: did you come?</p>
+<p>And the good news is that you can. Write a letter. Support PMI. Pray for one man by name — an actual name, not &quot;prisoners.&quot; And some of you: go.</p>
+<p><strong>Prayer</strong></p>
+<p><em>Jesus, executed between two criminals, who promised Paradise to a thief before he had made a single amendment — you are already inside Dum Dum, and Presidency, and Berhampore, and Jalpaiguri, waiting for us. Give us the feet of John XXIII, who walked in and said &quot;I am your brother.&quot; Give us the nerve of Kolbe, who said &quot;take me instead.&quot; Forgive us for the hampers we delivered and the photographs we took and the hour we did not stay. Let us be the answer to Psalm 142. Amen.</em></p>
+<h3 class="sec">Talk 17 (midday) — &quot;The God Who Says No to the Noose&quot;</h3>
+<p><strong>Core word: </strong>DIGNITY</p>
+<p><strong>Based on: </strong>Chapter 8 | Jn 10:10; Jn 19:11</p>
+<p><strong>OPENING (5 min)</strong></p>
+<p>This morning: who is in the cell. Now the harder question: does the cell have the right to kill him?</p>
+<p>On the twentieth of March 2020, three days before the first COVID lockdown, the Nirbhaya convicts were executed. Across India, people celebrated.</p>
+<p>Nobody in this room is defending the crime. The question is different, and it is ours specifically: do we — followers of a crucified God — have the right to take a human life?</p>
+<p>THEME: &quot;The God who says No to the noose.&quot;</p>
+<p><strong>PART 1 — THE LAW BRITAIN MADE AND THEN ABOLISHED (9 min)</strong></p>
+<p>The death penalty provision in the Indian Penal Code was written by the British — Lord Macaulay — in 1860. It is colonial law.</p>
+<p>And here is the irony we rarely notice: the United Kingdom abolished it in 1969, declaring it incompatible with a civilised society.</p>
+<p>We kept the instrument the colonisers discarded, and we keep it as a point of national pride.</p>
+<p>Globally the movement runs one way. Country after country abolishing. Saudi Arabia ending it for crimes committed by minors. The Vatican removing it from its own penal code.</p>
+<p>And Pope Francis revised the Catechism itself in 2018. Paragraph 2267: &quot;The death penalty is inadmissible. It is an attack on the inviolability and dignity of the person. The Church works with determination for its abolition worldwide.&quot;</p>
+<p>That is not an opinion or a liberal position. It is doctrine.</p>
+<p>So a question, and it is uncomfortable. How many times has this been preached from your pulpit? Compare that with how many times you have preached on matters considerably less central.</p>
+<p><strong>PART 2 — THE THEOLOGY OF LIFE (10 min)</strong></p>
+<p>John 10:10 — &quot;I came that they may have life, life in all its fullness.&quot; Not to rank humanity into the deserving and the undeserving. LIFE. TO ALL. IN FULLNESS.</p>
+<p>Sr Inigo: &quot;True followers of Jesus believe only in giving life — never in taking it away.&quot;</p>
+<p>John 19:11 — Jesus to Pilate: &quot;You have no power over me unless it were given to you.&quot; All state power is derived, borrowed, and accountable to the God who breathed life into every person.</p>
+<p>A state execution asserts absolute power over a life that belongs to God — claiming an authority it cannot legitimately possess.</p>
+<p>And theologically, condemning someone to death is an act of DESPAIR. It is society saying: this person cannot change, has no future, is beyond redemption.</p>
+<p>The God of the prodigal son disagreed. The God of the good thief on Calvary disagreed — and did not ask for a rehabilitation certificate first.</p>
+<p>Gandhi: &quot;An eye for an eye makes the whole world blind.&quot;</p>
+<p>What capital punishment actually serves is not justice but catharsis. Public emotional satisfaction. The legal enactment of collective vengeance — a blood feud with paperwork.</p>
+<p><strong>PART 3 — THE HIDDEN DEATH PENALTY (9 min)</strong></p>
+<p>A concept most of us have never considered: life imprisonment without parole is a hidden death penalty.</p>
+<p>The psychological reality of maximum security: paranoia, chronic anxiety, severe depression, weight loss, complete loss of hope — and, frequently, suicide.</p>
+<p>A person who dies by suicide in prison died of the sentence.</p>
+<p>Pope Francis goes further than most Catholics realise: we should abolish the death penalty AND life imprisonment. Both. Not only the rope.</p>
+<p>Because the stated purpose of prison is reform and rehabilitation. If a sentence makes rehabilitation impossible by design, it is not justice. It is pain without a plan.</p>
+<p>And then mob lynching — which is capital punishment without a court, a judge, evidence or a defence. Pure revenge, public, celebrated, occasionally praised by political leaders.</p>
+<p>Every person in that mob is made in the image of God. Every person they attack is made in the image of God. The imago Dei is not forfeited by what a person has done.</p>
+<p>And now the turn inward, which is the point of this conference. Is YOUR community a hidden death penalty system? Can a person here be slowly crushed by contempt, judgment and dismissal — sentenced without trial, without appeal, and without anyone ever saying so aloud?</p>
+<p><strong>PART 4 — THE PROPHETIC NO (8 min)</strong></p>
+<p>Four questions Sr Inigo puts to communities.</p>
+<p>What are the life-destroying forces in your area — named specifically? In this state: bonded labour, child marriage, trafficking, communal mob violence, caste discrimination.</p>
+<p>Is your community honestly life-giving — or does someone in your house live a spiritual imprisonment, dismissed, overlooked, written off?</p>
+<p>What concrete humanitarian activities are on your calendar, not merely in your principles?</p>
+<p>What is your own position on the death penalty — and is it aligned with explicit Church teaching? If not, what will you do with the gap?</p>
+<p>Three movements of the prophetic no. SAY IT CLEARLY — preach the teaching; it is Catholic doctrine, not politics. ADVOCATE STRUCTURALLY — prison reform, rehabilitation, Prison Ministry India. And BEGIN WITHIN — because the world will not believe our public advocacy if our private culture does not practise it.</p>
+<p><strong>CLOSING (3 min)</strong></p>
+<p>A detail we rarely pause on. Jesus was executed by the state. Legally. Officially. Pilate washed his hands. Due process was followed. A popular vote was taken.</p>
+<p>And the sentence was wrong.</p>
+<p>The most famous execution in history was a judicial murder, and the person executed was the Son of God. The cross is what state execution did to God.</p>
+<p><strong>Prayer</strong></p>
+<p><em>Lord who told Pilate he had no power except what was given him — give us the courage to say No to every force that takes life, and Yes to the harder Gospel: that every person still bears your image, still belongs to you, and still has a future only you can see. Forgive us for the silence of our pulpits on your own doctrine. And show us whether anyone in this house is serving a sentence we never admitted to passing. Amen.</em></p>
+<h3 class="sec">Talk 18 (evening) — &quot;Let My People Go&quot;</h3>
+<p><strong>Core word: </strong>JUSTICE</p>
+<p><strong>Based on: </strong>Chapter 11 | Ex 5:1; Gen 1:26-27</p>
+<p><strong>OPENING (5 min)</strong></p>
+<p>The darkest conference of the retreat, placed deliberately after a day of faith and mercy — because this material requires interior steadiness.</p>
+<p>Sr Inigo calls human trafficking &quot;a pandemic of ultramodern society.&quot; She wrote that before COVID made the word ordinary.</p>
+<p>Exodus 5:1 — &quot;Let my people go.&quot; God&#x27;s fighting words to Pharaoh, delivered through Moses when patience had run out. Not gentle. Not diplomatic. A demand.</p>
+<p>THEME: &quot;Let my people go.&quot;</p>
+<p><strong>PART 1 — EVIL IS NOT WHERE WE THINK IT IS (10 min)</strong></p>
+<p>We locate evil safely in history — Hitler, Stalin, the Holocaust — which leaves us comfortably outside the frame. Sr Inigo refuses that comfort. Three cases.</p>
+<p>BRAZIL. A nine-year-old girl, pregnant with twins by her stepfather after three years of rape. The local church leader excommunicated the mother and the doctors for the life-saving abortion. The stepfather was not excommunicated, not named, not held accountable.</p>
+<p>Read the shape of that: more outrage at the procedure than at the years of rape that made it necessary.</p>
+<p>MUMBAI. A prominent businessman exposed for years of raping his own daughter. No visible markers. He wears a suit, sits in offices, may well attend Mass. Evil is not always recognisable — which is precisely why it survives.</p>
+<p>RUCHIKA GIRHOTRA, 1990. A fourteen-year-old reports molestation by an Inspector General of Police in Haryana. The system&#x27;s response was the systematic destruction of her family: parents harassed, brother falsely arrested, police hounding them for years. She took her own life. The first conviction came nineteen years later.</p>
+<p>Impunity is the system&#x27;s most powerful message, and it is heard clearly by every subsequent victim.</p>
+<p>And closer to home: the DEVADASI system. Girls as young as seven &quot;married to the gods&quot; — given religious sanction, then made sexually available to higher-caste men, unable to marry or leave. Five thousand ended up in the brothels of Mumbai, Pune and Karnataka.</p>
+<p>Turned into property in the name of religion.</p>
+<p><strong>PART 2 — SIX ROOT CAUSES (9 min)</strong></p>
+<p>POVERTY AND WEALTH WORSHIP. A recruiter promises a girl from Malda a legitimate job. The promise is false; the desperation is real.</p>
+<p>THE COST OF EDUCATION. Children drop out at ten or eleven, with nowhere to go — and become visible to the wrong people. Education is protection.</p>
+<p>BROKEN FAMILIES. A child without secure attachment seeks belonging elsewhere, and accepts it from whoever offers first.</p>
+<p>ABSENTEE PARENTING. And a statistic worth stopping on: ninety per cent of children aged eight to sixteen have viewed pornography online. Not because they went looking — because the algorithm delivered it. Without any counter-narrative of the dignity of the body, that produces distortions carried into adulthood.</p>
+<p>ABUSIVE EDUCATORS. Teachers exploiting students; domestic service extracted during school hours; marks exchanged for compliance. Documented, and happening in schools that look respectable.</p>
+<p>GOVERNMENT INCOMPETENCE AND IMPUNITY. Article 23 prohibits trafficking. Article 24 forbids child labour under fourteen in hazardous work. Both exist. Both are frequently unenforced. And the system teaches its lesson: reporting is dangerous, silence is safer.</p>
+<p><strong>PART 3 — WHERE GOD STANDS, AND WHAT BAPTISM DEMANDS (9 min)</strong></p>
+<p>Genesis 1:26-27. Every human being in God&#x27;s image — including the seven-year-old sold to a brothel, the woman trafficked out of Murshidabad, the child labouring in a Kolkata factory.</p>
+<p>When a trafficker reduces a person to a commodity, that is a desecration of God&#x27;s image. The theological word is sacrilege.</p>
+<p>Isaiah 10:1-2 — &quot;Woe to those who make unjust laws, to deprive the poor of their rights.&quot; The systems that enable trafficking are not merely criminal. They are prophetically condemned.</p>
+<p>And now the part that lands on us. Every Easter Vigil we are asked three questions. Do you renounce Satan? Do you renounce evil? Do you renounce the glamour of evil?</p>
+<p>And we answer: I do.</p>
+<p>Those are not liturgical formulas. They are commitments, renewed annually.</p>
+<p>To stand before trafficking, knowing what we now know, and do nothing, say nothing, advocate for nothing — is a betrayal of a promise we made publicly with a candle in our hands.</p>
+<p>Pope Benedict XVI: &quot;The sexual abuse of minors is a criminal, shameful act and an inexcusable mortal sin.&quot; Not a pastoral failing. A crime and a mortal sin simultaneously.</p>
+<p><strong>PART 4 — FOUR SECTORS OF RESPONSE (9 min)</strong></p>
+<p>PARENTS AND EDUCATORS. Know children&#x27;s online activity — relationally, not as surveillance. Talk about the body, dignity and exploitation early, often, age-appropriately, without shame. In schools: continuous gender sensitisation, not a one-off workshop. Teach children that their body is sacred, that no one has a right to touch without consent, and that speaking is not betrayal.</p>
+<p>THE STATE. Demand enforcement of Articles 23 and 24. And know your own geography: the trafficking corridors run from Bangladesh through Malda, Murshidabad and North 24 Parganas into Kolkata and onward.</p>
+<p>In many of those villages the Church is the only institutional presence there is. That presence can be activated for protection — if it chooses to be.</p>
+<p>NGOs AND CIVIL SOCIETY. Sensitise communities to notice irregular movement of children. The red flag is simple: a child leaving the village with a stranger for a vague job opportunity.</p>
+<p>And a number to write down and distribute: CHILDLINE — 1098. Our schools, hospitals and communities are trusted and present. We can be the ones who know the number and call it.</p>
+<p>MEDIA. Traffickers recruit through deceptive advertisements. Our parish newsletters, WhatsApp groups, social media and local radio can circulate warnings and helplines.</p>
+<p>One post, one story, one number, shared at the right moment to the right person, can interrupt a trafficking chain before it closes.</p>
+<p><strong>CLOSING (3 min)</strong></p>
+<p>Moses said it to Pharaoh, and Pharaoh said no ten times.</p>
+<p>We are not Moses. But we are called to the same posture: the refusal to be silent, complicit or indifferent.</p>
+<p>We said &quot;I renounce evil.&quot; Not &quot;I disapprove of evil.&quot; Renounce — actively, concretely, with voice and presence and platform.</p>
+<ol>
+<li>Write it down before you leave this chapel.</li>
+</ol>
+<p><strong>Prayer</strong></p>
+<p><em>Lord, you said it first — &quot;Let my people go&quot; — and you are still saying it. To us. For the seven-year-old married to the gods. For the fourteen-year-old destroyed for reporting. For the girl from Murshidabad who disappeared and whose name we never learned. Where you need feet, let them be ours. Where you need voices, let them be ours. Forgive us for years of comfortable silence. We renounce evil — help us mean it, in Malda, in Murshidabad, in North 24 Parganas, in every corridor through which a child should never have had to walk alone. Amen.</em></p>
+</section>
+<section class="chapter" id="day-seven-women-and-freedom"><h2>Day Seven — Women and Freedom</h2>
+<h3 class="sec">Talk 19 (morning) — &quot;She Has Chosen the Better Part&quot;</h3>
+<p><strong>Core word: </strong>EQUALITY</p>
+<p><strong>Based on: </strong>Chapters 13-14 | Lk 10:42; Gen 1:27</p>
+<p><strong>OPENING (5 min)</strong></p>
+<p>This conference is addressed to everyone here who holds institutional power. That is not only the women.</p>
+<p>An exercise, from Nirmala Vasanthakumar&#x27;s gender-sensitivity workshop. Women were asked to write about themselves without reference to anyone else. Ninety per cent wrote only about their relationships — father, husband, children. Asked to remove every external reference, there was almost nothing left to write.</p>
+<p>That is not inadequacy. It is conditioning — the long lesson that one&#x27;s worth is conditional, and that who one is apart from usefulness to others does not quite count.</p>
+<p>THEME: &quot;She has chosen the better part — and no one will take it from her.&quot; Jesus said that to defend a woman who wanted to think for herself. He has been saying it ever since.</p>
+<p><strong>PART 1 — THREE MODELS AND ONE CONTRADICTION (9 min)</strong></p>
+<p>Sr Inigo names three stereotypes, and the third is the dangerous one because it looks like honour.</p>
+<p>THE DISPLAY MODEL — woman as body, as visual object. Advertising, film, the internet.</p>
+<p>THE DOMESTIC MODEL — housewife, daughter-in-law, mother; available for service without limit; tiredness does not count; dreams filed and forgotten before twenty.</p>
+<p>THE PEDESTAL MODEL — the most sophisticated and by far the most effective. Woman worshipped as Shakti, the divine feminine without whom creation is impossible. Bharat Mata. Our Lady crowned at the shrine.</p>
+<p>And then told to go back to the kitchen.</p>
+<p>Sr Inigo&#x27;s question is the hinge of the whole chapter: &quot;How can we honour Mother Mary and, at the same time, denigrate women in our daily life?&quot;</p>
+<p>Goddess on Friday. Woman abused on Sunday.</p>
+<p>In the same country that venerates Shakti and crowns Our Lady: the girl child aborted, property denied, women barred from ceremonies, worth measured by the ability to produce sons.</p>
+<p>The patriarchal assumptions of the surrounding culture entered the Church through the back door, were given theological language, and were sanctified by institutional practice.</p>
+<p>And &quot;the Church has always done this&quot; is not a defence. The Church also always owned slaves. And changed.</p>
+<p><strong>PART 2 — WHAT SCRIPTURE ACTUALLY SAYS (11 min)</strong></p>
+<p>Genesis 1:27 — &quot;male and female he created them.&quot; Together as the image of God. Not male as primary and female as derivative. Together as the full image.</p>
+<p>Genesis 2 — the deep sleep: the man had to die to his isolated self to receive his complement. And she is taken from his RIB. Not his head. Not his feet. His side. &quot;Bone of my bone&quot; is the language of identity and equality, not hierarchy.</p>
+<p>Jesus subverting the norms explicitly. He praised the widow&#x27;s coin OVER the men with more money (Mk 12:43). He DEFENDED the woman who anointed him when the disciples objected (Mk 14:6). He called out Simon the Pharisee sharply for judging a woman by a double standard (Lk 7:44-46).</p>
+<p>Luke 13 — the woman bent double eighteen years, at the back where women were invisible. He calls her FORWARD, touches her, and names her DAUGHTER OF ABRAHAM. A title never before given to a woman.</p>
+<p>MARY, and not the stained-glass version. She questioned the angel — &quot;How will this be?&quot; She enquires; she does not blindly comply. Informed consent is her gift to salvation history. At Cana she sees the problem, acts, and launches the public ministry without being invited. In the Temple it is Mary, not Joseph, who confronts the twelve-year-old: &quot;Son, why have you treated us like this?&quot; And at the cross, when every male disciple had fled, Mary STOOD.</p>
+<p>JUNIA (Rom 16:7). Paul greets Andronicus and Junia, &quot;outstanding among the apostles.&quot; A woman apostle, named by Paul. A medieval scribe added a single letter — &quot;Junias&quot; — and made her a man.</p>
+<p>One letter. That is all it took to erase a woman apostle from the text.</p>
+<p>PRISCILLA is named BEFORE her husband in four of six references. Teacher, leader, missionary. And Sr Inigo&#x27;s line: the lack of twenty-first-century Priscillas is due to a severe dearth of twenty-first-century Aquilas — men secure enough to walk alongside rather than in front.</p>
+<p><strong>PART 3 — THREE WOMEN AND THREE FIRSTS (10 min)</strong></p>
+<p>THE SAMARITAN WOMAN (Jn 4). Samaritan, not Jewish. Woman, not man. Outcast — she comes to the well at midday, in the heat, to avoid the others. Five husbands. Disqualified by every first-century category available.</p>
+<p>Jesus has the LONGEST recorded conversation with any individual in all four Gospels with her. He reveals himself as &quot;I AM&quot; — the divine name — to her, before the disciples. She becomes the first evangelist in John and triggers the first mass conversion in Samaritan history.</p>
+<p>The first evangelist is a woman with a complicated past. Not despite the past — chosen exactly as she was.</p>
+<p>MARTHA (Jn 11). To her — not to Peter, not to the twelve, not in the Temple — Jesus says the most cosmic sentence of his ministry: &quot;I am the resurrection and the life.&quot;</p>
+<p>And her reply is a complete confession of Christian faith, equal to Peter&#x27;s at Caesarea Philippi. She is the first human being in John&#x27;s Gospel to make it.</p>
+<p>MARY MAGDALENE (Jn 20). The first person the risen Christ appears to and speaks to. And he gives her an apostolic commission: &quot;Go and tell my brothers.&quot;</p>
+<p>St Thomas Aquinas — not remembered for feminist sympathies — called her the APOSTLE OF THE APOSTLES. She was sent to the sent ones.</p>
+<p>Her feast was raised to the rank of the other apostles by Pope Francis. In 2016.</p>
+<p>Two thousand years. Better late than never. But the lateness tells a story.</p>
+<p><strong>PART 4 — MARCH 8 IS NOT ENOUGH (8 min)</strong></p>
+<p>A scene. A priest on the eighth of March. Bless the women at Mass, a few warm words, distribute roses. By the ninth, everything is exactly as it was on the seventh.</p>
+<p>Sr Inigo is not against roses. She is against the idea that one day of celebration is an adequate response to a millennium of structural inequality.</p>
+<p>The history is worth knowing. In 1908, fifteen thousand women marched in New York demanding three things: shorter hours, better pay, and the vote. Not radical — the minimum conditions for being treated as a person rather than a unit of production.</p>
+<p>Today it is observed in 193 countries. And the discrimination remains embedded. The day became ubiquitous; the change did not.</p>
+<p>Her most creative observation: International Women&#x27;s Day always falls during Lent. That convergence is not accidental but providential — Lent is the season of examination of conscience.</p>
+<p>So the Lenten question: do my attitudes toward women, in my community and institution and personal relationships, reflect the attitudes of a disciple of the Jesus who called Junia an apostle?</p>
+<p>And the hardest part, which she does not avoid: women&#x27;s complicity in their own oppression. The mother-in-law who oppresses the daughter-in-law. The senior sister who maintains control over juniors exactly as control was once maintained over her.</p>
+<p>Internalised oppression convinces its victims that the cage is not a cage, because it has always been there.</p>
+<p><strong>CLOSING (3 min)</strong></p>
+<p>Five things that could begin in this diocese this year. Fund women in theological and biblical studies — a feminine understanding of God is the missing link in our proclamation. Include women in decision-making councils as co-leaders with real authority. Involve women in the ministry of the Word, not the sacristy and the flowers. Preach the images Scripture already gives us — God as a mother who cannot forget her child (Is 49:15), the woman searching for the lost coin (Lk 15:8). And announce from the pulpit that violence and discrimination against women is a SIN — not a social problem, a confessable sin requiring absolution.</p>
+<p>&quot;She has chosen the better part, and it will not be taken from her.&quot; Nobody. No cultural norm. No institutional habit. No man-made rule dressed as sacred tradition.</p>
+<p><strong>Prayer</strong></p>
+<p><em>Lord who chose a Samaritan woman as your first evangelist, who revealed the resurrection to Martha, who commissioned Mary Magdalene before any apostle — forgive us for centuries of misread Scripture. Forgive us for the scribe who added a letter to Junia&#x27;s name. Forgive us for the seventeen centuries before we gave Mary Magdalene a feast equal to the men she was sent to teach. Make us Aquilas, secure enough to walk alongside. Amen.</em></p>
+<h3 class="sec">Talk 20 (midday) — &quot;The Song That Should Disturb Us&quot;</h3>
+<p><strong>Core word: </strong>REVOLUTION</p>
+<p><strong>Based on: </strong>Chapter 15 | Lk 1:46-55</p>
+<p><strong>OPENING (5 min)</strong></p>
+<p>A question with arithmetic in it. How many times have you prayed the Magnificat?</p>
+<p>Twenty years of daily Evening Prayer is roughly seven thousand three hundred times.</p>
+<p>Now the second question. How many of those times did it DISTURB you?</p>
+<p>Sr Inigo&#x27;s claim, and it is the whole conference: if the Magnificat is not disturbing you, you are not praying it. You are reciting it.</p>
+<p>A promise: if you pray it at Evening Prayer tonight, it will not feel the way it felt this morning.</p>
+<p>THEME: &quot;The song that should disturb us.&quot;</p>
+<p><strong>PART 1 — THE REVOLUTION YOU SING WITHOUT NOTICING (10 min)</strong></p>
+<p>Read Luke 1:46-55 in full, slowly, as if for the first time.</p>
+<p>&quot;He has deposed the mighty from their thrones and raised the lowly to high places. The hungry he has given every good thing, while the rich he has sent away empty.&quot;</p>
+<p>That is political theology. Mary announcing — before Jesus is born, before a single miracle — that the social order is being overturned. The powerful are coming down. The hungry are being filled. The rich are being sent away with nothing.</p>
+<p>Sr Inigo calls it &quot;a revolutionary hymn and a powerful testimony to the counter-cultural deeds of God.&quot;</p>
+<p>And we have made it background music for Evening Prayer.</p>
+<p>The song has two movements. CONTINUITY — God&#x27;s faithfulness through history; the &quot;strong arm&quot; is a direct reference to the Exodus. And DISCONTINUITY — not reformation but REVERSAL. Thrones vacated. The hungry filled at the same moment the rich are emptied.</p>
+<p>It stands at the climax of a long tradition of God hearing the cry of the oppressed: Abel&#x27;s blood crying from the ground (Gen 4:10), Israel enslaved (Ex 3:7), Amos&#x27;s woe to those at ease, Habakkuk&#x27;s woe to the unjustly wealthy.</p>
+<p>And here is the line to keep: the most dangerous song in Scripture was first sung in a kitchen by two pregnant women.</p>
+<p><strong>PART 2 — MARY WAS NOT SWEET (10 min)</strong></p>
+<p>Tissa Balasuriya: &quot;The presentation of Mary as an obedient, docile and passive woman has made Marian spirituality rather pietistic, somewhat passive — and inclined toward an attitude of slavish docility.&quot;</p>
+<p>The passive Mary is a patriarchal tool dressed in blue. It suggests that holiness for women means: do not speak too loudly, do not take space, do not hold opinions that inconvenience those with authority over you.</p>
+<p>The actual Mary of the Gospels: she questioned the angel. She is called doule — the Lord&#x27;s servant — which is the honourable title shared by Abraham, Moses and David. A title of dignity, not diminishment.</p>
+<p>At Cana she sees, acts and launches a ministry. In the Temple she challenges her son directly, without apology. At the cross she stands, under Roman execution, at personal risk, when every man had fled.</p>
+<p>And Pope Paul VI said this, which is worth reading aloud precisely because of who said it: &quot;The modern woman will note with pleasant surprise that Mary of Nazareth, while completely devoted to the will of God, was far from being a timidly submissive woman. On the contrary, she was a woman who did not hesitate to proclaim that God vindicates the humble and oppressed and removes the powerful from their privileged positions.&quot;</p>
+<p>A Pope said that. It should be quoted more often than it is.</p>
+<p>And Mary did not compose in a vacuum. She stands in a line of daring women who sang: Miriam at the Red Sea, Judith after Holofernes, Deborah the judge and military commander, the mother of the seven Maccabean martyrs singing in unimaginable grief — and Hannah, whose song is structurally almost identical to the Magnificat a thousand years earlier: &quot;The Lord sends poverty and wealth; he humbles and he exalts.&quot;</p>
+<p><strong>PART 3 — FIVE MESSAGES (10 min)</strong></p>
+<p>THE CENTRAL FIGURES ARE THE POOR — marginalised by society and also by religious institutions. Any community organised around its centre while forgetting its margins is organised around a different priority than God&#x27;s.</p>
+<p>DELIVERANCE FROM CASTE, ECONOMIC AND RACIAL PREJUDICE — the three primary axes of dehumanisation in India, and all three are in this song. In this state: caste discrimination, economic exploitation, and ethnic prejudice against tribal people, Northeastern communities and migrants.</p>
+<p>GOD&#x27;S CRITERIA GO BEYOND HUMAN UNDERSTANDING. Human criteria: productivity, performance, position, power, profit. God&#x27;s: the widow&#x27;s mite outweighs the large donation; the prodigal is celebrated before the brother who never left; the Samaritan passes where priest and Levite failed.</p>
+<p>SALVATION TO THOSE AT A DEAD END — not a better route through a hard road, but salvation at the dead end itself. For the woman in a violent marriage with nowhere to go. For the displaced adivasi family. For the wrongfully imprisoned man of yesterday&#x27;s conference.</p>
+<p>GOD ACCOMPLISHES HIS BEST WORK THROUGH POWERLESS PEOPLE. A teenage girl in Nazareth. A man executed as a criminal. Twelve frightened disciples. A Samaritan woman with a past. Halley in Tihar, losing his anger. Ajay discovering he could paint in a prison cell.</p>
+<p>The powerless are not God&#x27;s consolation prize. They are his preferred workshop.</p>
+<p><strong>PART 4 — THE TEMPTATION TO SPIRITUALISE (7 min)</strong></p>
+<p>The standard escape route, and Sr Inigo blocks it explicitly.</p>
+<p>We take concrete, material, social realities — the hungry being filled, the mighty being deposed — and translate them into interior metaphors. The hungry become the spiritually hungry. The reversal becomes inner rather than outer.</p>
+<p>Comfortable. And it requires changing nothing.</p>
+<p>She refuses it. The call is to actually feed the hungry, clothe the naked, pursue justice. The hungry person&#x27;s body is not a spiritual symbol. It is a body. With hunger. That needs food.</p>
+<p>Three questions for the silence.</p>
+<p>Who is Mother Mary to you — a courageous woman, or merely a pious one? If merely pious, Marian devotion produces sweet, gentle, always-calm Christians, and the world will not be transformed by that. If courageous, Marian devotion produces prophets.</p>
+<p>Does your devotion to Mary help you to be a VALIANT woman — not gentle, not submissive, valiant?</p>
+<p>And in what ways does she CHALLENGE your personality rather than confirm it?</p>
+<p><strong>CLOSING (3 min)</strong></p>
+<p>Seven thousand times the Church has sung: he has deposed the mighty, filled the hungry, sent the rich away empty.</p>
+<p>And the hungry are still hungry. The powerful still sit on their thrones. Women are still told to be quiet.</p>
+<p>That is not an argument against the Magnificat. It is an argument for taking it far more seriously.</p>
+<p>Mary sang it and then lived it. She said yes, and the Incarnation happened. She acted at Cana, and water became wine. She stood at the cross, and resurrection followed.</p>
+<p>The Magnificat is not a recitation. It is a commission.</p>
+<p>Seven thousand times. Starting tonight — what changes?</p>
+<p><strong>Prayer</strong></p>
+<p><em>Mary, you sang a revolution before anyone believed it possible. Forgive us for singing it the way we tick a box. Forgive us for spiritualising your concrete song until it cost us nothing. Give us your courage at the Annunciation, your decisiveness at Cana, your valiance at the cross, and your gift of singing in impossible situations. He has deposed the mighty. He has lifted up the lowly. He has filled the hungry. Help us mean it. Help us live it. Starting now. Amen.</em></p>
+<h3 class="sec">Talk 21 (evening) — &quot;Into That Freedom — May We All Awake&quot;</h3>
+<p><strong>Core word: </strong>FREEDOM</p>
+<p><strong>Based on: </strong>Chapter 16 | 2 Tim 4:2; Ex 19:8</p>
+<p><strong>OPENING (5 min)</strong></p>
+<p>Seven days. Twenty-one conferences. From &quot;am I alive?&quot; through the name, the danger, the earth, the school, mercy, the prison, the noose, the corridor, the song — to here.</p>
+<p>And it has all been travelling toward one word, which is not holiness and not zeal.</p>
+<p>FREEDOM.</p>
+<p>THEME: &quot;Into that freedom — may we all awake.&quot;</p>
+<p><strong>PART 1 — WHAT HAPPENED IN THE CAVE (10 min)</strong></p>
+<p>On the first evening we said God had made an appointment. Tonight, an accounting.</p>
+<p>MEDITATION AS AWARENESS. Not contemplation exactly, not concentration. Living mindfully is meditation — a state of awareness acting as a detox, clearing what accumulates through chronic busyness, unresolved conflict and spiritual inattention.</p>
+<p>It is the practice of returning — repeatedly, patiently, without self-condemnation — to where you actually are. Its fruits: clarity; the ability to hear what God is actually saying rather than what you expected; and the ability to be surprised.</p>
+<p>VIPASSANA IN TIHAR, and we return to it deliberately. Men convicted of serious crimes sitting in stillness ten hours a day for ten days. What emerged was peace, and tears of genuine repentance that nobody was performing for a parole board.</p>
+<p>And a phrase that captured them, which is the most precise pastoral sentence in this entire retreat: &quot;YOU CAN BEGIN AGAIN.&quot;</p>
+<p>Not: you are fine as you are. Not: you are irreparably broken. The exact, grace-full middle.</p>
+<p><strong>PART 2 — KINTSUGI (9 min)</strong></p>
+<p>We met this craft on Day Six, in Ajay&#x27;s story. Tonight it belongs to everyone here.</p>
+<p>Kintsugi is the Japanese repair of broken pottery with gold. The break is not disguised. The piece is not discarded. The fracture is filled with something precious — and becomes the most beautiful part of the bowl.</p>
+<p>Everyone in this room has the pieces. The community conflict that never healed. The pastoral failure you still think about at three in the morning. The sin confessed and still remembered. The vow lived with less than full fidelity. The dry years. The morning cowardice won when prophecy was called for.</p>
+<p>God says: bring them. I repair with gold.</p>
+<p>And when God has repaired them, the fracture lines become the most interesting thing about you — the place where the light gets in, and back out again. Evidence of a life genuinely lived, genuinely struggled with, and genuinely redeemed.</p>
+<p><strong>PART 3 — NONE OF US IS A FINISHED PRODUCT (10 min)</strong></p>
+<p>One more story, and Sr Inigo tells it against herself. It is the most important one in the book.</p>
+<p>She initially believed that women could not preach retreats. Then she suggested that sisters might at least preach to members of their own congregation.</p>
+<p>The response was ridicule and opposition. &quot;Who does she think she is? This is not done.&quot;</p>
+<p>She persisted. The sisters preached. The feedback was extraordinary.</p>
+<p>She has since preached retreats to nearly a hundred congregations across the world — including to priests, brothers and laity.</p>
+<p>That is a kintsugi story. The broken experience of being dismissed became, in God&#x27;s hands, the gold-filled crack through which light reached a hundred congregations.</p>
+<p>And the Church herself is a work in progress. She owned slaves — and produced the abolitionists. She condemned Galileo — and later celebrated him. She excluded women from full ministry — and named Mary Magdalene Apostle of the Apostles in 2016.</p>
+<p>Not finished. Not beyond correction. And — this is the point — NOT ABANDONED.</p>
+<p>&quot;None of us are finished products of God. We are all God&#x27;s work in progress.&quot; Not the most senior bishop. Not the most accomplished religious. None of us.</p>
+<p><strong>PART 4 — THE QUESTION RETURNS (10 min)</strong></p>
+<p>Exodus 19:8. Moses speaks, and the people gathered at Sinai answer: &quot;We will do everything that the Lord has said.&quot;</p>
+<p>Not: we will consider it. Not: we will consult and implement in phases. We will do everything.</p>
+<p>That is what a retreat is for. Not a notebook. A yes.</p>
+<p>And now the question from the first morning comes back, simpler and more demanding.</p>
+<p>Am I alive — or just existing?</p>
+<p>You have met that question this week in a river and a pond, in Jacob&#x27;s name, in a generator that never fails, in a prison cell, in a noose, in a trafficking corridor, in Junia&#x27;s erased letter, in Halley losing his anger.</p>
+<p>Will you leave this house and go back to existing? Or will you go back alive?</p>
+<p>These conferences were only ever a signpost. The answer is not written in your notebook. It is written in the community, the parish, the school, the hospital, the tea garden and the slum you return to.</p>
+<p>Specifically: in the decision you make tomorrow morning that you would not have made before you came here. And in the conversation with the person who has been waiting for you to notice them.</p>
+<p>2 Timothy 4:2 — &quot;Preach the word, in season and out of season.&quot; In season, when it is welcome. Out of season, when it costs you something.</p>
+<p>Go. And preach it.</p>
+<p><strong>CLOSING (3 min)</strong></p>
+<p>Twenty-one conferences. We began with hunger. We end with freedom.</p>
+<p>Not freedom from constraint — the freedom of transformation. Halley, free of anger and the fear of death. The bent woman standing straight for the first time in eighteen years. Mary Magdalene running from the tomb to tell men who did not yet know what she knew.</p>
+<p>The freedom of the person who has chosen the better part and will not be moved.</p>
+<p>One argument has run under all twenty-one: the consecrated life, lived fully, is the freest life available. Not because it has fewer constraints, but because it is liberated from the deepest one — the need to be liked, to be safe, to be successful by the world&#x27;s measurement, to be finished.</p>
+<p>You are not finished. God is not finished with you.</p>
+<p>And so, in the words of a poet of this soil, this language, this place:</p>
+<p>INTO THAT FREEDOM — MAY WE ALL AWAKE.</p>
+<p><strong>Prayer</strong></p>
+<p><em>God who is not finished with any of us — thank you for the appointment you made, and kept, and for waiting in the cave with the candle lit. Forgive us for the retreats we have attended as seminars, with full notebooks and unchanged hearts. Take the pieces we have carried in here all week — the conflict, the failure, the sin confessed and still remembered, the years when prayer was dry, the morning we were cowards — and repair them with gold. Let the fracture be the place your light gets in. Send us back to Purulia, to Malda, to Dum Dum, to the tea gardens, to this house — alive. Into that freedom, may we all awake. Amen.</em></p>
+</section>
+<section class="chapter" id="appendix-a-chapter-coverage"><h2>Appendix a — Chapter Coverage</h2>
+<p>All sixteen chapters of the source series are covered across the twenty-one conferences.</p>
+</section>
+<section class="chapter" id="appendix-b-if-the-retreat-is-shorter"><h2>Appendix B — If the Retreat is Shorter</h2>
+<p><em>If you shorten, do not cut all the frontier conferences (16, 17, 18). A retreat on consecrated life with no cost in it has not been about consecrated life.</em></p>
+</section>
+<section class="chapter" id="appendix-c-before-you-preach-these"><h2>Appendix C — Before You Preach These</h2>
+<p>Verify every statistic. The Tihar figures, the fifteen thousand departures, the Jharkhand displacement numbers, the ninety per cent pornography figure, the fifty per cent of Catholic school students, and the 2016 feast elevation all come from the source series and should be checked against their originals before being spoken from a pulpit.</p>
+<p>Replace the place-names. Purulia, Malda, Murshidabad, Dum Dum, Jalpaiguri, the Sundarbans and the tea gardens are correct for West Bengal. Anywhere else, the localisation rule requires substitution — and the conference is not ready until you have done it.</p>
+<p>These are briefs, not scripts. Add your own stories. The rule from catholic-sermon-foundation stands: material for a preacher to make her own, never a manuscript to read aloud.</p>
+<p>Keep the afternoons empty. The source book is explicit that it is entirely possible to attend a retreat and have a seminar.</p>
+<p><em>Built with the illustration-craft skill. To extend the series, or to generate fresh images for any of these conferences, invoke that skill — it holds the twenty-type taxonomy these talks were assembled from.</em></p>
+</section>
+</main>
+
+<footer class="page">
+  A seven-day retreat of twenty-one talks, with appendices on chapter coverage and shortened formats.
+</footer>

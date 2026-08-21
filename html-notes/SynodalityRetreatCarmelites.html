@@ -1,0 +1,666 @@
+<title>Synodality Retreat for Carmelites — 18 Talks</title>
+<style>
+  :root {
+    --ink: #ede3cf; --ink-soft: #cdbfa4; --paper: #211c16; --paper-raised: #2a241c;
+    --line: rgba(237,227,207,0.16); --wine: #c17a4d; --wine-soft: #c17a4d1c;
+    --gold: #d6ad5c; --gold-soft: #d6ad5c1a; --muted: #a3947a;
+    color-scheme: dark;
+  }
+  @media (prefers-color-scheme: light) {
+    :root {
+      --ink: #2a2318; --ink-soft: #4d4330; --paper: #f4ecdb; --paper-raised: #ffffff;
+      --line: rgba(42,35,24,0.15); --wine: #9c4f27; --wine-soft: #9c4f2714;
+      --gold: #8a6414; --gold-soft: #8a641414; --muted: #7a6c52; color-scheme: light;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ink: #ede3cf; --ink-soft: #cdbfa4; --paper: #211c16; --paper-raised: #2a241c;
+    --line: rgba(237,227,207,0.16); --wine: #c17a4d; --wine-soft: #c17a4d1c;
+    --gold: #d6ad5c; --gold-soft: #d6ad5c1a; --muted: #a3947a;
+  }
+  :root[data-theme="light"] {
+    --ink: #2a2318; --ink-soft: #4d4330; --paper: #f4ecdb; --paper-raised: #ffffff;
+    --line: rgba(42,35,24,0.15); --wine: #9c4f27; --wine-soft: #9c4f2714;
+    --gold: #8a6414; --gold-soft: #8a641414; --muted: #7a6c52;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0; background: var(--paper); color: var(--ink);
+    font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    font-size: 20px; line-height: 1.7; -webkit-font-smoothing: antialiased;
+  }
+  ::selection { background: var(--wine-soft); }
+  h1, h2, h3, h4 {
+    font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "URW Palladio", serif;
+    text-wrap: balance; font-weight: 400; color: var(--gold); margin: 0;
+  }
+  p { margin: 0 0 1.1em; max-width: 42em; }
+  strong { color: var(--ink); font-weight: 700; }
+  em { color: var(--wine); font-style: italic; }
+  a { color: var(--wine); }
+  header.hero { padding: 60px 24px 40px; text-align: center; border-bottom: 1px solid var(--line); }
+  header.hero .eyebrow { font-size: 13px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--wine); margin-bottom: 12px; }
+  header.hero h1 { font-size: clamp(28px, 4.4vw, 40px); max-width: 22ch; margin: 0 auto 8px; font-style: italic; }
+  header.hero .sub { max-width: 46em; margin: 0 auto; color: var(--ink-soft); font-size: 16.5px; }
+  nav.chapters {
+    position: sticky; top: 0; z-index: 10; display: flex; gap: 2px; overflow-x: auto;
+    background: var(--paper); border-bottom: 1px solid var(--line); padding: 0 12px;
+  }
+  nav.chapters a {
+    flex: none; padding: 12px 13px; font-size: 12.5px; text-decoration: none; color: var(--muted);
+    white-space: nowrap; border-bottom: 2px solid transparent;
+  }
+  nav.chapters a:hover { color: var(--wine); border-color: var(--wine-soft); }
+  main { max-width: 780px; margin: 0 auto; padding: 0 24px 40px; }
+  section.chapter { padding: 48px 0 32px; border-bottom: 1px solid var(--line); scroll-margin-top: 50px; }
+  section.chapter:last-of-type { border-bottom: none; }
+  section.chapter h2 { font-size: clamp(21px, 2.8vw, 26px); margin-bottom: 14px; font-style: italic; }
+  h3.sec { font-size: 18.5px; color: var(--gold); margin: 26px 0 8px; }
+  ul, ol { padding-left: 1.3em; margin: 0 0 1.1em; max-width: 42em; }
+  li { margin-bottom: 7px; }
+  table { border-collapse: collapse; width: 100%; margin: 14px 0; font-size: 14.5px; }
+  th, td { border: 1px solid var(--line); padding: 7px 9px; text-align: left; vertical-align: top; }
+  th { background: var(--paper-raised); color: var(--gold); }
+  blockquote {
+    margin: 18px 0; padding: 6px 0 6px 18px; border-left: 3px solid var(--gold);
+    font-style: italic; color: var(--ink-soft); max-width: 40em;
+  }
+  footer.page { max-width: 780px; margin: 0 auto; padding: 34px 24px 60px; font-size: 13.5px; color: var(--muted); }
+</style>
+
+<header class="hero">
+  <p class="eyebrow">Retreat &middot; Six Days</p>
+  <h1>A Synodal Retreat for Carmelites</h1>
+  <p class="sub">Six Days: Call, Listening, Communion, Participation, Mission, and Conversion</p>
+</header>
+
+<nav class="chapters">
+  <a href="#intro">Overview</a>
+  <a href="#a-word-to-the-one-who-will-preach-these">A Word to the One Who Will Preach These</a>
+  <a href="#the-shape-of-the-six-days">The Shape of the Six Days</a>
+  <a href="#day-one-the-call-the-road-we-are-already">Day One — the Call: The Road We are Already on</a>
+  <a href="#day-two-listening-the-first-work">Day Two — Listening: The First Work</a>
+  <a href="#day-three-communion-the-community-of-dis">Day Three — Communion: The Community of Disciples</a>
+  <a href="#day-four-participation-co-responsibility">Day Four — Participation: Co-responsibility</a>
+  <a href="#day-five-mission-walking-outward">Day Five — Mission: Walking Outward</a>
+  <a href="#day-six-conversion-the-descent-from-the-">Day Six — Conversion: The Descent from the Mountain</a>
+  <a href="#appendix-a-verified-quotation-bank">Appendix a — Verified Quotation Bank</a>
+  <a href="#appendix-b-corrections-to-widely-circula">Appendix B — Corrections to Widely Circulated Quotations</a>
+  <a href="#appendix-c-practical-notes">Appendix C — Practical Notes</a>
+
+</nav>
+
+<main>
+<section class="chapter" id="intro"><h2>Overview</h2>
+<p>Walking Together on Carmel</p>
+<p>A Six-Day Retreat on Synodality for Carmelite Sisters</p>
+<p>Eighteen conference briefs — three a day</p>
+<p>Prepared 16 August 2026. Built on the catholic-sermon-foundation voice and theology rules, the sermon-soares retreat method, the Carmelite tradition, and the Indian synodality volume (Indian Edition 2025). All Soares-Prabhu quotations verified directly against the Collected Writings and The Dharma of Jesus through NotebookLM, with page references given.</p>
+</section>
+<section class="chapter" id="a-word-to-the-one-who-will-preach-these"><h2>A Word to the One Who Will Preach These</h2>
+<p>These are briefs, not manuscripts. That is deliberate, and it is the rule the foundation skill insists on: never generate a script-ready talk, generate material for a preacher to make her own.</p>
+<p>Each brief gives you the text, the big idea, an opening, the movement of the argument, verified quotations you can read aloud without anxiety, the turn, a Carmelite anchor, a prophetic edge, questions for the silence, and a closing. What it does not give you is your own voice, your own stories, or your knowledge of these particular sisters. Pray with each one. Cut what does not fit.</p>
+<p><strong>On the audience.</strong></p>
+<p>These are written to serve both apostolic and contemplative Carmelites. Where a talk turns toward external ministry, a contemplative application is given in the same paragraph. Nothing here assumes the sisters leave the house; nothing here assumes they stay in it.</p>
+<p><strong>On the two voices held together.</strong></p>
+<p>The spine is Carmelite: Elijah, the Rule of St Albert, Teresa, John of the Cross, Thérèse, Elizabeth of the Trinity. The prophetic and Indian edge comes from George Soares-Prabhu, SJ (1929-1995). The two belong together for a reason he himself insisted on — his standing objection to liberation theology was that it dropped the interior. A retreat on synodality ending only in structural reform would make exactly the mistake he spent a career naming. One ending only in interior consolation would make the opposite one.</p>
+<p><strong>The sentence that governs this retreat.</strong></p>
+<p>Of everything verified for these talks, one passage matters most for a congregation of religious women, because it redefines the vow you already live in synodal terms:</p>
+<p><em>&quot;Obedience is not just the renunciation of one&#x27;s self-will, but the commitment to God&#x27;s will that enables a community to make common cause for the Kingdom.&quot;</em><strong>  — Collected Writings, Vol. 3, p. 201</strong></p>
+<p>Read that slowly. Obedience is not, in the first place, the surrender of my will to a superior. It is what makes it possible for a community to act together for the Kingdom. That is a synodal definition of the vow, written by an Indian exegete before synodality was the Church&#x27;s word for it. If a single sentence carries these six days, it is this one.</p>
+<p>And beside it, his account of why religious life exists at all:</p>
+<p><em>&quot;The religious by virtue of their option and profession must keep alive and foster the values of the contrast community, so dear to the heart and mind of Jesus.&quot;</em><strong>  — Collected Writings, Vol. 3 / Vol. 1 Preface, p. xiii</strong></p>
+<p>Not a specialised elite. Custodians of an alternative — which is precisely what a synodal Church is trying to become. He is blunt that religious life claims no separate spiritual species:</p>
+<p><em>&quot;Traditionally these three ideals have been institutionalized into religious &#x27;vows&#x27; which define the status of the specialized group of &#x27;religious&#x27;. But they designate in fact, the goal of all Christian existence. For religious life in the Christian communities is not a specifically different type of existence, but is merely Christian life.&quot;</em><strong>  — Collected Writings, Vol. 3, pp. 205-206</strong></p>
+<p><strong>On the honest limits of the material.</strong></p>
+<p>Soares-Prabhu was not a feminist theologian. He named women as a marginalised group but gave no sustained attention to women&#x27;s liberation. For a retreat of Carmelite sisters this matters. Where these talks need that voice they draw on Helen Dantis (whose feminist essay on his thought appears in Jnanadeepa 18/2), Shalini Mulackal and Aruna Gnanadason — and say so rather than pretending he supplies it.</p>
+<p>Every Soares-Prabhu quotation in this document has been checked against the sources and carries a page reference. Three widely circulated versions of his lines turned out to be paraphrases and have been corrected here — see Appendix B. If you have heard these quoted differently, this document is the more careful version.</p>
+<p>Two misquotations are common enough to name. Do not preach the Beatitudes as though poverty were a spiritual good; his position is the opposite. And his phrase &quot;thoroughly utopian law&quot; about the Sermon on the Mount is his reduction of the legalistic reading, not his verdict.</p>
+<p>Page citations from the synodality volume were extracted from a scanned PDF by multimodal reading. Check any you intend to read aloud.</p>
+</section>
+<section class="chapter" id="the-shape-of-the-six-days"><h2>The Shape of the Six Days</h2>
+<p>The retreat climbs and then descends. That is Carmel&#x27;s own shape, and Elijah&#x27;s: up the mountain to the encounter, then back down the way you came, sent.</p>
+<p><em>A suggested rhythm: Talk One after morning prayer, Talk Two before midday, Talk Three in the early evening, each followed by a long silence. The questions under &quot;For the silence&quot; are written to be handed out.</em></p>
+</section>
+<section class="chapter" id="day-one-the-call-the-road-we-are-already"><h2>Day One — the Call: The Road We are Already on</h2>
+<h3 class="sec">Talk 1 — Syn-hodos: The Road We are Already on</h3>
+<p><strong>Scripture: </strong>Acts 9:1-2; John 14:6</p>
+<p><strong>Big idea: </strong>Synodality is not a new programme handed down from Rome. It is the oldest name the Church had for herself, and Carmel has been living it up a mountain for eight hundred years.</p>
+<p><strong>Opening</strong></p>
+<p>Begin with the word, because the word does the work.</p>
+<p>Syn — together. Hodos — road. Synodality is not a committee, not a consultation exercise, not a questionnaire that came from the diocese and went into a drawer. It means walking together on the same road. That is all it means, and that is everything it means.</p>
+<p>Ask them: how long have you been walking with the sister next to you? Ten years? Thirty? Forty? Nobody had to invent synodality for you. You have been doing it, some days well and some days badly, since the day you entered.</p>
+<p><strong>Movement</strong></p>
+<p>Before the first Christians were called Christians they were called something else. In Acts 9:2 Saul goes to Damascus looking for any who belonged to the Way — the hodos. That was the name. Not the Believers. The people of the Road.</p>
+<p>And they took it from Jesus, who did not say I have a way or I teach a way. He said I am the Way (John 14:6).</p>
+<p>Behind the Greek stands the Hebrew Qahal — the convoked assembly, the people summoned to gather and walk before God. Israel is not a collection of individuals who happen to believe the same things. At Sinai the whole community answers with one voice.</p>
+<p>Now hold that beside the Church&#x27;s official language. The International Theological Commission in 2018 called synodality the modus vivendi et operandi of the Church — her way of living and operating. Pope Francis in 2015 said the path of synodality is the path God expects of the Church of the third millennium. Strong words, but notice they describe nothing new. They describe something the Church forgot and is trying to remember.</p>
+<p><strong>The turn</strong></p>
+<p>You may have arrived thinking synodality is a subject you are about to study. It is not. It is a description of what you have been doing, badly and well, for your whole religious life — and the question of these six days is not whether you will begin walking together, but whether you will begin walking together honestly.</p>
+<p><strong>Carmelite anchor</strong></p>
+<p>Carmel means garden, but the reality is a mountain, and a mountain is climbed on a road. The Rule of St Albert holds together two things that look opposite: each one is to remain in her cell or near it, meditating day and night on the law of the Lord — and the brothers are to come together for chapter. Cell and chapter. Solitude and assembly. Carmel has never believed you had to choose, and that refusal to choose is exactly what synodality means.</p>
+<p><strong>For the silence</strong></p>
+<p>When did I last genuinely walk with a sister rather than merely live alongside her?</p>
+<p>Is there anyone in this community whose road I have quietly decided not to share?</p>
+<p>What do I actually mean when I say &#x27;we&#x27; in this house?</p>
+<p><strong>Closing movement</strong></p>
+<p>Carmel is a mountain, and nobody climbs it alone — not even the hermit, because the hermit is held by the Rule, the chapter, and the sisters who bring her bread. Six days from now you go back down. The only question is who goes with you.</p>
+<h3 class="sec">Talk 2 — Elijah at Horeb: Learning to Hear the Thin Silence</h3>
+<p><strong>Scripture: </strong>1 Kings 19:1-18</p>
+<p><strong>Big idea: </strong>The first synodal act is not speaking. It is listening — and Carmel&#x27;s founding father had to be unmade before he could hear.</p>
+<p><strong>Opening</strong></p>
+<p>Elijah has just won. Carmel, the prophets of Baal, fire from heaven, the whole spectacular victory. And the next thing we see is a man running for his life into the desert, sitting under a broom tree, asking God to let him die.</p>
+<p>Success did not save him. It emptied him.</p>
+<p>Some of you know that desert better than any conference can describe. The years of good work, the school run well, the dispensary kept open, the hours of prayer kept faithfully — and underneath it a tiredness with no name and no obvious cause.</p>
+<p><strong>Movement</strong></p>
+<p>God does not argue. God feeds him and lets him sleep. Twice. Then sends him forty days further into the wilderness to Horeb — which is Sinai, the mountain of the covenant, where the people once answered with one voice.</p>
+<p>And at Horeb God asks a question: What are you doing here, Elijah?</p>
+<p>Elijah answers with a speech. A good speech. I have been very zealous for the Lord; the people have forsaken your covenant; I, even I only, am left. Notice the last phrase. I only am left. That is a man who has stopped believing there is anyone to walk with.</p>
+<p>Then the wind that splits mountains, and God is not in the wind. The earthquake, and God is not in the earthquake. The fire — and Elijah of all people should have expected God in fire, he had just called it down — and God is not in the fire.</p>
+<p>Then: qol demamah daqqah. Say the Hebrew aloud. A voice of thin silence. A sound of sheer stillness. Translations soften it to a still small voice, but the phrase is nearly a contradiction: a silence you can hear.</p>
+<p>And when God speaks, God asks the same question again. What are you doing here, Elijah? And Elijah gives the same speech, word for word. He has not learned anything yet.</p>
+<p>So God tells him two things. Go back — the way you came. And: I have left seven thousand in Israel who have not bowed to Baal.</p>
+<p>You are not the only one left. You never were.</p>
+<p><strong>The turn</strong></p>
+<p>We assume Elijah&#x27;s problem is despair. It is not. His problem is that he thinks he is alone, and he is factually wrong. The cure is not consolation but information: there are seven thousand others. The remedy for a prophet&#x27;s exhaustion is the discovery that he is part of a people.</p>
+<p><strong>Carmelite anchor</strong></p>
+<p>Elijah is Carmel&#x27;s father, and this is the passage Carmel keeps returning to. Not the fire on the mountain — the silence in the cave. The tradition has always known that the loud religious experience is not the reliable one. What John of the Cross would later teach about the night, Elijah learned first: God&#x27;s most decisive speech comes when everything spectacular has stopped.</p>
+<p><strong>The prophetic edge</strong></p>
+<p>Notice what synodality then asks of a community formed in this silence. It asks you to listen to each other the way you were trained to listen to God — expecting that the truth will not arrive in the loudest voice at chapter. It will arrive in the thin silence, usually from the sister nobody was waiting to hear from.</p>
+<p><strong>For the silence</strong></p>
+<p>Where in my life have I said, in effect, &#x27;I only am left&#x27;?</p>
+<p>Whose voice in this community do I habitually expect nothing from?</p>
+<p>Can I hear a thin silence, or do I still need the fire?</p>
+<p><strong>Closing movement</strong></p>
+<p>God does not tell Elijah to stay on the mountain. God says go back the way you came. He came up alone. He goes down knowing there are seven thousand. That is the whole retreat in one sentence.</p>
+<h3 class="sec">Talk 3 — the Abba Experience: Where Walking Together Begins</h3>
+<p><strong>Scripture: </strong>Mark 1:9-11; Romans 8:15; Galatians 4:6</p>
+<p><strong>Big idea: </strong>Everything in synodality rests on one experience — and if that experience is missing, the structures are furniture.</p>
+<p><strong>Opening</strong></p>
+<p>Notice where Jesus&#x27;s ministry begins. Not in the temple. Not in a synagogue. In a river, standing in a queue.</p>
+<p>A queue of sinners waiting to be baptised by John. He does not need to be there. He gets in the line anyway.</p>
+<p>Soares-Prabhu locates the decisive experience of Jesus&#x27;s life exactly there. The voice that says You are my beloved comes to a man standing in a queue he did not have to join.</p>
+<p><strong>Movement</strong></p>
+<p>He calls it the Abba experience, and he builds everything on it. Not a doctrine — an experience. God encountered as unconditionally loving Parent.</p>
+<p>He is careful about where it happens and what it costs. The baptism is an act of identification, and identification specifically with the poor.</p>
+<p>He also makes a striking interfaith move that will matter later in this retreat: he sets this experience alongside the Buddha&#x27;s enlightenment and the call of the prophets. He is not flattening the differences. He is saying: this is that order of event. Foundational. Life-reorganising.</p>
+<p>And then the warning that a retreat must not soften — because centuries of piety have made this into a comfortable thing, and it is not.</p>
+<p>Why unsettling? Follow the chain, because each step forces the next. If God is unconditional love, then all are children of one Parent. If all are children of one Parent, then all are my sisters. If all are my sisters, discrimination becomes not forbidden but impossible — the way a square circle is impossible. If discrimination is impossible, I stand with the poor. If I stand with the poor, I come into conflict with those who keep them poor. And at the end of that chain stands the Cross.</p>
+<p>That is why it is unsettling. The Abba experience is not a warm feeling about God. It is the beginning of a road that ends outside the city wall.</p>
+<p><strong>Verified quotations — safe to read aloud</strong></p>
+<p><em>&quot;Joachim Jeremias has argued, quite plausibly, that the baptism of Jesus by John was the occasion for his &#x27;abba experience&#x27; — the overwhelming experience of God as unconditional love, which was to be the basis of Jesus&#x27; life and the ground of his mission.&quot;</em><strong>  — Vol. 1, p. 130 / Vol. 2, p. 158</strong></p>
+<p><em>&quot;For Jesus to submit to the baptism of John meant that he identified with sinful but repentant Israel… And it is this act of identification with the &#x27;poor&#x27; that becomes the occasion for Jesus&#x27; foundational experience of God.&quot;</em><strong>  — Vol. 3, p. 99</strong></p>
+<p><em>&quot;homologous to the &#x27;enlightenment&#x27; of the Buddha under the boddhi tree, or the call-experience of the Old Testament prophets.&quot;</em><strong>  — Vol. 1, p. 130 / Vol. 2, p. 158</strong></p>
+<p><em>&quot;For the experience of God as Abba is not the soothing anodyne that long familiarity and centuries of the sentimentalizing of compassion by Christianity have made it. It is a profoundly unsettling experience because of the radical demand it makes on the self and on society.&quot;</em><strong>  — Vol. 3, p. 138</strong></p>
+<p><strong>The turn</strong></p>
+<p>You might expect a retreat on synodality to begin with structures — councils, chapters, consultation. It cannot. A community that has not had the Abba experience will build synodal structures and fill them with the same old power. The structures are not the foundation. The experience is. Everything from Day Four onward will only be as real as what happens in these first three talks.</p>
+<p><strong>Carmelite anchor</strong></p>
+<p>Carmel has a word for this: the indwelling. Elizabeth of the Trinity spent her short life on one conviction — that the Trinity dwells in the soul, and that this is not a metaphor. Teresa&#x27;s Interior Castle is built on the same conviction: the King is in the innermost room and was always there. The Abba experience is what Carmel calls contemplation, described from outside by an exegete instead of from inside by a mystic. Same event, different vocabulary.</p>
+<p><strong>The prophetic edge</strong></p>
+<p>Hold on to the queue. Jesus&#x27;s foundational experience of the Father&#x27;s love came while he was standing in a line of sinners, having chosen not to stand apart. Ask what that says about every arrangement, in the Church and in religious life, by which some of us have arranged not to stand in the same queue as others.</p>
+<p><strong>For the silence</strong></p>
+<p>Have I had this experience, or do I have the doctrine of it?</p>
+<p>Where does the chain break in me — at siblinghood, at solidarity, or at conflict?</p>
+<p>What would change if I truly believed the woman who cleans this house is my sister in exactly the sense the word means?</p>
+<p><strong>Closing movement</strong></p>
+<p>The voice at the Jordan does not say you are my beloved because you have achieved something. It says you are my beloved. Everything else in these six days is commentary on that sentence — and everything else will cost you something, because that sentence is true of everyone else as well.</p>
+</section>
+<section class="chapter" id="day-two-listening-the-first-work"><h2>Day Two — Listening: The First Work</h2>
+<h3 class="sec">Talk 4 — the Sensus Fidei: Why the Spirit Speaks Through You</h3>
+<p><strong>Scripture: </strong>Lumen Gentium 12; 1 John 2:20, 27</p>
+<p><strong>Big idea: </strong>Consulting the faithful is not a democratic courtesy the hierarchy extends. It is a theological necessity, because the Spirit genuinely speaks through the baptised — including through you.</p>
+<p><strong>Opening</strong></p>
+<p>Some of you have sat in meetings where your opinion was asked for and everyone in the room, including you, knew the decision had already been made.</p>
+<p>Name that at the start, because it is why this doctrine is not believed even where it is taught.</p>
+<p>Today is about why that experience is not merely disappointing but theologically wrong.</p>
+<p><strong>Movement</strong></p>
+<p>Lumen Gentium 12 makes a claim the Church has not yet absorbed. The whole body of the faithful — from the bishops to the last of the lay faithful — cannot err in matters of belief. The technical phrase is infallibilitas in credendo: infallible in believing. Not the hierarchy alone. The whole body.</p>
+<p>The ground is baptismal. Through baptism every Christian is anointed by the Spirit and shares in Christ&#x27;s threefold office as priest, prophet and king — the tria munera. This establishes an equality of dignity prior to any differentiation of ministry, clerical or lay, professed or not.</p>
+<p>Say that clearly to religious sisters, because it cuts both ways. Your baptism is prior to your profession. Whatever authority the Spirit gives you to speak in the Church, you received it in the water, before you ever wore this habit. And the woman who cooks in your kitchen received exactly the same thing in exactly the same water.</p>
+<p>The consequence is sharp. In the classical framework the sensus fidelium is a genuine locus theologicus — a proper source of theological argument, standing alongside Scripture and the councils. Augustine called the agreement of the faithful the concordissima fidei conspiratio, the most harmonious consensus of faith: a conspiracy of hearts, and in it the voice of the Spirit.</p>
+<p>Which dismantles a division that has governed Catholic life for four centuries — the Ecclesia docens and the Ecclesia discens, the teaching Church and the learning Church. That division is not the tradition. It is a post-Tridentine construction, and synodality is the Church dismantling it.</p>
+<p><strong>The turn</strong></p>
+<p>You may have assumed that being asked your opinion is a kindness — considerate leadership, a superior who is nice about it. It is not a kindness. If the Spirit genuinely speaks through the baptised, then a superior who does not consult is not being unkind. She is refusing to listen to God.</p>
+<p><strong>Carmelite anchor</strong></p>
+<p>Teresa of Avila would have understood instantly, and she paid for understanding it. A woman with no theological degree, in a Church that had made clear women were to receive and not instruct, investigated by the Inquisition, who nevertheless insisted — and was eventually vindicated by being declared a Doctor of the Church — that what she had learned in prayer was true and that the learned men who contradicted her were sometimes simply wrong. Teresa is the sensus fidei walking around in sandals. So is Thérèse, who had no formal theology at all and is also a Doctor of the Church.</p>
+<p><strong>The prophetic edge</strong></p>
+<p>But say the other half, or the talk is flattery. In India the sisters most likely to be consulted are educated, English-speaking, and from a comfortable caste. The synodal consultation of 2021-2024 was widely captured on the ground by exactly that group. If the sensus fidei is real, it is real in the Adivasi sister not fluent in English and in the Dalit woman who cleans this house — and any consultation that cannot hear them has refuted itself by its own principle.</p>
+<p><strong>For the silence</strong></p>
+<p>Do I actually believe the Spirit speaks through the sister I find least impressive?</p>
+<p>When did I last change my mind because of something a lay person said?</p>
+<p>In this community, who is treated as Ecclesia docens and who as Ecclesia discens, whatever we say officially?</p>
+<p><strong>Closing movement</strong></p>
+<p>You are not consulted because someone is being generous. You are consulted because the Spirit was poured into you at baptism and has not been withdrawn. Now ask what you have done with that — and whom you have declined to consult.</p>
+<h3 class="sec">Talk 5 — Conversation in the Spirit: Parrhesia and Silence</h3>
+<p><strong>Scripture: </strong>Acts 15:1-35; Acts 4:31</p>
+<p><strong>Big idea: </strong>The Church&#x27;s method for walking together has two halves, and most communities can only manage one at a time: courageous speech, and real silence.</p>
+<p><strong>Opening</strong></p>
+<p>Two kinds of community meeting. In the first, nobody says anything true and it ends early. In the second, everybody says something true and nobody listens, and it ends late.</p>
+<p>Ask which one this community tends toward. There will be laughter, and the laughter is the answer.</p>
+<p><strong>Movement</strong></p>
+<p>Acts 15 is the archetype of every synod, and the method is visible in the text.</p>
+<p>The crisis is real — must Gentile converts become Jews first? That is not procedural. It is about who belongs. And notice how it is not resolved: not by apostolic decree, not by majority vote.</p>
+<p>Five features. First, people speak openly from their own experience — Peter, then Barnabas and Paul, telling what they have seen. Second, and this verse gets skipped: after they spoke, the entire assembly kept silence (15:12). Third, communal prayer seeking the Spirit. Fourth, resolution by consensus, not by counting. Fifth, the decree: It has seemed good to the Holy Spirit and to us (15:28).</p>
+<p>The Church now calls this Conversation in the Spirit, and it has two poles.</p>
+<p>The first is parrhesia — a New Testament word (Acts 4:31) for courageous, free, transparent speech. Not rudeness. Not settling scores under the appearance of honesty. It means saying the true thing you are afraid to say, in the room where it needs saying, rather than in the corridor afterwards.</p>
+<p>The second is silence. And the text is precise: the silence comes after the speaking. Not the silence of people with nothing to say, but of people who have just heard something and are letting it land before answering.</p>
+<p>That silence is the safeguard. Without it, conversation becomes debate — and in debate you are not listening, you are waiting.</p>
+<p><strong>The turn</strong></p>
+<p>We think the difficulty in our chapters is that people do not speak. Often the deeper difficulty is that nobody stops. Parrhesia without silence produces a community that is honest and unchanged. The silence is not the absence of the conversation. It is where the conversation actually happens.</p>
+<p><strong>Carmelite anchor</strong></p>
+<p>Here Carmel has something to give the whole Church, and it should be said plainly: you have been training in the second half of this method for your entire religious life. The Rule sends each sister to her cell to meditate day and night. The horarium is built around silence. You know in your body the difference between silence that is empty and silence that is full.</p>
+<p><strong>The prophetic edge</strong></p>
+<p>Which means the question for a Carmelite community is not whether you can be silent. It is whether you have the parrhesia. Communities formed in silence can become communities where nothing true is ever said aloud — where the real conversation happens in twos and threes after recreation and the chapter is a ceremony. If that is happening here, no amount of contemplative training will fix it. Only courage will.</p>
+<p><strong>For the silence</strong></p>
+<p>What is the true thing I have not said in chapter — and whom am I protecting by not saying it?</p>
+<p>When a sister speaks, am I listening or waiting?</p>
+<p>Is our silence full or empty? Do we still know the difference?</p>
+<p><strong>Closing movement</strong></p>
+<p>It has seemed good to the Holy Spirit and to us. Notice the order, and notice the &#x27;and&#x27;. Not the Spirit instead of us. Not us with the Spirit&#x27;s rubber stamp. Both — which is only possible if we have spoken truly and then stopped talking.</p>
+<h3 class="sec">Talk 6 — Teresa on Listening: The Castle and the Assembly</h3>
+<p><strong>Scripture: </strong>Proverbs 27:17; Teresa, The Way of Perfection 4; The Interior Castle I.2</p>
+<p><strong>Big idea: </strong>Teresa&#x27;s two great books look like opposites — one about the soul alone with God, one about how to live with each other. They are the same book.</p>
+<p><strong>Opening</strong></p>
+<p>Teresa founded her first reformed house with thirteen sisters. Thirteen. She was insistent on the number, and her reason was not symbolic: beyond a certain size, sisters stop knowing one another, and a community that does not know itself cannot pray together.</p>
+<p>She was describing a synodal problem four hundred years before the word existed.</p>
+<p><strong>Movement</strong></p>
+<p>The Interior Castle describes the soul as a castle of many rooms with the King in the innermost one — the most interior book in the Western tradition. The Way of Perfection, written for the same sisters, is almost entirely about how to live together: friendship, not standing on rank, detachment from honour, how to speak to each other.</p>
+<p>The temptation is to treat these as two departments — prayer here, community there. Teresa does not permit it. In The Way of Perfection she is blunt: she teaches her sisters to live together precisely so that they can pray. Bad community life is not merely unpleasant. It obstructs contemplation.</p>
+<p>And her instinct about listening is exact. In the Interior Castle she makes self-knowledge the ground floor of the whole building — and self-knowledge, she says repeatedly, is not achieved by staring at oneself. It comes by looking at God, and it comes through others.</p>
+<p>This is why she is so exercised about honour. Her sisters came from a society organised by lineage and rank, where the wrong ancestry could destroy you, and Teresa carried the family secret that her own grandfather was a converso — a Jew forced to convert and publicly humiliated. She knew from inside what a society of honour does to people.</p>
+<p>So in her houses she abolished the titles. No doña. No sister addressed by rank of birth. She records the resistance, and she did not care.</p>
+<p><strong>The turn</strong></p>
+<p>We come to a retreat expecting the interior life to be the deep part and community life the practical part. Teresa reverses it. How you speak to the sister who irritates you is not the shallow end of the spiritual life. It is where the truth of your prayer is tested, and where, if it is false, it will be exposed.</p>
+<p><strong>Carmelite anchor</strong></p>
+<p>This is Carmel&#x27;s specific gift to the synodal Church, and it should be offered with confidence. The wider Church is currently trying to learn a method of communal discernment. Carmel has had one for eight centuries: the chapter, the Rule, a prioress who serves rather than rules, the practice of speaking and then being quiet. You are not beginners at this. You are custodians of it.</p>
+<p><strong>The prophetic edge</strong></p>
+<p>But a Teresian question will not leave a modern community alone. She abolished honour titles because they ranked human beings by birth. Look honestly at the Indian Church and ask whether we have done the same, or kept the system and changed the vocabulary. Who gets which work in this congregation? Whose family is spoken of, and how? When a candidate comes, what is quietly noticed about where she is from? Teresa&#x27;s answer to a society of birth-rank was not to preach against it. It was to make it structurally impossible inside her own houses.</p>
+<p><strong>For the silence</strong></p>
+<p>What do I know about the sister I have lived with longest — beyond her habits?</p>
+<p>Is there a ranking in this community that we do not admit exists?</p>
+<p>Teresa said bad community life obstructs prayer. Is anything in how we live together obstructing mine?</p>
+<p><strong>Closing movement</strong></p>
+<p>Thirteen sisters, so that everyone could be known. That was Teresa&#x27;s whole architecture of community, and it rests on a conviction: you cannot walk together with people you have not troubled to know.</p>
+</section>
+<section class="chapter" id="day-three-communion-the-community-of-dis"><h2>Day Three — Communion: The Community of Disciples</h2>
+<h3 class="sec">Talk 7 — Perichoresis: The Trinity as the Shape of Community</h3>
+<p><strong>Scripture: </strong>John 17:20-23; 1 John 4:16</p>
+<p><strong>Big idea: </strong>Community life is not a practical arrangement for getting the work done. It is an attempt to live the inner life of God — which is why it is so difficult.</p>
+<p><strong>Opening</strong></p>
+<p>Most communities have a story about why they live together. We share resources. We support each other. We would be lonely otherwise. All true, all inadequate.</p>
+<p>Today&#x27;s claim is larger and more uncomfortable: you live together because God is a community, and you are trying to imitate the way God exists.</p>
+<p><strong>Movement</strong></p>
+<p>The tradition&#x27;s word is perichoresis — the mutual indwelling and interpenetration of the divine Persons. Father, Son and Spirit are not three individuals who cooperate. Each wholly dwells in the others.</p>
+<p>And here is what matters for synodality: in that divine communion there is no hierarchy of domination. There is an eternal exchange of equals. The Father is not the Son&#x27;s superior. The Trinity is not an organisation chart.</p>
+<p>Jacob Parappally, in the Indian synodality volume, presses this further than most. The human person is imago Trinitatis — made in the image not of a solitary God but of a communion — with three relational dimensions: a Father-dimension, the capacity for transcendence and radical openness to the other; a Son-dimension, the capacity for transparency, vulnerability and the sharing of authority; a Spirit-dimension, the capacity for interiority and discernment [Parappally, pp. 391-395].</p>
+<p>Read that list again as a diagnosis of what goes wrong in community. Refusal of the other. Refusal of transparency and refusal to share authority. Refusal of interiority. Every failure of community life is a failure of one of the three.</p>
+<p>And this communion is not an idea. It is eaten. The Eucharist is where Trinitarian communion is actually realised — where distinctions of status, class and gender are relativised before the table of the Lord [Lawrence Pius, pp. 330-331; Ekka, p. 56].</p>
+<p><strong>The turn</strong></p>
+<p>We think the Trinity is the hardest doctrine to understand and the least relevant to daily life. In fact it is the most practical thing in Christianity: to exist as God exists is to hold nothing back from the other, and any authority that dominates rather than gives is not divine in shape, whatever office it holds.</p>
+<p><strong>Carmelite anchor</strong></p>
+<p>Elizabeth of the Trinity built an entire spirituality on one conviction — that the Three dwell in the soul, and that a Carmelite&#x27;s vocation is to become, in her phrase, a praise of glory. She was twenty-six when she died and had grasped what most theology misses: the indwelling is not a reward for the advanced. It is the given fact about every baptised person. Which means the sister you find most difficult is a dwelling place of the Trinity, and you will have to deal with that.</p>
+<p><strong>For the silence</strong></p>
+<p>Which of the three dimensions is most closed in me — openness, transparency, or interiority?</p>
+<p>Is there authority in my life that I hold rather than share?</p>
+<p>Do I believe the Trinity dwells in the sister I most avoid?</p>
+<p><strong>Closing movement</strong></p>
+<p>The Trinity is not a puzzle to be solved before dinner. It is the pattern of the life you have promised to live. Tonight, sit with the fact that you are trying to imitate God&#x27;s own way of being — and that this is why it is hard, not evidence that you have failed.</p>
+<h3 class="sec">Talk 8 — Table Fellowship: Where Jesus Redrew the Lines</h3>
+<p><strong>Scripture: </strong>Mark 2:15-17; Luke 15:1-2; Galatians 2:11-14</p>
+<p><strong>Big idea: </strong>Jesus&#x27;s most scandalous action was not a miracle or a teaching. It was who he ate with — and in India that action is still waiting to be obeyed.</p>
+<p><strong>Opening</strong></p>
+<p>Ask a question and let it sit: who have you never eaten with?</p>
+<p>Not whom do you dislike. Whom have you simply, in your whole life, never shared a meal with — and would it be noticed if you did?</p>
+<p><strong>Movement</strong></p>
+<p>The charge against Jesus in the Gospels is not blasphemy first. It is social and dietary: this man welcomes sinners and eats with them (Luke 15:2). In Mark 2 he is at table with tax collectors and sinners and the scribes want to know why.</p>
+<p>In a purity culture, sharing a table is not a nicety. It is a declaration about who is clean. To eat with the polluted is to become polluted, and to say with your body that the whole system is wrong.</p>
+<p>Soares-Prabhu is precise about the scale of this — and note his actual wording, which is stronger than the paraphrase usually quoted. It is not that Jesus adjusted the purity rules. He redrew the map, and in doing so abolished the distinction between sacred and profane on which the whole system rested.</p>
+<p>Then he turns it on the Church that inherited it. Where Christians maintain separate seating and separate communion queues by caste — as they do in parts of India — the Eucharist becomes a parody. The liberating meals of Jesus turned into caste meals.</p>
+<p>And he has a phrase for what caste does to Christian identity that should be quoted exactly, because it is unanswerable.</p>
+<p><strong>Verified quotations — safe to read aloud</strong></p>
+<p><em>&quot;Jesus thus radically redraws the purity lines of his social world. This redrawing abolishes the traditional distinctions between the sacred and the profane.&quot;</em><strong>  — The Dharma of Jesus, p. 125</strong></p>
+<p><em>&quot;…by consigning them to special parts of the church or to separate places in a communion queue, is therefore to parody the Eucharist. It is to turn the joyous, hope-filled, liberating meals of Jesus into caste meals, or the self-righteous celebrations of the Pharisaic ḥǎbūrîm.&quot;</em><strong>  — The Dharma of Jesus, ch. 7</strong></p>
+<p><em>&quot;The existence of Christian dalits with their inbuilt situation of inferiority… is a reminder to us of how deeply we have sinned. More, their existence makes us aware of the absurdity of our situation. For, properly speaking, the very expression &#x27;Christian dalit&#x27; is (like &#x27;square circle&#x27;) a contradiction in terms.&quot;</em><strong>  — The Dharma of Jesus, p. 129</strong></p>
+<p><strong>The turn</strong></p>
+<p>We read the meals of Jesus as evidence of his kindness — he was welcoming, he included people. That reading is too small and too safe. The meals were not kindness. They were the dismantling of a religious system, performed with bread, and they are among the reasons he was killed. Hospitality that costs nothing is not what Jesus was doing at those tables.</p>
+<p><strong>Carmelite anchor</strong></p>
+<p>Carmel eats in silence, and there is wisdom in that. But the refectory is still a table, and a table still says something. Who eats in your refectory? Who eats in the kitchen? Who eats afterwards, from what is left? In many religious houses in India there is a second table and everyone knows where it is. Teresa abolished the titles at her table for exactly this reason: a community&#x27;s seating is its theology.</p>
+<p><strong>The prophetic edge</strong></p>
+<p>This is the sharpest turn of the retreat, and it must land on us, not on the bishops or some absent Church. Soares-Prabhu was a priest attacking his own Church, from inside, at cost. The question is not whether Indian Catholicism has a caste problem — it does, and the sisters know it better than any conference speaker. The question is what happens in this congregation. How are candidates from Dalit and Adivasi families received? Who is given which ministry? Whose relatives are welcome to stay? If the answer is uncomfortable, the discomfort is the talk working.</p>
+<p><strong>For the silence</strong></p>
+<p>Who have I never eaten with, and why has it never come up?</p>
+<p>Is there a second table in the house I live in?</p>
+<p>If Jesus redrew the purity lines, what have we quietly redrawn back?</p>
+<p><strong>Closing movement</strong></p>
+<p>He ate with them. That is the whole thing. He did not write a document about inclusion; he sat down and shared food with people whose touch was supposed to defile him, and he kept doing it until it killed him. Ask tonight what your table says.</p>
+<h3 class="sec">Talk 9 — the End of Honour: Teresa&#x27;s Assault on Rank</h3>
+<p><strong>Scripture: </strong>Philippians 2:5-11; James 2:1-9</p>
+<p><strong>Big idea: </strong>Teresa waged a deliberate campaign against a system of ranking human beings — and left Carmel a structural method, not merely a good intention.</p>
+<p><strong>Opening</strong></p>
+<p>Sixteenth-century Spain ran on limpieza de sangre — purity of blood. Your ancestry determined what you could be, whom you could marry, whether you could hold office.</p>
+<p>Teresa&#x27;s grandfather, Juan Sánchez de Toledo, was a converso — a Jew who converted, was denounced, and was made to walk in public penance through the streets of Toledo wearing the sanbenito.</p>
+<p>She knew from inside her own family exactly what a society of blood-rank does to human beings. She never wrote about it directly. She did something more effective.</p>
+<p><strong>Movement</strong></p>
+<p>In the reformed houses she founded, Teresa did three structural things.</p>
+<p>She abolished the honorific titles. No doña. Sisters were not addressed by rank of birth.</p>
+<p>She resisted dowry as a condition of entry where she could — insisting a woman&#x27;s suitability was about vocation, not what her family could send.</p>
+<p>And she limited the size of the community so every sister would be genuinely known, not categorised.</p>
+<p>In The Way of Perfection she writes at length about honour and is scathing about sisters who cling to it. She understands that an honour code survives not by decree but through a thousand small signals: who is greeted first, who gets the better work, whose family is spoken of with respect.</p>
+<p>Notice what she did not do. She did not preach a sermon against rank and leave the structures intact. She changed what was possible in the house. That is the difference between an exhortation and a reform.</p>
+<p><strong>The turn</strong></p>
+<p>We assume the equality of the baptised is a truth to be believed. Teresa treats it as an arrangement to be built. She did not ask her sisters to feel equal while living inside structures that ranked them. She removed the structures — and the feelings followed, slowly, and with resistance.</p>
+<p><strong>Carmelite anchor</strong></p>
+<p>This is a Carmelite competence the wider Church needs. Everyone in the synodal process agrees that baptismal dignity is fundamental. Very few will change any structure on the strength of it. Teresa did, in a society far more rigid than ours, with far less authority than most of the people currently writing synodal documents.</p>
+<p><strong>The prophetic edge</strong></p>
+<p>Set Teresa beside the Indian situation without softening either. Spain had blood-purity; India has caste, and caste has proved more durable inside the Church than anyone wants to admit. The sources are blunt: caste-based lobbies shaping appointments; caste prejudice carried into formation houses, creating stable divisions among the professed; and the finding that Dalit clergy, once ordained, often adopt the dominant clerical mindset rather than remaining in solidarity with where they came from. That last finding should stop us. It means the structure is stronger than the individual conscience — which is exactly Teresa&#x27;s point, and exactly why she changed structures rather than urging virtue.</p>
+<p><strong>For the silence</strong></p>
+<p>What are the unspoken rankings in this congregation, and how are they signalled?</p>
+<p>What would a Teresian reform look like here — not a resolution, an actual structural change?</p>
+<p>Where have I benefited from a ranking I did not create and have not challenged?</p>
+<p><strong>Closing movement</strong></p>
+<p>She took away the titles. It sounds small. It was not small; it was the removal of the machinery by which people were told daily who they were. Ask what machinery is still running in your house.</p>
+</section>
+<section class="chapter" id="day-four-participation-co-responsibility"><h2>Day Four — Participation: Co-responsibility</h2>
+<h3 class="sec">Talk 10 — Omnes, Aliqui, Unus: How a Community Actually Decides</h3>
+<p><strong>Scripture: </strong>Acts 6:1-7; Acts 15:22</p>
+<p><strong>Big idea: </strong>The Church has a precise structure for decision-making that is neither democracy nor monarchy — and Carmel has been using it since before it had a name.</p>
+<p><strong>Opening</strong></p>
+<p>Acts 6 is the first recorded administrative crisis in Christian history, and it begins with a complaint about food distribution: the Greek-speaking widows are being overlooked.</p>
+<p>Notice the complaint is heard. It is not dismissed as ingratitude or a failure of charity. It is treated as information.</p>
+<p><strong>Movement</strong></p>
+<p>Watch the method. The Twelve call together the whole body of disciples. They frame the problem. They ask the community to select seven. The community chooses. The Twelve lay hands on those chosen.</p>
+<p>Everyone acts, and each acts differently. The tradition names this Omnes, Aliqui, Unus.</p>
+<p>The Omnes — all. The whole body. Their function is consultation: the sensus fidei of everyone is listened to, without exclusion.</p>
+<p>The Aliqui — some. Representative bodies: councils, chapters, delegated groups. Their function is discernment: they synthesise what has been heard and shape it into proposals.</p>
+<p>The Unus — one. The one holding the ministry of unity: parish priest, bishop, Pope — and in your life, the prioress or superior general. Her function is decision.</p>
+<p>The whole art is in the prepositions. The Unus decides — but in, with, and after hearing the Omnes and the Aliqui. Remove the Unus and you have a parliament. Remove the Omnes and the Aliqui and you have a monarchy. Keep all three in order and you have a synodal community.</p>
+<p>Note what this protects. It protects the community from a superior who decides alone. It also protects the community from the tyranny of the majority — because the Aliqui discern, they do not count votes.</p>
+<p><strong>The turn</strong></p>
+<p>We assume the alternatives are: the superior decides, or we vote. The tradition says both are deformations. The genuinely Catholic structure is stranger and harder — everybody speaks, some discern, one decides, and each of the three is answerable to the other two.</p>
+<p><strong>Carmelite anchor</strong></p>
+<p>Now recognise your own house. The Rule of St Albert already has it: the community comes together in chapter — that is the Omnes; the prior with the discreets forms the Aliqui; and the prior, who the Rule insists is the servant of the others, is the Unus. Carmelite constitutions have carried this for eight centuries. The wider Church in 2026 is trying to learn what your Rule assumed in 1247.</p>
+<p><strong>The prophetic edge</strong></p>
+<p>Which is why the honest question is not whether the structure exists in your constitutions. It does. The question is whether it functions. The Indian sources are unsparing: mandated participatory bodies simply absent in many places; where they exist on paper, paralysed by never meeting or populated by people chosen because they will agree. A chapter that meets and ratifies is not the Aliqui. It is scenery.</p>
+<p><strong>For the silence</strong></p>
+<p>In our last significant decision, was there a real Omnes phase — or did consultation begin after the decision?</p>
+<p>Are our councils discerning or ratifying?</p>
+<p>Have I ever agreed in chapter with something I did not believe? What did that cost the community?</p>
+<p><strong>Closing movement</strong></p>
+<p>The widows&#x27; complaint was heard, and it changed the structure of the Church. Somebody in your house is currently the Greek-speaking widow. The only question is whether anyone is listening.</p>
+<h3 class="sec">Talk 11 — Obedience and Authority: Making Common Cause for the Kingdom</h3>
+<p><strong>Scripture: </strong>Mark 10:35-45; John 13:1-17</p>
+<p><strong>Big idea: </strong>Soares-Prabhu redefines the vow you have taken in explicitly communal terms — and Jesus does not moderate the exercise of power, he inverts it.</p>
+<p><strong>Opening</strong></p>
+<p>James and John ask for the best seats. It is an embarrassing passage and the early Church kept it in, which tells you something.</p>
+<p>And the other ten are angry — not because the request was wrong, but because James and John got there first.</p>
+<p>This is the central talk of the retreat for a congregation of religious, because it touches the vow you actually live.</p>
+<p><strong>Movement</strong></p>
+<p>Start with the vow, because Soares-Prabhu says something about obedience that most formation never said.</p>
+<p>The ordinary definition is renunciation: I give up my own will. He does not deny that, but he says it is not the point. Obedience is what makes a community capable of acting together for the Kingdom. It is not primarily about the relationship between a sister and her superior. It is about the relationship between a community and its mission.</p>
+<p>Read that against synodality and the connection is immediate. A community whose obedience is only vertical — each sister submitting individually to the one in charge — cannot make common cause for anything. It can only comply. Obedience in his sense requires that the community discern together what God is asking, which is precisely what a chapter is for.</p>
+<p>Now Mark 10, where Jesus describes what authority in his community cannot be. His answer in verses 42-45 is among the most radical political statements in the New Testament, and familiarity has dulled it.</p>
+<p>Soares-Prabhu draws attention to the two Greek verbs and what they actually mean, and then to the flatness of the prohibition. Not: it should be gentler among you. Not: exercise power kindly. It shall not be so among you.</p>
+<p>And then he does something important — he refuses to leave this at the level of personal virtue. Antigreed and antipride are not private dispositions. They are structural principles.</p>
+<p>In John 13 Jesus stops arguing and takes off his outer robe. The washing of feet is not an illustration of humility. It is the definition of authority in the Church, performed by the one who holds all of it.</p>
+<p>Pope Francis gave this an image in 2015 that has governed synodal thinking since: the inverted pyramid. In the Church the only height is service, and those at the apparent summit must place themselves at the bottom, because that is where the one they represent went.</p>
+<p><strong>Verified quotations — safe to read aloud</strong></p>
+<p><em>&quot;Obedience is not just the renunciation of one&#x27;s self-will, but the commitment to God&#x27;s will that enables a community to make common cause for the Kingdom.&quot;</em><strong>  — Vol. 3, p. 201</strong></p>
+<p><em>&quot;Earthly rulers &#x27;wield lordship&#x27; (katakyrieuousin) and &#x27;exercise authority&#x27; (katexousiazousin) over their subjects. That is, they dominate and exploit them to their own advantage.&quot;</em><strong>  — Vol. 1, p. 254</strong></p>
+<p><em>&quot;This is not how the followers of Jesus must behave: &#x27;It shall not be so among you.&#x27; Nothing could be more forceful than this flat, unadorned yet emphatic prohibition.&quot;</em><strong>  — Vol. 1, p. 254</strong></p>
+<p><em>&quot;He, the Son of Man, has come not to be served but to serve. To be a servant (diakonos), then, is the highest ambition a follower of Jesus can have.&quot;</em><strong>  — Vol. 1, p. 254</strong></p>
+<p><em>&quot;Antigreed and antipride are therefore not just individual virtues which Jesus demanded from those who wished to follow him. They are the structuring principles of the alternative community he sought to build… It is just these that make the Church the contrast community (the light of the world and the salt of the earth) that Jesus intended his community to be.&quot;</em><strong>  — Vol. 1, p. 256</strong></p>
+<p><strong>The turn</strong></p>
+<p>We assume the problem with authority is that it is sometimes exercised harshly, and the solution is to exercise it gently. Jesus says the problem is the shape of it. A gentle tyrant is still a tyrant. And we assume obedience is what I surrender. Soares-Prabhu says obedience is what makes us capable of acting together. Both reframings point the same way: neither authority nor obedience is finally about the individual. Both are about whether this community can make common cause for the Kingdom.</p>
+<p><strong>Carmelite anchor</strong></p>
+<p>The Rule of St Albert says something easy to miss: the prior is to be the servant of the others. Not a servant-hearted ruler — the servant. Carmel wrote this into its founding document before the spirituality was elaborated. And Teresa, who governed a great deal and governed effectively, was insistent that a prioress who could not do the humblest work of the house had no business governing it.</p>
+<p><strong>The prophetic edge</strong></p>
+<p>For a congregation of sisters there is a harder application, and the sources name it. Religious women in India frequently receive clerical power exercised exactly as Jesus forbade — the volume documents sisters forbidden by parish priests from riding two-wheelers to their mission stations, and questioned intrusively if seen travelling with lay male collaborators, the whole pattern reducing them to unpaid pastoral and domestic labour. That is real and should be said aloud rather than endured in silence. But the passage must also turn inward: within a congregation of women, authority can take exactly the same forbidden shape. Being on the receiving end of domination does not immunise anyone against practising it.</p>
+<p><strong>For the silence</strong></p>
+<p>Is my obedience the kind that enables this community to make common cause — or the kind that only complies?</p>
+<p>Where do I hold power here, including informal power, and how do I hold it?</p>
+<p>Where have I accepted domination in a way that made it easier for the next sister to be dominated?</p>
+<p><strong>Closing movement</strong></p>
+<p>He took off his outer robe and tied a towel round himself. John says explicitly that he knew he had come from God and was going to God — and that is why he could kneel. Security is what makes service possible. Insecurity is what makes people rule.</p>
+<h3 class="sec">Talk 12 — When Listening is Not Enough: The Consultative Trap</h3>
+<p><strong>Scripture: </strong>James 2:15-17; Amos 5:21-24</p>
+<p><strong>Big idea: </strong>There is a gap in the Church between being consulted and being heard, and pretending it does not exist is the fastest way to kill synodality.</p>
+<p><strong>Opening</strong></p>
+<p>This is the difficult talk of the retreat, and it should be introduced as such.</p>
+<p>Everything so far has been about what synodality is. This one is about why, in many places, it has not happened — and about the temptation to end a retreat like this in warm feelings and change nothing.</p>
+<p><strong>Movement</strong></p>
+<p>The 1983 Code contains genuinely participatory structures. Parish pastoral councils (c. 536). Parish finance councils (c. 537). Diocesan pastoral councils (c. 511). They exist, and they were a real fruit of the Council.</p>
+<p>And the Code restricts every one of them to a consultative vote.</p>
+<p>Behind this stands canon 129, reserving the power of governance — potestas regiminis — to those in sacred orders, allowing the laity only to co-operate in its exercise.</p>
+<p>The practical effect: a council may reach unanimous consensus and the priest or bishop may legally decide the opposite. Not improperly. Legally.</p>
+<p>The canonist Sabine Demel names the theological problem precisely: this reduces lay co-responsibility to a concession granted by clerical authority rather than a right rooted in baptism. Once a community understands that, consultation curdles. The Indian sources record the result exactly — widespread disillusionment, people declining to participate, and the resigned formula: let the priest decide.</p>
+<p>There is a phrase used to defend this, and it is true, which is what makes it dangerous. A synod is not a parliament. Correct. A synod seeks consensus under the Spirit, not a majority won by lobbying.</p>
+<p>But hear what the Indian theologians say back. Unless consensus is backed by structures that actually bind, not a parliament becomes a weapon — a way of bypassing accountability while appearing to listen. Shalini Mulackal identifies the root: Vatican II left two ecclesiologies side by side, one monarchical and one communio-synodal, never reconciled — so both sides can quote the Council and diocesan life stays paralysed [Mulackal, p. 352].</p>
+<p>James Ponniah gives the sharpest formulation, worth writing down: the gap between niti — the formal institutional declaration — and nyaya, the actual lived experience of justice on the ground [Ponniah, p. 86].</p>
+<p><strong>The turn</strong></p>
+<p>You might expect a retreat conference to defend the Church&#x27;s arrangements. This one will not, because the sisters already know the truth and pretending otherwise would waste their time. But the turn is not cynicism. It is this: the gap between niti and nyaya exists in the wider Church, and it also exists in this congregation — and you have far more power over the second than the first. You cannot amend canon 129 this week. You can decide whether your next chapter is real.</p>
+<p><strong>Carmelite anchor</strong></p>
+<p>Carmel&#x27;s founders were reformers who worked inside structures that resisted them. Teresa was investigated, obstructed, and called a restless gadabout woman by a papal nuncio. John of the Cross was imprisoned by his own brothers in religion — locked in a cell nine feet by six for nine months by Carmelites. Neither left. Neither pretended the structures were fine. They reformed from inside at personal cost, which is the only kind of reform Carmel recognises.</p>
+<p><strong>The prophetic edge</strong></p>
+<p>One further honesty, and it is the one most likely to be avoided. The Indian critique of the recent synodal process is that it was captured by the educated, English-speaking, middle-class parish elite, while poor Dalit Christians, illiterate Adivasi Catholics and the differently-abled were bypassed by online questionnaires and workshops. Sisters are frequently on the wrong end of clerical power. Sisters are also frequently members of that educated elite. Both are true at once, and a retreat that lets you hold only the first half has flattered you.</p>
+<p><strong>For the silence</strong></p>
+<p>Where in my life am I consulted but not heard? How do I carry that?</p>
+<p>Where do I consult others without intending to be changed by them?</p>
+<p>Am I among those the process reaches easily? Who is not?</p>
+<p><strong>Closing movement</strong></p>
+<p>Amos is not gentle about worship offered by a community that has not done justice: take away from me the noise of your songs. He is talking about liturgy, not administration — which is the point. A community can pray beautifully and be unjust, and God says what he thinks of that arrangement.</p>
+</section>
+<section class="chapter" id="day-five-mission-walking-outward"><h2>Day Five — Mission: Walking Outward</h2>
+<h3 class="sec">Talk 13 — the Kingdom as a New Society</h3>
+<p><strong>Scripture: </strong>Luke 4:16-21; Mark 1:14-15</p>
+<p><strong>Big idea: </strong>The Kingdom of God is not a destination after death. It is a society with three dimensions, and you can examine your life against all three.</p>
+<p><strong>Opening</strong></p>
+<p>Ask what the sisters actually picture when they say thy kingdom come.</p>
+<p>For many Catholics, honestly answered, the answer is: heaven. Somewhere else. Later.</p>
+<p>Soares-Prabhu regards that as a mistranslation of the entire Gospel.</p>
+<p><strong>Movement</strong></p>
+<p>He proposes instead that the Kingdom is a new society, and he names its three dimensions in a single sentence that is worth reading aloud twice — because the three are linked causally, not merely listed. Freedom empowers fellowship; fellowship compels justice.</p>
+<p>Personal freedom. Liberation from the inadequacies and obsessions that shackle each individual. This is the interior dimension, where Carmel is strongest — and it is why he refused to let liberation theology drop it.</p>
+<p>Communitarian fellowship. The actual quality of relationship between people, made possible by free individuals exercising concern for one another. His archetype is the Jerusalem community of Acts 4:32-33.</p>
+<p>Structural justice. The arrangements of society itself — land, wage, caste, gender, access — because a true community is impelled to adopt the structures that alone make freedom and fellowship possible.</p>
+<p>That last move is the one most communities skip. He does not treat justice as an optional extra for the socially minded. He treats it as what a genuine community inevitably does.</p>
+<p>And he is relentless against the escapist reading. Note what Jesus reads in the synagogue at Nazareth when he announces his programme (Luke 4): good news to the poor, release to captives, sight to the blind, freedom for the oppressed. Not one word about the afterlife.</p>
+<p><strong>Verified quotations — safe to read aloud</strong></p>
+<p><em>&quot;When the revelation of God&#x27;s love (the Kingdom) meets its appropriate response in man&#x27;s trusting acceptance of this love (repentance), there begins a mighty movement of personal </em><em>and societal liberation which sweeps through human history. The movement brings freedom inasmuch it liberates each individual from the inadequacies and obsessions that shackle him. It fosters fellowship, because it empowers free individuals to exercise their concern for each other in genuine community. And it leads on to justice, because it impels every true community to adopt the just societal structures which alone make freedom and fellowship possible.&quot;</em><strong>  — The Dharma of Jesus, p. 64</strong></p>
+<p><em>&quot;Freedom, fellowship, and justice are thus the parameters of the Kingdom&#x27;s thrust toward the total liberation of man.&quot;</em><strong>  — The Dharma of Jesus, p. 64</strong></p>
+<p><em>&quot;The liberation he proclaims is not to be spiritualized away, as though those who are poor now on earth will be &#x27;rich&#x27; in heaven. Such a &#x27;pie-in-the-sky-when-you-die&#x27; interpretation fails to do justice to the strongly this worldly character of the Kingdom which Jesus proclaims. For the Kingdom is, after all, God&#x27;s intervention into history.&quot;</em><strong>  — The Dharma of Jesus, p. 239</strong></p>
+<p><strong>The turn</strong></p>
+<p>We have been taught to ask whether we are ready for the Kingdom. He turns the question round: the Kingdom is a movement whose progress can be measured, and measured in three places at once — in your interior freedom, in the actual fellowship of your community, and in the structures your life supports. You do not wait for it. You are either part of the movement or you are not.</p>
+<p><strong>Carmelite anchor</strong></p>
+<p>Carmel is unmistakably strong on the first dimension and has produced the tradition&#x27;s greatest teachers of interior freedom. That is not a small contribution; it is a necessary one, and Soares-Prabhu would insist on it — his standing complaint against liberation theology was precisely that it dropped this. But notice the causal chain in his sentence. Freedom is not the destination. It is what makes fellowship possible, which is what makes justice inevitable. A Carmel that stops at the first has interrupted his sentence halfway.</p>
+<p><strong>The prophetic edge</strong></p>
+<p>Take the three into the Indian reality without abstraction. Personal freedom, in a Church where sisters are often not free. Communitarian fellowship, where the communion queue is sometimes divided by caste. Structural justice, in a country where Adivasi communities are losing land to mining and displacement, where anti-conversion laws operate in Jharkhand, Odisha, Chhattisgarh and Madhya Pradesh, and where tribal Catholics live under surveillance.</p>
+<p><strong>For the silence</strong></p>
+<p>Which of the three dimensions is weakest in my own life?</p>
+<p>Which is weakest in this congregation&#x27;s actual practice, whatever our documents say?</p>
+<p>Is there a structure my life quietly supports that the Kingdom would dismantle?</p>
+<p><strong>Closing movement</strong></p>
+<p>Not a heaven we escape into. A movement sweeping through human history, which we are being asked to join, starting in this house. Thy kingdom come is not a wish. It is an offer to be conscripted.</p>
+<h3 class="sec">Talk 14 — the Cry for Life: Survival, Dignity, Meaning</h3>
+<p><strong>Scripture: </strong>Exodus 3:7-10; Matthew 25:31-46</p>
+<p><strong>Big idea: </strong>God&#x27;s first recorded political act is hearing a cry — and any Indian theology must answer three cries or be worthless.</p>
+<p><strong>Opening</strong></p>
+<p>Exodus 3. God says: I have observed the misery of my people; I have heard their cry; I know their sufferings; I have come down to deliver them.</p>
+<p>Observed, heard, know, come down. Four verbs, and the fourth is the one that costs.</p>
+<p>The Exodus does not begin with a doctrine. It begins with a noise God refuses to ignore.</p>
+<p><strong>Movement</strong></p>
+<p>Soares-Prabhu insists theology in Asia is worth nothing unless it answers what he calls the cry for life, and he divides it in three.</p>
+<p>A cry for survival — deadly economic poverty. He refuses to spiritualise this. His definitions of the poor are concrete and social, not attitudinal: not the humble, not the pious, the poor.</p>
+<p>A cry for dignity — discrimination by caste, race and sex. Here an Indian theology parts company with a purely economic analysis: a person may eat and still be treated as polluting.</p>
+<p>A cry for meaning — the religious pluralism of Asia. Not a problem but a condition, and he thought a theology treating India&#x27;s religions merely as an obstacle had already failed.</p>
+<p>And here is his guard against sentimentality about poverty, which a retreat must not omit. Note the exact wording — it is more careful than the version usually quoted.</p>
+<p>He also insists the poor are not passive. They are those through whom God shapes history — which changes the entire posture of religious life toward them. They are not the objects of your ministry. They are subjects of God&#x27;s action, and you may be permitted to join it.</p>
+<p><strong>Verified quotations — safe to read aloud</strong></p>
+<p><em>&quot;…to all those who are deprived of the material and social goods needed for an authentically human life.&quot;</em><strong>  — The Dharma of Jesus, p. 233</strong></p>
+<p><em>&quot;It would have stood for all those who were in any way oppressed, and so reduced to a condition of diminished worth or capacity.&quot;</em><strong>  — The Dharma of Jesus, p. 237</strong></p>
+<p><em>&quot;But that oppressive poverty, which is ultimately dehumanizing, is a religious value may be doubted. Jesus certainly never proclaims it as such. Rather, he proclaims the poor &#x27;blessed,&#x27; not because their poverty is a good thing, but precisely because it is an evil which he is about to bring to an end.&quot;</em><strong>  — The Dharma of Jesus, p. 238</strong></p>
+<p><strong>The turn</strong></p>
+<p>The instinct of religious life is to ask: what can we do for the poor? His account turns it round. The poor are a group with their own insight, through whom God is acting. The question is not what you will do for them. It is whether you can hear what God is saying through them — which is a synodal question, not a charitable one.</p>
+<p><strong>Carmelite anchor</strong></p>
+<p>Carmel&#x27;s contemplative vocation is sometimes defended as though prayer were an alternative to this. Teresa would not have recognised the argument. She founded houses in the middle of cities; her sisters prayed for a Church in crisis and a world she considered to be on fire. The enclosure was never a wall against the cry; it was a way of hearing it without being deafened. For an apostolic Carmelite the application is direct — whose cry does your ministry actually reach? For a contemplative it is no less direct: whose cry do you carry into the choir, and do you know their names?</p>
+<p><strong>The prophetic edge</strong></p>
+<p>Be specific or the talk fails: not &#x27;the poor&#x27; but the Adivasi family whose forest is now a mine; the migrant brother of one of your novices working in Kerala and sending money home; the Dalit woman who cleans this retreat house and will not be invited to any of these conferences. Name your own.</p>
+<p><strong>For the silence</strong></p>
+<p>Whose cry can I actually hear from where I live? Whose have I arranged not to hear?</p>
+<p>Do I treat the poor as objects of ministry or as those through whom God is speaking?</p>
+<p>Which of the three cries does this congregation answer, and which do we leave alone?</p>
+<p><strong>Closing movement</strong></p>
+<p>I have heard their cry. God&#x27;s first move is not a plan but an act of listening — which means the most political thing in Exodus happens before anything happens at all. Synodality begins in the same place.</p>
+<h3 class="sec">Talk 15 — Salt and Light: Living It is Already Mission</h3>
+<p><strong>Scripture: </strong>Matthew 5:13-16; Thérèse of Lisieux, Story of a Soul</p>
+<p><strong>Big idea: </strong>Mission is not primarily what you go out and do. It is what you are — which is why the enclosed nun and the sister running a dispensary are doing the same thing.</p>
+<p><strong>Opening</strong></p>
+<p>The two images in Matthew 5 are strange when you look at them.</p>
+<p>Salt does nothing visible. It changes what it is mixed into and disappears. A city on a hill does not travel; it is simply seen.</p>
+<p>Neither image is about activity. Both are about being something.</p>
+<p><strong>Movement</strong></p>
+<p>Soares-Prabhu reads Matthew 5:13-16 as the mission command of the Sermon on the Mount — and reaches a conclusion he finds exciting enough to end with an exclamation mark, which he rarely does.</p>
+<p>That is not a lowering of the demand. It raises it. If mission were only what you did, you could do your work and go home. If mission is what you are, there is nowhere to go home to.</p>
+<p>And he adds an Indian argument that is the most useful thing in this talk for a religious in this country. India is a culture of darshan — seeing — more than of hearing. So witness precedes and outweighs verbal proclamation. He points to Gandhi&#x27;s gospel of the rose: the rose does not advertise; it spreads fragrance and people come.</p>
+<p>In a country with anti-conversion laws, where every Christian institution is watched and accusations of conversion by inducement are a standing danger, this is not merely pretty. It is strategy — and it is the strategy of the Sermon on the Mount, which describes a community so visibly different that people ask why.</p>
+<p>And the Sermon gives the shape of that difference in three, each of which he defines precisely. A dharma of freedom — liberation from the oppressive burden of the Law, because Jesus radicalises it so that it reaches the heart rather than merely regulating behaviour. A dharma of sonship — the experience of God as Abba rather than Judge, which changes God&#x27;s primary attribute from justice to love. A dharma of concern — because sonship is inseparable from siblinghood, so that loving God with all one&#x27;s heart means loving one&#x27;s neighbour as oneself.</p>
+<p><strong>Verified quotations — safe to read aloud</strong></p>
+<p><em>&quot;Because living out Christian life properly is already mission, the Sermon on the Mount, which marks out the contours of Christian living, becomes a strategy for mission!&quot;</em><strong>  — The Dharma of Jesus, p. 263</strong></p>
+<p><em>&quot;…here a religious tradition that &#x27;sees the divine image&#x27; (darshan) rather than &#x27;hears the word of God&#x27; has made people more sensitive to visual manifestations of religious experience in the life of individuals and communities than to mere words about it… We need to listen attentively to Mahatma Gandhi&#x27;s words about &#x27;the gospel of the rose.&#x27;&quot;</em><strong>  — The Dharma of Jesus, p. 264</strong></p>
+<p><em>&quot;Grounded on an experience of God as the &#x27;dear Father&#x27; (Abba) who forgives recklessly… the Dharma of Jesus proposes as the primary attribute of God not his justice but his love. God&#x27;s attitude to man is not then conditional approval (&#x27;I will love you if you are good&#x27;) but wholly unconditional love (&#x27;I love you&#x27;; &#x27;experience this and you will be good&#x27;).&quot;</em><strong>  — The Dharma of Jesus, p. 187</strong></p>
+<p><em>&quot;He would then have been saying that to love God with all one&#x27;s heart means to love one&#x27;s neighbor as oneself.&quot;</em><strong>  — The Dharma of Jesus, p. 188</strong></p>
+<p><strong>The turn</strong></p>
+<p>We divide religious life into active and contemplative and argue about which is more useful. Matthew 5 dissolves the argument. Salt and light are not activities. The enclosed Carmelite and the Carmelite running a school in Jharkhand are doing the same thing in different registers: being something that changes what it is placed in.</p>
+<p><strong>Carmelite anchor</strong></p>
+<p>Thérèse settles this better than any argument. A young woman in an enclosed monastery who went nowhere, did nothing measurable, died at twenty-four — and is patroness of the missions. She found her answer in 1 Corinthians 13 and wrote: in the heart of the Church, my mother, I will be love. That is not sentimentality. It is the most economical statement of Matthew 5 in the tradition. She understood that mission is not geography.</p>
+<p><strong>For the silence</strong></p>
+<p>If mission is what I am rather than what I do, what am I currently missioning?</p>
+<p>Would anyone looking at this community ask why we live like this? If not, why not?</p>
+<p>Which of the three — freedom, sonship, concern — is visible in me from the outside?</p>
+<p><strong>Closing movement</strong></p>
+<p>You are the salt of the earth. Present tense. Not: you should become. He said it to people who had done nothing yet. Whatever else is true of you, that is already true — and tomorrow we ask what it costs to live as though it were.</p>
+</section>
+<section class="chapter" id="day-six-conversion-the-descent-from-the-"><h2>Day Six — Conversion: The Descent from the Mountain</h2>
+<h3 class="sec">Talk 16 — Inculturation as Conversion, Not Decoration</h3>
+<p><strong>Scripture: </strong>Acts 15:19-21; 1 Corinthians 9:19-23</p>
+<p><strong>Big idea: </strong>Most of what the Church calls inculturation is not inculturation at all — and the tribal Church of India has been quietly teaching the rest of us what the real thing looks like.</p>
+<p><strong>Opening</strong></p>
+<p>A liturgy with a tabla in it is not necessarily inculturated. It may simply be a Roman liturgy with a tabla in it.</p>
+<p>Today is about the difference, and it will be uncomfortable for anyone invested in the decorative version.</p>
+<p><strong>Movement</strong></p>
+<p>Soares-Prabhu keeps three words apart that the Church routinely confuses, and the distinction is the whole talk.</p>
+<p>Aggiornamento — bringing up to date. Re-expressing doctrine for modern people. Useful; not inculturation.</p>
+<p>Enculturation — the growth and consolidation of a religion in a culture where it is already established.</p>
+<p>Inculturation — a creative, decolonising double movement proper to culturally alienated groups, victims of cultural imperialism, requiring an actual crossing between underlying cultures. He calls it a mental conversion.</p>
+<p>Then his charge, aimed at the Western Church and landing on the Indian one: what Westerners call inculturation is really only aggiornamento — re-interpreting doctrine for modernity without crossing any cultural boundary at all.</p>
+<p>Now set beside that what the Indian sources say about the tribal Church, because this is where the argument becomes concrete and hopeful.</p>
+<p>Tribal governance in India is structurally synodal and always has been. The Khasi Durbar — the clan council under the Rangbahkur, the village council under the Rangbah-shnong. The Tangkhul Naga village under the Awunga, restrained by his council of Hangva, whose customary law leaves, in the sources&#x27; phrase, no room for the Awunga to be despotic. The Munda, Ho, Santhal and Oraon village assemblies, which reach decisions by patient dialogue until consensus — never by majority vote, because a majority vote leaves a defeated minority inside the community.</p>
+<p>That is Acts 15&#x27;s method, arrived at independently, practised for centuries in Jharkhand and the Northeast.</p>
+<p>And the practice follows. In tribal parishes the Mahila Sangh, the women&#x27;s council, functions in 74.4 per cent of parishes — more widespread than the parish council itself at 69.8 per cent. Catechists lead Sunday worship across dozens of scattered villages. Sarhul, Karam and Sohrai are kept as parish feasts.</p>
+<p>One detail is worth the whole talk. The Archbishop of Delhi has observed that tribal Catholic migrants from Chotanagpur — now around 70 per cent of Delhi&#x27;s Catholic population — have brought synodality to the Church of Delhi. The poor, displaced, migrant community evangelised the metropolitan Church in how to walk together.</p>
+<p><strong>The turn</strong></p>
+<p>We assume inculturation flows outward from the centre: the universal Church graciously permits local expression. Reverse it. The tribal Church did not receive synodality from Rome; it had been practising the substance of it for centuries and is now teaching it to Delhi. Inculturation is not the centre making room for the margin. It is the centre being converted by it.</p>
+<p><strong>Carmelite anchor</strong></p>
+<p>Carmel began as an inculturated movement — Latin hermits on a mountain in the Middle East, taking their form from the place and its prophet, then having to re-form entirely when they were driven to Europe and became friars. Carmel has crossed cultures at cost before. And the Rule&#x27;s genius was to specify a way of life rather than a set of customs, which is precisely why it survived the crossing.</p>
+<p><strong>The prophetic edge</strong></p>
+<p>One honest word, or the talk becomes romanticism. Tribal society is not a finished model of synodality, and the sources say so: the Khasi Durbar and the Tangkhul Hangva are structurally restricted to male clan heads. Indigenous synodality needs its own internal conversion on exactly the point that matters most to a congregation of women. Tribal culture is a genuine resource for synodality. It is not an unqualified model of it — and saying both is more respectful than saying only the first.</p>
+<p><strong>For the silence</strong></p>
+<p>Is what we call inculturation here actually inculturation, or decoration?</p>
+<p>What have I assumed the centre must teach the margins, that the margins already know better?</p>
+<p>Where does my own culture need converting rather than translating?</p>
+<p><strong>Closing movement</strong></p>
+<p>The migrants from Chotanagpur brought synodality to Delhi. Nobody planned it, nobody funded it, no document authorised it. They simply lived what they had always lived, in a place that had forgotten it. Ask what you are carrying that the Church around you has forgotten.</p>
+<h3 class="sec">Talk 17 — the Dark Night of the Institution</h3>
+<p><strong>Scripture: </strong>John 12:24; John of the Cross, Ascent of Mount Carmel I.13</p>
+<p><strong>Big idea: </strong>John of the Cross described what happens when God removes what we relied on. It happens to institutions too — and a Church learning synodality is in exactly that night.</p>
+<p><strong>Opening</strong></p>
+<p>John of the Cross was imprisoned by his own community. Not by the Inquisition, not by the state — by Carmelites, in a cell nine feet by six, for nine months, beaten weekly.</p>
+<p>He wrote some of the greatest poetry in the Spanish language in that cell.</p>
+<p>Whatever else is true, Carmel cannot pretend it does not know what it is for religious structures to become instruments of cruelty. It happened to its greatest teacher at the hands of his own brothers.</p>
+<p><strong>Movement</strong></p>
+<p>The dark night is not depression and not punishment. It is God removing the supports a soul has leaned on — including religious supports, including consolation in prayer — because they have become substitutes for God.</p>
+<p>The soul experiences this as loss. It is in fact purification. And crucially: you cannot produce it and you cannot shorten it. You can only consent.</p>
+<p>Now apply that to an institution, carefully, because it is not merely a metaphor.</p>
+<p>A Church learning synodality is losing supports it has leaned on for centuries. The certainty that the cleric decides. The comfort of a chain of command. The efficiency of not having to consult. The clarity of knowing who teaches and who learns.</p>
+<p>Losing those feels like disorder. Many experience it as decline. The Indian sources record the clerical fear precisely: resistance to lay participation because it will invite scrutiny, questioning, and a loss of unchecked administrative and financial control. That is a soul in the night, describing its experience accurately and interpreting it wrongly.</p>
+<p>And congregations are in the same night. Fewer vocations. Institutions that cannot be staffed. Houses closing. Average age rising. Works handed over that were founded with enormous sacrifice.</p>
+<p>John&#x27;s counsel to a soul in the night is not to escape it but to refuse two temptations: do not go back to the old consolations, and do not fill the emptiness with activity. Stay, and let God do what God is doing.</p>
+<p><strong>The turn</strong></p>
+<p>We read the Church&#x27;s present disorder as a crisis of decline, and our own diminishment as failure. John offers another reading, and he earned the right to offer it in a locked cell: what looks like loss may be the removal of what we were leaning on instead of God. That reading is not consolation. It is harder than consolation, because it asks us to let the thing go rather than fight for it.</p>
+<p><strong>Carmelite anchor</strong></p>
+<p>This is Carmel&#x27;s proper gift to the Church in this moment, and it is not small. The rest of the Church is experiencing this night and has no vocabulary for it — so it produces either panic or denial. You have the vocabulary. You have five centuries of it. What Carmel can say to a frightened Church is: we know this country, we have maps, and the way through is not backwards.</p>
+<p><strong>The prophetic edge</strong></p>
+<p>But the doctrine can be abused, and the abuse must be named. The dark night is not an explanation for injustice. A sister silenced by clerical power is not being purified; she is being wronged. When the sources record the absence of independent audit at parish and diocesan level fostering careerism, nepotism and financial misconduct, that is not a night to be endured but a wrong to be corrected. John of the Cross wrote about God removing false supports. He never wrote that abuse was one of God&#x27;s instruments — and his own imprisonment was not a night sent by God but a crime committed by religious.</p>
+<p><strong>For the silence</strong></p>
+<p>What am I leaning on that is not God?</p>
+<p>What is this congregation fighting to keep that may be being taken away for our good?</p>
+<p>Where am I calling something a dark night that is actually an injustice I should be resisting?</p>
+<p><strong>Closing movement</strong></p>
+<p>Unless a grain of wheat falls into the earth and dies, it remains just a single grain. He does not say the dying is pleasant. He says it is the only way the grain stops being alone. Tomorrow you go down the mountain. Ask what you are willing to let fall.</p>
+<h3 class="sec">Talk 18 — Sending: Walking Together Down the Mountain</h3>
+<p><strong>Scripture: </strong>1 Kings 19:15-18; Luke 24:13-35; Acts 1:14</p>
+<p><strong>Big idea: </strong>The retreat ends where Elijah&#x27;s did — with the command to go back the way you came, and the news that you were never as alone as you thought.</p>
+<p><strong>Opening</strong></p>
+<p>Six days ago we began with a word: syn-hodos, walking together. We began with Elijah under a broom tree saying I only am left.</p>
+<p>God&#x27;s answer was two sentences. Go back the way you came. And: there are seven thousand others.</p>
+<p>Today is about going back.</p>
+<p><strong>Movement</strong></p>
+<p>Take the Emmaus road as the closing image, because it contains the whole retreat.</p>
+<p>Two disciples walking away from Jerusalem, away from the community, in the wrong direction, talking about a failure. Jesus joins them and does not announce himself. He asks a question. What are you discussing?</p>
+<p>He listens first. To people who are wrong. At length.</p>
+<p>Then he speaks — and what he does is re-read their own tradition to them, so that the events which had destroyed their hope become the events that vindicate it. Same facts, transformed reading.</p>
+<p>Then he acts as if he will go further, and they have to ask him to stay. He does not force himself on them. He waits to be invited.</p>
+<p>Then bread, and recognition, and he vanishes — because the recognition is the point, not his presence.</p>
+<p>And then the detail that makes this a synodal text: they get up that same hour and go back to Jerusalem. In the dark. To the community they had abandoned. And they find the others already gathered, already saying he is risen. Both groups had the experience separately, and neither was complete until they told each other.</p>
+<p>That is what walking together means. Not that we have identical experiences. That our separate experiences are unfinished until they are shared.</p>
+<p>And Soares-Prabhu&#x27;s word on what following actually requires belongs here, at the end, because it refuses to let a retreat close in comfort.</p>
+<p><strong>Verified quotations — safe to read aloud</strong></p>
+<p><em>&quot;This following Jesus in mission means far more than merely obeying a command to go out and recruit members for the Christian community. It is not just a commissioning to missionary activity, but a call to a life of missionary discipleship. Such a life calls for a radical detachment from possessions and family ties, for a radical trust in God, and a radical fidelity to Jesus in all the conflicts and persecutions which following him in mission will bring.&quot;</em><strong>  — The Dharma of Jesus, p. 280</strong></p>
+<p><em>&quot;Such a following of Jesus can never be a &#x27;crusade,&#x27; an act of violence against religions and cultures (options which Jesus explicitly refused), but always an act of loving service, carried out as Matthew has told us, in poverty and powerlessness, in dependence on God, in persecution and conflict.&quot;</em><strong>  — The Dharma of Jesus, p. 281</strong></p>
+<p><strong>The turn</strong></p>
+<p>You may have come to this retreat to receive something for yourself. That is a good instinct and it is incomplete. Whatever you have received in these six days is unfinished until you take it back down and tell it — including the parts that were uncomfortable, and especially the parts you have quietly decided not to mention.</p>
+<p><strong>Carmelite anchor</strong></p>
+<p>The last image is Carmelite and Marian. Acts 1:14 places Mary in the upper room with the others, devoting themselves to prayer, waiting for the Spirit. Not teaching. Not presiding. Present, praying, part of the assembly. Carmel has always understood Mary as sister rather than sovereign — Our Lady of Mount Carmel, one of the community, waiting with everyone else. That is the final image of synodality the tradition gives you: the woman who bore God, sitting in the room, waiting with the rest.</p>
+<p><strong>The prophetic edge</strong></p>
+<p>Do not let the retreat end in feelings. The Indian critique of the whole synodal process is that it produced rhetoric without structural change — massive consultation, enormous documentation, and very little anyone could point to afterwards and say: that is different now. A retreat can fail in exactly the same way, and this one will unless something in the life of this house is actually altered. Before they disperse, ask the community to name one structural change — not one resolution — that will be made as a result of these six days. One. And who is responsible for it, and by when.</p>
+<p><strong>For the silence</strong></p>
+<p>What am I taking down the mountain that I must tell someone?</p>
+<p>What have I decided not to say? Why?</p>
+<p>What one thing in this house will be different, and what is my part in it?</p>
+<p><strong>Closing movement</strong></p>
+<p>Go back the way you came. Elijah climbed up alone and went down knowing there were seven thousand others. Nothing about his situation had changed except that he now knew the truth about it. You are not the only one left. You never were. Walk down together.</p>
+</section>
+<section class="chapter" id="appendix-a-verified-quotation-bank"><h2>Appendix a — Verified Quotation Bank</h2>
+<p>Every quotation below was checked directly against the sources through NotebookLM on 16 August 2026. These are safe to read aloud. Anything not on this list should be verified before it is quoted.</p>
+<h3 class="sec">On Religious Life and the Vows — Collected Writings, Volume 3</h3>
+<p><em>&quot;since Vatican II religious life is no more considered primarily from juridical and ascetical perspective but is thoroughly grounded on the Gospels, namely, a way of following Jesus (= living out publicly the way of life Jesus led and sharing in his mission)&quot;</em><strong>  — Vol. 3</strong></p>
+<p><em>&quot;Traditionally these three ideals have been institutionalized (in the pre-Reformation Churches at least) into religious &#x27;vows&#x27; which define the status of the specialized group of &#x27;religious&#x27;. But they designate in fact, the goal of all Christian existence. For religious life in the Christian communities is not a specifically different type of existence, but is merely Christian life (the following of Christ as proposed by the gospel).&quot;</em><strong>  — Vol. 3, pp. 205-206</strong></p>
+<p><em>&quot;Obedience is not just the renunciation of one&#x27;s self-will, but the commitment to God&#x27;s will that enables a community to make common cause for the Kingdom.&quot;</em><strong>  — Vol. 3, p. 201</strong></p>
+<p><em>&quot;The religious by virtue of their option and profession must keep alive and foster the values of the contrast community, so dear to the heart and mind of Jesus.&quot;</em><strong>  — Vol. 3 / Vol. 1 Preface, p. xiii</strong></p>
+<p>He also compares the three vows to the four purusharthas, the classical Hindu goals of life (Vol. 3, Introduction, p. xxx) — a useful line of inculturated reflection if the community wants to pursue it beyond the retreat.</p>
+<h3 class="sec">On Contemplation and Action</h3>
+<p><em>&quot;Such preaching reveals an unusual kind of religious consciousness: one in which profound mysticism is jointed to an intense historical concern.&quot;</em><strong>  — Vol. 3, p. 117</strong></p>
+<p><em>&quot;the experience of God&#x27;s unconditional love frees the followers of Jesus from both internal compulsions towards greed and ambition, and from the external constraints of a servile bondage to ritual and law.&quot;</em><strong>  — Vol. 4, p. 143</strong></p>
+<p><em>&quot;But there is a convergence between them, for the Buddhist ideal of absolute freedom implies unlimited compassion; just as the Christian goal of unconditional love leads to perfect freedom.&quot;</em><strong>  — Vol. 4, p. 63</strong></p>
+<h3 class="sec">On the Early Community</h3>
+<p><em>&quot;The company of those who believed were of one heart and soul and no one said that any of the things which he possessed were his own, but they had everything in common… (Acts 4:32-33)&quot;</em><strong>  — quoted at Vol. 3, p. 201</strong></p>
+</section>
+<section class="chapter" id="appendix-b-corrections-to-widely-circula"><h2>Appendix B — Corrections to Widely Circulated Quotations</h2>
+<p>Three lines commonly attributed to Soares-Prabhu turned out, on checking, to be paraphrases. The verified wording is given here. If you have heard these quoted the other way, this is the more careful version — and the difference matters in at least the third case, where the paraphrase is theologically sharper than what he actually wrote.</p>
+</section>
+<section class="chapter" id="appendix-c-practical-notes"><h2>Appendix C — Practical Notes</h2>
+<h3 class="sec">Where the Polemic Falls</h3>
+<p>The sermon-soares rule is at most one polemical target per address, landing on us rather than the absent. Across the retreat the sharp turns are Talks 8 (caste and the table), 12 (the consultative trap, turned back on the sisters as members of the educated elite), 16 (inculturation as decoration) and 18 (rhetoric without structural change). Days One, Three and Five are deliberately gentler. If the retreat is shortened, do not cut all four — a retreat on synodality with no cost in it has not been about synodality.</p>
+<h3 class="sec">If You Have Less Than Six Days</h3>
+<h3 class="sec">Sources</h3>
+<p>Synodality: the Indian volume Synodality (Indian Edition, 2025), drawing on chapters by Shalini Mulackal, James Ponniah, Jacob Parappally, Vincent Ekka, Bishop Lawrence Pius, Bishop S. Antonysamy, Merlin Rengith Ambrose, Francis Thonippara, Varghese Koluthara, Chinliankhup Stanislaus, Simon Pinto, Jude Nirmal Doss, John Alexander, Lawrence Culas and Susairaj; with the ITC document Synodality in the Life and Mission of the Church (2018), Lumen Gentium, Episcopalis Communio (2018), and Pope Francis&#x27;s address of 17 October 2015.</p>
+<p>Soares-Prabhu: the four-volume Collected Writings (Pune: Jnana-Deepa Vidyapeeth) and The Dharma of Jesus, ed. Francis X. D&#x27;Sa SJ (Orbis, 2003), queried directly.</p>
+<p>Carmelite: the Rule of St Albert; Teresa of Avila, The Way of Perfection, The Interior Castle, the Foundations; John of the Cross, Ascent of Mount Carmel and The Dark Night; Thérèse of Lisieux, Story of a Soul; Elizabeth of the Trinity. Biographical details about Teresa&#x27;s converso grandfather and John&#x27;s imprisonment at Toledo are standard in the scholarship but worth checking in your preferred biography before being preached as fact.</p>
+<h3 class="sec">A Caution About This Document</h3>
+<p>These briefs were assembled with AI assistance from named sources. They are a thinking tool for a retreat director, not a substitute for prayer, for knowledge of these particular sisters, or for the director&#x27;s own study. Soares-Prabhu quotations are verified; synodality-volume page references and Carmelite biographical details are not, and should be checked before being spoken to a community that will trust them.</p>
+</section>
+</main>
+
+<footer class="page">
+  A six-day, eighteen-talk retreat on synodality for a Carmelite community, with a verified quotation bank and practical notes.
+</footer>
